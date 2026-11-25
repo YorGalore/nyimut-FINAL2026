@@ -1,0 +1,112 @@
+{
+  "catatan": "Tuning memakai data dev saja. Test belum dibuka.",
+  "grid_size": 27,
+  "seleksi": "akurasi valid tertinggi; seri -> kombinasi pertama (sama dengan tune_xgb)",
+  "n_train": 772,
+  "n_valid": 165,
+  "dev_end": "2025-12-09",
+  "feature_files": {
+    "embedding": "data/processed/head_vs_full/headline/roberta_headline_features.csv",
+    "topik": "data/processed/topic_modelling/lda_train_only/daily_topic_features.csv",
+    "ner": "data/processed/ner/daily_entity_features.csv"
+  },
+  "selected": {
+    "A": {
+      "blocks": [
+        "PRICE"
+      ],
+      "n_cols": 10,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "valid_accuracy": 0.806060606060606,
+      "valid_macro_f1": 0.7779347584546784,
+      "cv_accuracy_same_params": 0.7897435897435898
+    },
+    "E0": {
+      "blocks": [
+        "H",
+        "PRICE"
+      ],
+      "n_cols": 13,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "learning_rate": 0.03
+      },
+      "valid_accuracy": 0.8303030303030303,
+      "valid_macro_f1": 0.7919881684916756,
+      "cv_accuracy_same_params": 0.7935897435897434
+    },
+    "E1": {
+      "blocks": [
+        "H",
+        "PRICE",
+        "EMB"
+      ],
+      "n_cols": 29,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.03
+      },
+      "valid_accuracy": 0.8363636363636363,
+      "valid_macro_f1": 0.8041708887463024,
+      "cv_accuracy_same_params": 0.8064102564102564
+    },
+    "E2": {
+      "blocks": [
+        "H",
+        "PRICE",
+        "EMB",
+        "TOPIC"
+      ],
+      "n_cols": 37,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "learning_rate": 0.03
+      },
+      "valid_accuracy": 0.8303030303030303,
+      "valid_macro_f1": 0.7974275180157533,
+      "cv_accuracy_same_params": 0.8038461538461539
+    },
+    "E3": {
+      "blocks": [
+        "H",
+        "PRICE",
+        "EMB",
+        "NER"
+      ],
+      "n_cols": 77,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 4,
+        "learning_rate": 0.03
+      },
+      "valid_accuracy": 0.8363636363636363,
+      "valid_macro_f1": 0.8076084297347359,
+      "cv_accuracy_same_params": 0.8012820512820513
+    },
+    "E4": {
+      "blocks": [
+        "H",
+        "PRICE",
+        "EMB",
+        "TOPIC",
+        "NER"
+      ],
+      "n_cols": 85,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "valid_accuracy": 0.8303030303030303,
+      "valid_macro_f1": 0.8028410832907511,
+      "cv_accuracy_same_params": 0.8
+    }
+  }
+}
