@@ -1,0 +1,11 @@
+model_a,model_b,a_benar_saja,b_benar_saja,p_value,signifikan_0.05
+B,A,9,3,0.14599609375,False
+E0,A,6,8,0.79052734375,False
+E1,E0,4,1,0.375,False
+E2,E1,3,3,1.0,False
+E3,E1,7,5,0.7744140625,False
+E4,E0,7,10,0.629058837890625,False
+E4,E1,3,9,0.14599609375,False
+E4,E3,3,11,0.057373046875,False
+E4,B,5,16,0.02660369873046875,True
+E4,naive,24,24,1.0,False
