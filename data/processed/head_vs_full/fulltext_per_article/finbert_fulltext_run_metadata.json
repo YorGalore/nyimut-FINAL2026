@@ -1,0 +1,18 @@
+{
+  "model": "finbert",
+  "model_id": "ProsusAI/finbert",
+  "source": "cnbc_raw.csv title+description+body",
+  "max_length": 512,
+  "chunk_overlap": 50,
+  "content_len": 510,
+  "chunk_pooling": "mean token konten",
+  "article_pooling": "mean antar chunk",
+  "daily_pooling": "mean antar artikel per target_date",
+  "dtype": "float32",
+  "n_articles": 6013,
+  "n_chunks": 18125,
+  "chunks_per_article_mean": 3.0143023449193413,
+  "hidden_size": 768,
+  "calendar_dates": 1202,
+  "seconds": 315.0
+}

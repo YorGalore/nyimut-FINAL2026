@@ -598,10 +598,22 @@ def get_context(text: str, start: int, end: int, window: int = CONTEXT_WINDOW_CH
 # 8. ENTITY NORMALIZATION AND EVENT SUBCATEGORIZATION
 # ============================================================
 
+# Lookup tanpa peka huruf besar/kecil untuk nama kanonik negara.
+# GLiNER berjalan di text_norm (huruf kecil), jadi span seperti "ukraine"
+# harus dipetakan ke "Ukraine" supaya masuk kolom country_*_mentions.
+# Perbaikan minimal: TIDAK menambah alias baru (demonim / ibu kota tetap tidak cocok).
+COUNTRY_CANONICAL_CASEFOLD = {
+    name.strip().casefold(): name for name in COUNTRIES_OF_INTEREST
+}
+
+
 def normalize_country(entity_text: str) -> str:
     key = normalize_key(entity_text)
     if key in COUNTRY_ALIASES:
         return COUNTRY_ALIASES[key]
+    canonical = COUNTRY_CANONICAL_CASEFOLD.get(entity_text.strip().casefold())
+    if canonical is not None:
+        return canonical
     return entity_text.strip()
 
 

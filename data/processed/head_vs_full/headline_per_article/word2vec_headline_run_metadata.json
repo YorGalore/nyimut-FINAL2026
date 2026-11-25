@@ -1,0 +1,23 @@
+{
+  "params": {
+    "vector_size": 100,
+    "window": 5,
+    "min_count": 2,
+    "workers": 1,
+    "sg": 1,
+    "negative": 5,
+    "epochs": 30,
+    "seed": 42
+  },
+  "train_end": "2025-03-25",
+  "train_headlines": 2985,
+  "vocab": 2972,
+  "repro_cosine_mean": 1.0000000001947658,
+  "repro_cosine_min": 0.99999991793414,
+  "articles_with_vector": 6013,
+  "articles_without_known_tokens": 0,
+  "dates_count_mismatch": 0,
+  "article_vector": "mean token known per judul",
+  "daily_A0": "mean vektor judul per target_date",
+  "calendar_dates_without_vector": 94
+}

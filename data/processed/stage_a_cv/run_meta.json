@@ -1,0 +1,187 @@
+{
+  "git_commit": "eccc8f1d0849ba9d227bb065b189c9e13a5097a2",
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "xgboost": "3.4.1",
+    "sklearn": "1.9.1"
+  },
+  "XGB_PARAMS": {
+    "max_depth": 2,
+    "learning_rate": 0.03,
+    "n_estimators": 100,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 1.0,
+    "reg_lambda": 10,
+    "objective": "multi:softprob",
+    "num_class": 3,
+    "eval_metric": "mlogloss",
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "PCA_EMB": 16,
+  "PCA_TOPIC": 8,
+  "fold_sizes": [
+    [
+      157,
+      156
+    ],
+    [
+      313,
+      156
+    ],
+    [
+      469,
+      156
+    ],
+    [
+      625,
+      156
+    ],
+    [
+      781,
+      156
+    ]
+  ],
+  "volatility_edges": [
+    -Infinity,
+    0.0020746865678323333,
+    0.0031225301045853665,
+    Infinity
+  ],
+  "step_1": {
+    "run_at": "2026-11-25T18:12:07",
+    "variant_files": {
+      "word2vec_headline": {
+        "path": "data\\processed\\head_vs_full\\headline_per_article\\word2vec_headline_A0_daily.csv",
+        "md5": "43fb899f472c3ada97d18ad024fc8ab5"
+      },
+      "fasttext_headline": {
+        "path": "data\\processed\\head_vs_full\\headline\\fasttext_headline_features.csv",
+        "md5": "fd42d2401931025dfd5535b7cac16ba1"
+      },
+      "doc2vec_headline": {
+        "path": "data\\processed\\head_vs_full\\headline\\doc2vec_headline_features.csv",
+        "md5": "3bc4ba22fbcbd5165980d479dc166674"
+      },
+      "finbert_headline": {
+        "path": "data\\processed\\head_vs_full\\headline\\finbert_headline_features.csv",
+        "md5": "25993f9a7d0a8ee73f7313808c8cab13"
+      },
+      "roberta_headline": {
+        "path": "data\\processed\\head_vs_full\\headline\\roberta_headline_features.csv",
+        "md5": "8238d129740701003a577185d6916c0d"
+      },
+      "qwen_headline": {
+        "path": "data\\processed\\head_vs_full\\headline\\qwen_headline_features.csv",
+        "md5": "1f79449ea64cd8038f789bf79a7eb737"
+      },
+      "word2vec_fulltext": {
+        "path": "data\\processed\\head_vs_full\\fulltext\\word2vec_fulltext_features.csv",
+        "md5": "fc588ed473f26f579300e3ca85727893"
+      },
+      "fasttext_fulltext": {
+        "path": "data\\processed\\head_vs_full\\fulltext\\fasttext_fulltext_features.csv",
+        "md5": "33d08c53aea2fbcbad8961aa0ecaba5f"
+      },
+      "doc2vec_fulltext": {
+        "path": "data\\processed\\head_vs_full\\fulltext\\doc2vec_fulltext_features.csv",
+        "md5": "551964cf81c9e4b3107ca5ddb192382b"
+      },
+      "finbert_fulltext": {
+        "path": "data\\processed\\head_vs_full\\fulltext_per_article\\finbert_fulltext_A0_daily.csv",
+        "md5": "b565d4a8c496ba54fb43ebc1b4f2f7eb"
+      },
+      "roberta_fulltext": {
+        "path": "data\\processed\\head_vs_full\\fulltext\\roberta_fulltext_features.csv",
+        "md5": "066c145be4fb2b12b729958997910b93"
+      },
+      "qwen_fulltext": {
+        "path": "data\\processed\\head_vs_full\\fulltext_per_article\\qwen_fulltext_A0_daily.csv",
+        "md5": "0fa35e451e9d65724970d73761349569"
+      },
+      "lda_train_only": {
+        "path": "data\\processed\\topic_modelling\\lda_train_only\\daily_topic_features.csv",
+        "md5": "f2e42a81b6c999abca9fa7e5443b6288"
+      }
+    },
+    "topic_excluded": {
+      "bertopic": "BERTopic.fit_transform(documents) di semua dokumen (topic_models.py run_bertopic)",
+      "dtm": "LdaSeqModel di semua time slice termasuk valid/test (topic_models.py run_dtm)",
+      "top2vec": "Top2Vec(documents) di semua dokumen (topic_models.py run_top2vec)"
+    },
+    "fulltext_contextual": {
+      "keputusan": "fulltext contextual memakai file eccc8f1 (per hari, overlap 64), tanpa ekstraksi ulang",
+      "bukti_finbert": {
+        "cosine_harian_mean": 0.9916,
+        "cosine_harian_p5": 0.9669,
+        "macro_f1_cv_lama": 0.7957,
+        "macro_f1_cv_per_artikel": 0.7894
+      },
+      "file_per_artikel_finbert": "data/processed/head_vs_full/fulltext_per_article/finbert_fulltext_articles.csv",
+      "pengecualian_qwen": "qwen_fulltext menang langkah 1 dengan file eccc8f1 (macro-F1 0,7978); A0-nya diganti ke ekstraksi per artikel overlap 50 supaya langkah 2 (cek 2a) bisa jalan, lalu langkah 1 diulang",
+      "langkah1_awal_qwen_eccc8f1": {
+        "cv_macro_f1_mean": 0.7978,
+        "cv_log_loss_mean": 0.5473,
+        "folds_beat_H": 4
+      },
+      "langkah1_putaran2_word2vec_headline_lama": {
+        "cv_macro_f1_mean": 0.7961,
+        "cv_log_loss_mean": 0.5451,
+        "folds_beat_H": 2,
+        "catatan": "A0 lama = rata-rata token per hari; diganti ke rata-rata per judul (putaran 3)"
+      },
+      "qwen_fulltext_per_artikel_putaran2": {
+        "cv_macro_f1_mean": 0.794,
+        "cv_log_loss_mean": 0.5481
+      }
+    },
+    "selection_rule": "macro-F1 CV tertinggi; tie log-loss terkecil"
+  },
+  "step_2": {
+    "run_at": "2026-11-25T18:36:58",
+    "variant_files": null,
+    "topic_excluded": null,
+    "fulltext_contextual": null,
+    "selection_rule": "macro-F1 CV tertinggi; dipakai hanya jika >= 1 poin di atas A0",
+    "winner_1a": "roberta_headline",
+    "articles_path": "data\\processed\\head_vs_full\\headline_per_article\\roberta_headline_articles.csv",
+    "diff_2a": 6.680000000258701e-06,
+    "trailing_test": {
+      "A1-3": 0.0,
+      "A1-7": 0.0,
+      "A1-14": 0.0,
+      "A2-hl1": 0.0,
+      "A2-hl3": 0.0
+    },
+    "best_raw": "A0",
+    "chosen": "A0",
+    "daily_paths": {
+      "A0": "data\\processed\\head_vs_full\\headline\\roberta_headline_features.csv",
+      "A1-3": "data\\processed\\stage_a_cv\\embedding_aggregations\\roberta_headline_A1-3.csv",
+      "A1-7": "data\\processed\\stage_a_cv\\embedding_aggregations\\roberta_headline_A1-7.csv",
+      "A1-14": "data\\processed\\stage_a_cv\\embedding_aggregations\\roberta_headline_A1-14.csv",
+      "A2-hl1": "data\\processed\\stage_a_cv\\embedding_aggregations\\roberta_headline_A2-hl1.csv",
+      "A2-hl3": "data\\processed\\stage_a_cv\\embedding_aggregations\\roberta_headline_A2-hl3.csv",
+      "A4": "data\\processed\\stage_a_cv\\embedding_aggregations\\roberta_headline_A4.csv"
+    },
+    "a3_settings": {
+      "epochs": 100,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "seed": 42,
+      "device": "cpu",
+      "trained": "per fold, train fold saja"
+    },
+    "a4_categories": [
+      "military_conflict",
+      "economic_sanctions",
+      "trade_war",
+      "diplomatic_relations",
+      "central_bank_policy",
+      "other"
+    ]
+  }
+}

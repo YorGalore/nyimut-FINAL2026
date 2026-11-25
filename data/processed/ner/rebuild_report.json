@@ -1,0 +1,197 @@
+{
+  "source": "data\\processed\\ner\\entity_mentions.csv",
+  "fix": "normalize_country(): pencocokan nama kanonik case-insensitive, tanpa alias baru",
+  "country_mentions_renormalized": 66798,
+  "country_totals": [
+    {
+      "country": "Russia",
+      "old": 78,
+      "new": 14449,
+      "target": 14449,
+      "mentions_direct": 14449
+    },
+    {
+      "country": "Ukraine",
+      "old": 0,
+      "new": 13817,
+      "target": 13817,
+      "mentions_direct": 13817
+    },
+    {
+      "country": "Iran",
+      "old": 0,
+      "new": 11958,
+      "target": 11958,
+      "mentions_direct": 11958
+    },
+    {
+      "country": "China",
+      "old": 64,
+      "new": 11473,
+      "target": 11473,
+      "mentions_direct": 11473
+    },
+    {
+      "country": "Israel",
+      "old": 0,
+      "new": 4620,
+      "target": 4620,
+      "mentions_direct": 4620
+    },
+    {
+      "country": "India",
+      "old": 0,
+      "new": 3112,
+      "target": 3112,
+      "mentions_direct": 3112
+    },
+    {
+      "country": "Japan",
+      "old": 0,
+      "new": 1456,
+      "target": 1456,
+      "mentions_direct": 1456
+    },
+    {
+      "country": "Germany",
+      "old": 0,
+      "new": 1258,
+      "target": 1258,
+      "mentions_direct": 1258
+    },
+    {
+      "country": "Saudi Arabia",
+      "old": 0,
+      "new": 953,
+      "target": 953,
+      "mentions_direct": 953
+    },
+    {
+      "country": "South Korea",
+      "old": 0,
+      "new": 924,
+      "target": 924,
+      "mentions_direct": 924
+    },
+    {
+      "country": "Turkey",
+      "old": 1,
+      "new": 609,
+      "target": 609,
+      "mentions_direct": 609
+    },
+    {
+      "country": "Indonesia",
+      "old": 0,
+      "new": 156,
+      "target": 156,
+      "mentions_direct": 156
+    },
+    {
+      "country": "United States",
+      "old": 25101,
+      "new": 27079,
+      "target": 27079,
+      "mentions_direct": 27079
+    },
+    {
+      "country": "United Kingdom",
+      "old": 1487,
+      "new": 1665,
+      "target": 1665,
+      "mentions_direct": 1665
+    },
+    {
+      "country": "Taiwan",
+      "old": 1823,
+      "new": 1823,
+      "target": 1823,
+      "mentions_direct": 1823
+    }
+  ],
+  "columns_changed": [
+    "country_china_mentions",
+    "country_germany_mentions",
+    "country_india_mentions",
+    "country_indonesia_mentions",
+    "country_iran_mentions",
+    "country_israel_mentions",
+    "country_japan_mentions",
+    "country_russia_mentions",
+    "country_saudi_arabia_mentions",
+    "country_south_korea_mentions",
+    "country_turkey_mentions",
+    "country_ukraine_mentions",
+    "country_united_kingdom_mentions",
+    "country_united_states_mentions",
+    "daily_n_unique_countries",
+    "n_unique_countries"
+  ],
+  "has_cols_dropped": [
+    "has_country",
+    "has_central_bank",
+    "has_economic_event"
+  ],
+  "constant_cols_dev": [
+    "central_bank_reserve_bank_of_australia_mentions",
+    "central_bank_bank_indonesia_mentions",
+    "central_bank_bank_of_canada_mentions"
+  ],
+  "N_NER": 48,
+  "NER_COLS": [
+    "total_entity_mentions",
+    "n_unique_countries",
+    "n_unique_central_banks",
+    "n_unique_economic_events",
+    "country_united_states_mentions",
+    "country_china_mentions",
+    "country_russia_mentions",
+    "country_iran_mentions",
+    "country_israel_mentions",
+    "country_ukraine_mentions",
+    "country_taiwan_mentions",
+    "country_japan_mentions",
+    "country_south_korea_mentions",
+    "country_united_kingdom_mentions",
+    "country_germany_mentions",
+    "country_indonesia_mentions",
+    "country_saudi_arabia_mentions",
+    "country_turkey_mentions",
+    "country_india_mentions",
+    "central_bank_federal_reserve_mentions",
+    "central_bank_european_central_bank_mentions",
+    "central_bank_people_s_bank_of_china_mentions",
+    "central_bank_bank_of_japan_mentions",
+    "central_bank_bank_of_england_mentions",
+    "central_bank_swiss_national_bank_mentions",
+    "central_bank_reserve_bank_of_india_mentions",
+    "event_monetary_policy_count",
+    "event_inflation_count",
+    "event_sanctions_count",
+    "event_trade_policy_count",
+    "event_currency_fx_count",
+    "event_sovereign_debt_count",
+    "event_financial_stability_count",
+    "event_recession_growth_count",
+    "event_energy_commodity_count",
+    "event_fiscal_policy_count",
+    "event_other_economic_event_count",
+    "n_articles_with_ner",
+    "n_articles_with_country",
+    "n_articles_with_central_bank",
+    "n_articles_with_economic_event",
+    "mean_entities_per_article",
+    "daily_n_unique_countries",
+    "daily_n_unique_central_banks",
+    "daily_n_unique_economic_event_types",
+    "daily_central_bank_mentions",
+    "daily_country_mentions",
+    "daily_economic_event_mentions"
+  ],
+  "md5": {
+    "daily_entity_features.csv": "ea7da6b09ae6ca7d86f09790ff8ec5b5",
+    "daily_entity_features_bug_case.csv": "a35a47f46a54fbdd5afa6acd0be68184",
+    "article_entity_features.csv": "89f8ecd1105a699941d6eef97a821d6f",
+    "article_entity_features_bug_case.csv": "32b8f6ca9f7f83c7d439ebfd1ec7877c"
+  }
+}

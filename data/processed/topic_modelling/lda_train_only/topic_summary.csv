@@ -1,0 +1,16 @@
+topic_id,topic_name,topic_words,document_count_train
+0,Topic 0,"israel, gaza, iran, hamas, israeli, war, attack, east, middle, people, military, netanyahu, killed, palestinian, attacks",233
+1,Topic 1,"iran, election, government, nuclear, country, political, deal, iranian, party, president, vote, foreign, sanctions, minister, state",63
+2,Topic 2,"stocks, shares, markets, investors, index, monday, fell, stock, trading, tuesday, asia, prices, closed, higher, rose",185
+3,Topic 3,"economy, global, growth, inflation, economic, bank, market, china, rate, rates, supply, prices, higher, war, central",216
+4,Topic 4,"russia, ukraine, russian, putin, war, military, ukrainian, forces, moscow, president, kremlin, invasion, troops, kyiv, vladimir",532
+5,Topic 5,"oil, prices, crude, opec, demand, market, barrels, energy, barrel, production, million, day, supply, global, brent",331
+6,Topic 6,"companies, company, ai, technology, tech, government, business, sanctions, china, chip, ceo, export, chips, used, nvidia",153
+7,Topic 7,"russia, russian, sanctions, eu, european, gas, europe, ukraine, energy, invasion, union, moscow, war, germany, supplies",186
+8,Topic 8,"korea, north, south, missile, korean, sea, nuclear, military, missiles, japan, defense, ballistic, launch, weapons, region",49
+9,Topic 9,"trump, tariffs, trade, president, tariff, canada, mexico, donald, goods, china, imports, 25, chinese, american, administration",246
+10,Topic 10,"biden, china, taiwan, house, president, military, administration, white, chinese, joe, officials, secretary, beijing, security, defense",163
+11,Topic 11,"china, countries, india, beijing, world, trade, chinese, xi, minister, foreign, summit, economic, president, international, talks",149
+12,Topic 12,"energy, oil, gas, billion, climate, world, fossil, global, company, companies, quarter, industry, emissions, bp, ceo",137
+13,Topic 13,"ukraine, nato, defense, russia, president, zelenskyy, military, war, security, support, aid, ukrainian, europe, alliance, kyiv",256
+14,Topic 14,"russia, ukraine, musk, food, company, russian, grain, sea, world, ukrainian, country, space, global, starlink, black",86

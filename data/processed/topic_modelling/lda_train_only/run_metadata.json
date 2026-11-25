@@ -1,0 +1,15 @@
+{
+  "fit_period_end": "2025-03-25",
+  "n_documents_total": 6013,
+  "n_documents_fit": 2985,
+  "vocabulary_size": 11513,
+  "hyperparameters": {
+    "n_topics": 15,
+    "max_features": 20000,
+    "min_df": 5,
+    "max_df": 0.95,
+    "max_iter": 30,
+    "random_state": 42
+  },
+  "daily_rows": 1202
+}
