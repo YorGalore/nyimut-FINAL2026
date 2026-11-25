@@ -1,6 +1,6 @@
 {
   "selected_model": "lda",
-  "selection_type": "manual_final_selection",
+  "selection_type": "manual_override",
   "score_weights": {
     "coherence_cv_normalized": 0.4,
     "coherence_npmi_normalized": 0.3,

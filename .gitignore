@@ -6,6 +6,7 @@ __pycache__/
 
 # Python virtual environment
 .venv/
+.venv311/
 
 # hasil scraping CNBC — ribuan file, berubah terus
 data/raw/checkpoints/

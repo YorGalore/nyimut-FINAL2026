@@ -7,11 +7,11 @@
   "n_features": 896,
   "accuracy": 0.30538922155688625,
   "balanced_accuracy": 0.3333333333333333,
-  "macro_f1": 0.1559633027522936,
-  "macro_precision": 0.10179640718562875,
+  "macro_f1": 0.15813953488372093,
+  "macro_precision": 0.10365853658536585,
   "macro_recall": 0.3333333333333333,
-  "mcc": 0.0,
-  "training_seconds": 0.8774487972259521,
+  "mcc": -0.00985399568732452,
+  "training_seconds": 0.3826460838317871,
   "class_labels": [
     "low",
     "medium",
@@ -20,8 +20,8 @@
   "confusion_matrix": [
     [
       0,
-      0,
-      51
+      3,
+      48
     ],
     [
       0,
@@ -40,7 +40,7 @@
   "f1_medium": 0.0,
   "precision_medium": 0.0,
   "recall_medium": 0.0,
-  "f1_high": 0.46788990825688076,
-  "precision_high": 0.30538922155688625,
+  "f1_high": 0.4744186046511628,
+  "precision_high": 0.31097560975609756,
   "recall_high": 1.0
 }

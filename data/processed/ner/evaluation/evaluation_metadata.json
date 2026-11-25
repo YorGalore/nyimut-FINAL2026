@@ -1,7 +1,7 @@
 {
-  "prediction_file": "/Users/aliyajumarna/Developer/nyimut-NLP26/data/processed/ner/entity_mentions.csv",
-  "gold_documents_file": "/Users/aliyajumarna/Developer/nyimut-NLP26/data/processed/ner/gold_documents.csv",
-  "gold_entities_file": "/Users/aliyajumarna/Developer/nyimut-NLP26/data/processed/ner/gold_entities.csv",
+  "prediction_file": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/ner/entity_mentions.csv",
+  "gold_documents_file": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/ner/gold_documents.csv",
+  "gold_entities_file": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/ner/gold_entities.csv",
   "n_annotated_documents": 250,
   "n_gold_mentions": 8663,
   "n_predicted_mentions": 7733,

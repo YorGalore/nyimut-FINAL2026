@@ -11,7 +11,7 @@
   "macro_precision": 0.5013550135501356,
   "macro_recall": 0.30281446948113616,
   "mcc": -0.0732108318279626,
-  "training_seconds": 0.504324197769165,
+  "training_seconds": 0.25272393226623535,
   "class_labels": [
     "low",
     "medium",

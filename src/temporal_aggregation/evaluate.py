@@ -135,7 +135,7 @@ MAX_FEATURE_VALUE = 1e6
 #
 # False:
 #   rerun everything
-RESUME = True
+RESUME = False
 
 # Only these A3/A4 files are built from a verified one-row-per-article input.
 # Older daily-input A3/A4 artefacts must never re-enter the ranking: attention

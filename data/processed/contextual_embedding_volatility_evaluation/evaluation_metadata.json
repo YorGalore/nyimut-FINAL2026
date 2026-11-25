@@ -1,0 +1,47 @@
+{
+  "target_file": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/aligned_daily.csv",
+  "output_dir": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/contextual_embedding_volatility_evaluation",
+  "n_target_rows": 1104,
+  "target_class_distribution": {
+    "low": 380,
+    "high": 379,
+    "medium": 345
+  },
+  "split_strategy": "dataset_split.canonical_split(): chronological 70/15/15 = 772/165/167 hari (sama dengan Tugas 2)",
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "test_fraction": 0.15000000000000005,
+  "classification_models": [
+    "StandardScaler + LogisticRegression",
+    "SimpleImputer + XGBoost multiclass"
+  ],
+  "regression_model": "StandardScaler + Ridge on realized_vol",
+  "ridge_alpha": 1.0,
+  "model_groups": {
+    "finbert": "domain_specific",
+    "roberta": "general_purpose",
+    "qwen": "general_purpose"
+  },
+  "market_lag_columns": [
+    "lag1_log_return",
+    "lag2_log_return",
+    "lag3_log_return",
+    "lag4_log_return",
+    "known4_mean",
+    "known4_std",
+    "vol_if_r0",
+    "vol_if_rtyp_pos",
+    "vol_if_rtyp_neg",
+    "lag1_volatility_class_enc"
+  ],
+  "feature_files": {
+    "qwen_headline": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/headline/qwen_headline_features.csv",
+    "finbert_headline": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/headline/finbert_headline_features.csv",
+    "roberta_headline": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/headline/roberta_headline_features.csv",
+    "roberta_fulltext": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/fulltext/roberta_fulltext_features.csv",
+    "finbert_fulltext": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/fulltext/finbert_fulltext_features.csv",
+    "qwen_fulltext": "/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/fulltext/qwen_fulltext_features.csv"
+  },
+  "target_definition": "realized_vol(t) = rolling standard deviation of the latest five BI business-day log returns, including t; volatility_class uses tertile thresholds fitted on earliest 70% of chronological observations.",
+  "note": "FinBERT is grouped as domain-specific; RoBERTa and Qwen as general-purpose. Group comparison is descriptive and does not isolate domain specialization from architecture, model size, pretraining corpus, or embedding extraction choices. The low/medium/high volatility classes are retained."
+}

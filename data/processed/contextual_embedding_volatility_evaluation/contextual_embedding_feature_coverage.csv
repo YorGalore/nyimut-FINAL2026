@@ -1,0 +1,7 @@
+file,rows_in_file,valid_date_rows,duplicate_date_rows_collapsed,embedding_dimensions,date_min,date_max,model,model_group,text_type,target_rows,target_dates_without_feature_row,target_date_coverage_pct
+/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/fulltext/finbert_fulltext_features.csv,1202,1202,0,768,2021-09-01,2026-09-01,finbert,domain_specific,fulltext,1104,0,100.0
+/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/headline/finbert_headline_features.csv,1202,1202,0,768,2021-09-01,2026-09-01,finbert,domain_specific,headline,1104,0,100.0
+/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/fulltext/qwen_fulltext_features.csv,1202,1202,0,896,2021-09-01,2026-09-01,qwen,general_purpose,fulltext,1104,0,100.0
+/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/headline/qwen_headline_features.csv,1202,1202,0,896,2021-09-01,2026-09-01,qwen,general_purpose,headline,1104,0,100.0
+/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/fulltext/roberta_fulltext_features.csv,1202,1202,0,768,2021-09-01,2026-09-01,roberta,general_purpose,fulltext,1104,0,100.0
+/Users/fretaylaura/Downloads/Nyimut-NLP-26/data/processed/head_vs_full/headline/roberta_headline_features.csv,1202,1202,0,768,2021-09-01,2026-09-01,roberta,general_purpose,headline,1104,0,100.0

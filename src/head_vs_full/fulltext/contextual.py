@@ -1,4 +1,5 @@
 
+import argparse
 import gc
 from pathlib import Path
 
@@ -15,21 +16,13 @@ from transformers import AutoTokenizer, AutoModel
 
 ROOT_DIR = Path(__file__).resolve().parents[3]
 
-INPUT_CSV = (
-    ROOT_DIR
-    / "data"
-    / "processed"
-    / "aligned_daily.csv"
-)
-
-OUTPUT_DIR = (
-    ROOT_DIR
-    / "data"
-    / "processed"
-)
+OUTPUT_DIR = ROOT_DIR / "data" / "processed"
+RAW_NEWS_CSV = ROOT_DIR / "data" / "raw" / "cnbc_raw.csv"
+ARTICLE_DATES_CSV = OUTPUT_DIR / "news_tfidf_clean.csv"
+CALENDAR_CSV = OUTPUT_DIR / "kurs_clean.csv"
 
 DATE_COLUMN = "date"
-TEXT_COLUMN = "text_norm_concat"
+TEXT_COLUMN = "article_text"
 
 MODELS = {
     "finbert": "ProsusAI/finbert",
@@ -70,30 +63,7 @@ def load_data():
     print("LOADING ALIGNED DAILY DATA")
     print("=" * 70)
 
-    if not INPUT_CSV.exists():
-        raise FileNotFoundError(
-            f"File tidak ditemukan: {INPUT_CSV}"
-        )
-
-    df = pd.read_csv(
-        INPUT_CSV,
-        low_memory=False
-    )
-
-    required_columns = [
-        DATE_COLUMN,
-        TEXT_COLUMN
-    ]
-
-    missing = [
-        col for col in required_columns
-        if col not in df.columns
-    ]
-
-    if missing:
-        raise ValueError(
-            f"Kolom tidak ditemukan: {missing}"
-        )
+    df = pd.read_csv(CALENDAR_CSV, usecols=[DATE_COLUMN])
 
     df[DATE_COLUMN] = pd.to_datetime(
         df[DATE_COLUMN],
@@ -115,13 +85,29 @@ def load_data():
         .reset_index(drop=True)
     )
 
-    df[TEXT_COLUMN] = (
-        df[TEXT_COLUMN]
-        .fillna("")
-        .astype(str)
-        .str.strip()
+    text_columns = ["title", "description", "body"]
+    raw_articles = pd.read_csv(
+        RAW_NEWS_CSV, usecols=["url", *text_columns], keep_default_na=False
+    ).drop_duplicates(subset="url", keep="first")
+    # Pertahankan seleksi artikel dan tanggal target dari pipeline alignment.
+    article_dates = pd.read_csv(
+        ARTICLE_DATES_CSV, usecols=["url", "target_date"], parse_dates=["target_date"]
     )
+    articles = article_dates.merge(
+        raw_articles, on="url", how="left", validate="one_to_one", indicator=True
+    )
+    unmatched = articles["_merge"].eq("left_only").sum()
+    if unmatched:
+        raise ValueError(
+            f"{unmatched:,} URL artikel terseleksi tidak ditemukan di {RAW_NEWS_CSV}."
+        )
 
+    articles[TEXT_COLUMN] = articles[text_columns].apply(
+        lambda parts: "\n".join(part for part in map(str.strip, parts) if part),
+        axis=1,
+    )
+    daily_text = articles.groupby("target_date")[TEXT_COLUMN].agg("\n\n".join)
+    df[TEXT_COLUMN] = df[DATE_COLUMN].map(daily_text).fillna("")
     texts = df[TEXT_COLUMN].tolist()
 
     empty_count = sum(
@@ -129,7 +115,7 @@ def load_data():
         if not text
     )
 
-    print(f"Input file       : {INPUT_CSV}")
+    print(f"Kalender JISDOR  : {CALENDAR_CSV}")
     print(f"Jumlah baris     : {len(df):,}")
     print(f"Jumlah dokumen   : {len(texts):,}")
     print(f"Dokumen kosong   : {empty_count:,}")
@@ -811,7 +797,7 @@ def process_model(
 
         raise ValueError(
             "Jumlah baris feature tidak sama "
-            "dengan aligned_daily.csv."
+            "dengan kalender JISDOR."
         )
 
     if features_df[DATE_COLUMN].duplicated().any():
@@ -895,13 +881,17 @@ def process_model(
 # ============================================================
 
 def main():
+    parser = argparse.ArgumentParser(description="Extract fulltext contextual embeddings.")
+    parser.add_argument("--model", choices=["all", *MODELS], default="all")
+    args = parser.parse_args()
+    selected_models = MODELS if args.model == "all" else {args.model: MODELS[args.model]}
 
     print("=" * 70)
     print("FULL TEXT CONTEXTUAL EMBEDDING EXTRACTION")
     print("=" * 70)
 
     print(f"Root directory : {ROOT_DIR}")
-    print(f"Input file     : {INPUT_CSV}")
+    print(f"Input artikel  : {RAW_NEWS_CSV}")
     print(f"Device         : {DEVICE}")
 
     OUTPUT_DIR.mkdir(
@@ -913,7 +903,7 @@ def main():
     df, texts = load_data()
 
     # Process models sequentially
-    for model_name, model_id in MODELS.items():
+    for model_name, model_id in selected_models.items():
 
         process_model(
             model_name=model_name,
@@ -924,12 +914,12 @@ def main():
 
     print("\n")
     print("=" * 70)
-    print("ALL MODELS COMPLETED")
+    print("SELECTED MODELS COMPLETED")
     print("=" * 70)
 
     print("\nGenerated files:")
 
-    for model_name in MODELS:
+    for model_name in selected_models:
 
         output_path = (
             OUTPUT_DIR

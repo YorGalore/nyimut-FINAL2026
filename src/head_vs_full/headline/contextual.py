@@ -1,7 +1,5 @@
 
 import gc
-import json
-import ast
 from pathlib import Path
 
 import numpy as np
@@ -17,22 +15,12 @@ from transformers import AutoTokenizer, AutoModel
 
 ROOT_DIR = Path(__file__).resolve().parents[3]
 
-INPUT_CSV = (
-    ROOT_DIR
-    / "data"
-    / "processed"
-    / "cnbc_headline_daily.csv"
-)
-
-OUTPUT_DIR = (
-    ROOT_DIR
-    / "data"
-    / "processed"
-)
+OUTPUT_DIR = ROOT_DIR / "data" / "processed"
+RAW_NEWS_CSV = ROOT_DIR / "data" / "raw" / "cnbc_raw.csv"
+ARTICLE_DATES_CSV = OUTPUT_DIR / "news_tfidf_clean.csv"
+CALENDAR_CSV = OUTPUT_DIR / "kurs_clean.csv"
 
 DATE_COLUMN = "date"
-TEXT_COLUMN = "headline_tokens"
-COUNT_COLUMN = "headline_count"
 
 MODELS = {
     "finbert": "ProsusAI/finbert",
@@ -71,92 +59,6 @@ else:
 
 
 # ============================================================
-# PARSE HEADLINE TOKENS
-# ============================================================
-
-def parse_headline_tokens(value):
-
-    """
-    Mengubah headline_tokens dari format string JSON
-    menjadi list of lists.
-
-    Contoh input:
-    '[["biden", "support", "ukraine"],
-      ["us", "relationship", "taliban"]]'
-
-    Output:
-    [
-        ["biden", "support", "ukraine"],
-        ["us", "relationship", "taliban"]
-    ]
-    """
-
-    if value is None:
-        return []
-
-    if isinstance(value, float) and pd.isna(value):
-        return []
-
-    if isinstance(value, list):
-        parsed = value
-
-    else:
-
-        value = str(value).strip()
-
-        if not value or value.lower() == "nan":
-            return []
-
-        try:
-
-            parsed = json.loads(value)
-
-        except json.JSONDecodeError:
-
-            # Fallback jika format bukan JSON valid
-            try:
-
-                parsed = ast.literal_eval(value)
-
-            except (ValueError, SyntaxError):
-
-                raise ValueError(
-                    f"Gagal membaca headline_tokens: {value[:100]}"
-                )
-
-    if not isinstance(parsed, list):
-
-        raise ValueError(
-            "Format headline_tokens harus berupa list."
-        )
-
-    headlines = []
-
-    for headline_tokens in parsed:
-
-        if not isinstance(headline_tokens, list):
-
-            # Abaikan elemen yang bukan list token
-            continue
-
-        tokens = [
-            str(token).strip()
-            for token in headline_tokens
-            if token is not None and str(token).strip()
-        ]
-
-        if not tokens:
-            continue
-
-        # Gabungkan token menjadi satu headline
-        headline_text = " ".join(tokens)
-
-        headlines.append(headline_text)
-
-    return headlines
-
-
-# ============================================================
 # LOAD DAILY HEADLINE DATA
 # ============================================================
 
@@ -166,32 +68,7 @@ def load_data():
     print("LOADING DAILY HEADLINE DATA")
     print("=" * 70)
 
-    if not INPUT_CSV.exists():
-
-        raise FileNotFoundError(
-            f"File tidak ditemukan: {INPUT_CSV}"
-        )
-
-    df = pd.read_csv(
-        INPUT_CSV,
-        low_memory=False
-    )
-
-    required_columns = [
-        DATE_COLUMN,
-        TEXT_COLUMN
-    ]
-
-    missing = [
-        col for col in required_columns
-        if col not in df.columns
-    ]
-
-    if missing:
-
-        raise ValueError(
-            f"Kolom tidak ditemukan: {missing}"
-        )
+    df = pd.read_csv(CALENDAR_CSV, usecols=[DATE_COLUMN])
 
     df[DATE_COLUMN] = pd.to_datetime(
         df[DATE_COLUMN],
@@ -215,62 +92,30 @@ def load_data():
         .reset_index(drop=True)
     )
 
-    # --------------------------------------------------------
-    # PARSE HEADLINES
-    # --------------------------------------------------------
-
-    print("\nPARSING HEADLINE TOKENS")
-    print("-" * 70)
-
-    daily_headlines = []
-
-    for value in df[TEXT_COLUMN]:
-
-        headlines = parse_headline_tokens(value)
-
-        daily_headlines.append(headlines)
-
-    df["parsed_headlines"] = daily_headlines
-
-    df["parsed_headline_count"] = (
-        df["parsed_headlines"].apply(len)
+    raw_articles = pd.read_csv(
+        RAW_NEWS_CSV, usecols=["url", "title"], keep_default_na=False
+    ).drop_duplicates(subset="url", keep="first")
+    # Pertahankan seleksi artikel dan tanggal target dari pipeline alignment.
+    article_dates = pd.read_csv(
+        ARTICLE_DATES_CSV, usecols=["url", "target_date"], parse_dates=["target_date"]
     )
-
-    # --------------------------------------------------------
-    # VALIDATE HEADLINE COUNT
-    # --------------------------------------------------------
-
-    if COUNT_COLUMN in df.columns:
-
-        original_counts = pd.to_numeric(
-            df[COUNT_COLUMN],
-            errors="coerce"
+    articles = article_dates.merge(
+        raw_articles, on="url", how="left", validate="one_to_one", indicator=True
+    )
+    unmatched = articles["_merge"].eq("left_only").sum()
+    if unmatched:
+        raise ValueError(
+            f"{unmatched:,} URL artikel terseleksi tidak ditemukan di {RAW_NEWS_CSV}."
         )
 
-        mismatch = (
-            original_counts.notna()
-            &
-            (
-                original_counts
-                != df["parsed_headline_count"]
-            )
-        )
-
-        mismatch_count = int(mismatch.sum())
-
-        if mismatch_count > 0:
-
-            print(
-                f"WARNING: {mismatch_count} tanggal memiliki "
-                "perbedaan headline_count dan jumlah headline "
-                "hasil parsing."
-            )
-
-        else:
-
-            print(
-                "Validasi headline_count: sesuai."
-            )
+    articles["title"] = articles["title"].str.strip()
+    daily_lookup = (
+        articles.loc[articles["title"].ne("")]
+        .groupby("target_date")["title"]
+        .agg(list)
+        .to_dict()
+    )
+    daily_headlines = [daily_lookup.get(date, []) for date in df[DATE_COLUMN]]
 
     # --------------------------------------------------------
     # FLATTEN HEADLINES
@@ -284,9 +129,7 @@ def load_data():
         [] for _ in range(len(df))
     ]
 
-    for date_idx, headlines in enumerate(
-        df["parsed_headlines"]
-    ):
+    for date_idx, headlines in enumerate(daily_headlines):
 
         for headline in headlines:
 
@@ -305,7 +148,7 @@ def load_data():
 
     total_headlines = len(all_headline_texts)
 
-    print(f"Input file          : {INPUT_CSV}")
+    print(f"Kalender JISDOR     : {CALENDAR_CSV}")
     print(f"Jumlah tanggal      : {len(df):,}")
     print(f"Jumlah headline     : {total_headlines:,}")
     print(f"Tanggal tanpa berita: {empty_dates:,}")
@@ -814,7 +657,7 @@ def main():
     print("=" * 70)
 
     print(f"Root directory : {ROOT_DIR}")
-    print(f"Input file     : {INPUT_CSV}")
+    print(f"Input artikel  : {RAW_NEWS_CSV}")
     print(f"Output dir     : {OUTPUT_DIR}")
     print(f"Device         : {DEVICE}")
 

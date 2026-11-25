@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
+RAW_NEWS_CSV = ROOT / "data/raw/cnbc_raw.csv"
 HEADLINES_CSV = ROOT / "data/processed/head_vs_full/headline/cnbc_headline_preprocessed.csv"
 NER_FEATURES_CSV = ROOT / "data/processed/ner/article_entity_features.csv"
 OUTPUT_CSV = ROOT / "data/processed/temporal_aggregation/article_embeddings/finbert_headline_articles.csv"
@@ -58,13 +59,24 @@ def load_articles() -> pd.DataFrame:
         "event_monetary_policy_count", "n_unique_central_banks",
     ]
     frame = headlines.merge(ner[columns], on="url", how="left", validate="one_to_one")
+    raw_titles = (
+        pd.read_csv(RAW_NEWS_CSV, usecols=["url", "title"], keep_default_na=False)
+        .drop_duplicates(subset="url", keep="first")
+        .set_index("url")["title"]
+        .str.strip()
+    )
+    frame["headline_raw"] = frame["url"].map(raw_titles)
     numeric = columns[1:]
     frame[numeric] = frame[numeric].apply(pd.to_numeric, errors="coerce").fillna(0).astype(int)
     frame["date"] = pd.to_datetime(frame["target_date"], errors="coerce").dt.normalize()
     frame["article_id"] = frame["url"].astype(str)
     frame["headline_clean"] = frame["headline_clean"].fillna("").astype(str).str.strip()
     frame = frame.dropna(subset=["date"])
-    frame = frame[frame["headline_clean"].ne("")].copy()
+    missing_titles = frame["headline_raw"].fillna("").eq("")
+    if missing_titles.any():
+        raise ValueError(
+            f"{missing_titles.sum():,} artikel tidak memiliki judul asli di {RAW_NEWS_CSV}."
+        )
     frame["event_category"] = frame.apply(category_labels, axis=1)
     if frame["article_id"].duplicated().any():
         raise ValueError("article_id must be unique for A3/A4")
@@ -96,7 +108,7 @@ def embed(articles: pd.DataFrame) -> pd.DataFrame:
     model = AutoModel.from_pretrained(MODEL_NAME).to(device)
     model.eval()
     vectors = np.zeros((len(articles), model.config.hidden_size), dtype=np.float32)
-    texts = articles["headline_clean"].tolist()
+    texts = articles["headline_raw"].tolist()
     for start in range(0, len(texts), BATCH_SIZE):
         end = min(start + BATCH_SIZE, len(texts))
         encoded = tokenizer(texts[start:end], padding=True, truncation=True, max_length=MAX_LENGTH, return_tensors="pt", return_special_tokens_mask=True)
@@ -107,6 +119,7 @@ def embed(articles: pd.DataFrame) -> pd.DataFrame:
         if end % 400 == 0 or end == len(texts):
             print(f"[INFO] Embedded {end:,}/{len(texts):,} articles", flush=True)
     result = articles[["article_id", "date", "url", "headline_clean", "event_category"]].copy()
+    result["headline_raw"] = articles["headline_raw"].astype("string")
     for i in range(vectors.shape[1]):
         result[f"finbert_{i:03d}"] = vectors[:, i]
     return result
