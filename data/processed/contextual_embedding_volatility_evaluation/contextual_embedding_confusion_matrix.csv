@@ -41,8 +41,8 @@ finbert,domain_specific,fulltext,jisdor_plus_embedding,logistic_regression,valid
 finbert,domain_specific,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,medium,low,3
 finbert,domain_specific,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,medium,medium,14
 finbert,domain_specific,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,medium,high,16
-finbert,domain_specific,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,high,low,2
-finbert,domain_specific,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,high,medium,3
+finbert,domain_specific,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,high,low,1
+finbert,domain_specific,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,high,medium,4
 finbert,domain_specific,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,high,high,49
 finbert,domain_specific,fulltext,jisdor_plus_embedding,xgboost,validation,validation,low,low,53
 finbert,domain_specific,fulltext,jisdor_plus_embedding,xgboost,validation,validation,low,medium,25
@@ -129,8 +129,8 @@ qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,tes
 qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,low,medium,20
 qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,low,high,7
 qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,medium,low,7
-qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,medium,medium,24
-qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,medium,high,34
+qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,medium,medium,23
+qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,medium,high,35
 qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,high,low,1
 qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,high,medium,8
 qwen,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,test,test,high,high,42
@@ -162,8 +162,8 @@ qwen,general_purpose,headline,jisdor_plus_embedding,xgboost,validation,validatio
 qwen,general_purpose,headline,jisdor_plus_embedding,xgboost,validation,validation,high,medium,10
 qwen,general_purpose,headline,jisdor_plus_embedding,xgboost,validation,validation,high,high,44
 qwen,general_purpose,headline,jisdor_plus_embedding,logistic_regression,test,test,low,low,19
-qwen,general_purpose,headline,jisdor_plus_embedding,logistic_regression,test,test,low,medium,24
-qwen,general_purpose,headline,jisdor_plus_embedding,logistic_regression,test,test,low,high,8
+qwen,general_purpose,headline,jisdor_plus_embedding,logistic_regression,test,test,low,medium,23
+qwen,general_purpose,headline,jisdor_plus_embedding,logistic_regression,test,test,low,high,9
 qwen,general_purpose,headline,jisdor_plus_embedding,logistic_regression,test,test,medium,low,3
 qwen,general_purpose,headline,jisdor_plus_embedding,logistic_regression,test,test,medium,medium,32
 qwen,general_purpose,headline,jisdor_plus_embedding,logistic_regression,test,test,medium,high,30
@@ -179,9 +179,9 @@ qwen,general_purpose,headline,jisdor_plus_embedding,xgboost,test,test,medium,hig
 qwen,general_purpose,headline,jisdor_plus_embedding,xgboost,test,test,high,low,0
 qwen,general_purpose,headline,jisdor_plus_embedding,xgboost,test,test,high,medium,13
 qwen,general_purpose,headline,jisdor_plus_embedding,xgboost,test,test,high,high,38
-roberta,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,low,low,38
+roberta,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,low,low,39
 roberta,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,low,medium,24
-roberta,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,low,high,16
+roberta,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,low,high,15
 roberta,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,medium,low,4
 roberta,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,medium,medium,11
 roberta,general_purpose,fulltext,jisdor_plus_embedding,logistic_regression,validation,validation,medium,high,18
