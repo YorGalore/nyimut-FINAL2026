@@ -1,0 +1,2871 @@
+entity_label,normalized_entity,mention_count,article_count,mean_confidence
+country,United States,25101,4101,0.7976045673513102
+country,russia,14371,2183,0.9819580437134008
+country,ukraine,13817,2087,0.9736914289250442
+economic event,Other economic event,12967,3678,0.5950131093613614
+country,iran,11958,1781,0.985777063827029
+country,china,11409,1934,0.9458952241278685
+economic event,Trade restrictions and tariffs,9456,1571,0.6491966382513695
+country,israel,4620,904,0.966015992587779
+country,europe,3174,1196,0.8366319402047652
+country,india,3112,563,0.9454395539943694
+country,eu,2483,513,0.8763632389551393
+country,iranian,2273,777,0.8434225015188176
+economic event,Economic sanctions,1989,609,0.6106193894234777
+country,united states,1978,1107,0.8785514274971792
+country,ukrainian,1951,725,0.7557524781481295
+country,moscow,1941,784,0.8421337383423559
+country,Taiwan,1823,321,0.945077747531599
+country,United Kingdom,1487,411,0.8195895948062106
+country,japan,1456,558,0.8992941152754721
+country,canada,1452,499,0.9035483826331527
+country,israeli,1431,443,0.8792353591495756
+country,beijing,1311,369,0.7800884404362476
+country,germany,1258,523,0.9521510385225611
+economic event,Energy and commodity event,1241,535,0.6013655404377906
+country,russian,1031,445,0.6569841334995543
+country,mexico,1022,337,0.8582169081716855
+country,saudi arabia,953,436,0.9484260233289172
+country,south korea,924,442,0.9114142486994917
+economic event,Inflation and prices,840,399,0.6013197376259736
+country,gaza,749,155,0.7693138498171308
+central bank,Federal Reserve,719,248,0.7856326999352605
+country,venezuela,698,158,0.9596258320746928
+country,tehran,684,339,0.6990719108205092
+central bank,opec,650,177,0.7026951838456668
+country,hamas,647,170,0.7226200798379583
+country,france,611,351,0.8690007330450411
+country,turkey,608,179,0.9318138151184508
+country,United Arab Emirates,569,166,0.9055013030191298
+economic event,Inflation and prices | Trade restrictions and tariffs,567,211,0.6617680163610549
+country,country,559,309,0.6262592047932749
+country,greenland,523,72,0.8319405633564433
+central bank,central bank,513,286,0.7619238356981594
+country,sweden,508,154,0.968453702377522
+country,north korea,491,114,0.9616401034678558
+country,middle east,480,218,0.6587085655579964
+country,singapore,473,215,0.833234185774281
+country,vietnam,456,170,0.9327295291842076
+country,australia,450,269,0.8690796750121647
+country,hormuz,417,100,0.7424075033881967
+country,pakistan,407,162,0.9704478447501724
+country,asia,390,244,0.6955642120960431
+country,poland,388,144,0.8415107110265604
+country,countries,387,185,0.6317978780090963
+country,trump,375,194,0.6406535143057506
+country,qatar,368,170,0.8604513661854941
+country,hong kong,367,219,0.8122594387394856
+country,switzerland,361,195,0.9223125116316565
+country,washington,351,220,0.6663421979147485
+country,finland,344,84,0.9092317355233569
+country,ukrainians,331,196,0.8430764876823771
+country,islamic republic,301,216,0.7786232070669383
+economic event,Economic growth and recession,296,139,0.6496703844215419
+country,lebanon,296,72,0.7573052269180078
+country,iraq,291,177,0.8784170831806472
+country,united arab emirates,285,203,0.7688909122818395
+country,denmark,282,104,0.8876561672552258
+country,spain,271,106,0.9487815036324997
+country,kyiv,268,130,0.6807195285140578
+country,world,259,148,0.6555053782739234
+country,brazil,258,140,0.9391846887825072
+country,united nations,255,165,0.7746099912652782
+central bank,European Central Bank,253,83,0.8393979696888226
+country,syria,243,126,0.9200387582366849
+country,saudi,232,129,0.7418597767065311
+economic event,Trade restrictions and tariffs | Economic growth and recession,231,80,0.6723272812056851
+country,korea,221,93,0.8885144142273864
+country,italy,216,165,0.8577971830964088
+country,chinese,212,142,0.6292053555261414
+country,swiss,205,41,0.8359100292368633
+country,iranians,190,121,0.9065491789265683
+economic event,Economic sanctions | Energy and commodity event,186,99,0.5953140827596829
+country,german,185,102,0.687450582111204
+central bank,reuters,184,129,0.6456256933186365
+central bank,iea,182,45,0.6899330850158419
+country,united kingdom,178,135,0.9175942811403381
+economic event,Monetary policy | Inflation and prices,173,90,0.5948477954189212
+country,egypt,170,103,0.9207368265180027
+country,thailand,170,76,0.9219695683787851
+country,kremlin,161,91,0.6996258552770437
+country,kuwait,157,100,0.7668554756292112
+country,indonesia,156,75,0.8829857133902036
+country,georgia,154,42,0.8277903764278858
+country,netherlands,147,96,0.842126283921352
+economic event,Monetary policy,146,91,0.5888314322657782
+country,north america,145,112,0.770280854455356
+central bank,white house,139,95,0.6125666070327485
+central bank,treasury,136,47,0.7054196736391853
+country,norway,132,55,0.8370502882383086
+country,crimea,130,57,0.7519989939836356
+country,malaysia,129,87,0.8289493199928787
+country,venezuelan,129,55,0.7931039035320282
+country,afghanistan,129,54,0.9342014567796574
+country,philippines,128,50,0.8444383048918098
+central bank,deutsche bank,126,84,0.8688447106452215
+central bank,gazprom,126,51,0.8313878043776467
+country,cuba,125,14,0.7962268908023834
+country,strait hormuz,121,57,0.6059104677074212
+country,moldova,121,28,0.7723093229877062
+country,england,120,71,0.8871819371978442
+economic event,Economic sanctions | Trade restrictions and tariffs,117,55,0.588069372706943
+economic event,Inflation and prices | Energy and commodity event,113,64,0.5752788819042982
+country,south africa,113,54,0.80819550288462
+country,nato,110,51,0.5995090682398189
+country,kazakhstan,107,49,0.8759049931976283
+country,cambodia,107,44,0.9141320650265595
+central bank,world bank,103,67,0.8334263719401314
+country,soviet union,101,67,0.7203137756574272
+country,estonia,98,51,0.8453936263614771
+country,european union,97,76,0.622358532603254
+central bank,trump,97,56,0.612238545085966
+central bank,supreme court,97,38,0.6116592143614268
+country,israelis,96,64,0.8171358831847707
+country,hezbollah,96,48,0.626734083207945
+economic event,Financial stability event,94,52,0.7071964392002593
+country,u.n,94,45,0.6414010020646643
+country,libya,92,35,0.8753568766557652
+country,riyadh,91,53,0.7400190034410455
+country,brics,89,15,0.7866916425442427
+central bank,international monetary fund,85,66,0.736332161987529
+central bank,central banks,83,34,0.6395537982504051
+country,belarus,83,29,0.7319098082651575
+country,european,81,55,0.6138734512123061
+country,lithuania,81,45,0.8175068917097869
+country,kingdom,80,43,0.7880806192755699
+country,nation,79,59,0.7014412106592444
+country,polish,79,38,0.7466816208030604
+country,Russia,78,56,0.8068079363841277
+country,canadian,78,36,0.7179868553693478
+country,greece,77,42,0.9546866347263385
+country,slovakia,77,40,0.8873614045706663
+central bank,bank america,76,51,0.7237164335031259
+country,abu dhabi,73,39,0.6750314835816213
+country,alaska,73,25,0.6738203237318012
+country,ankara,72,37,0.7434522608915964
+central bank,jpmorgan,72,28,0.6980968767570125
+economic event,Monetary policy | Trade restrictions and tariffs,71,43,0.6317727427247545
+country,hungary,71,31,0.6886313368736858
+country,california,71,29,0.6294422821259834
+country,azerbaijan,70,26,0.8723530492612294
+country,euro zone,68,43,0.6566623677225674
+country,new zealand,68,37,0.9067341737887439
+country,africa,67,45,0.6808965250627318
+country,China,64,47,0.8083350867964327
+country,eastern europe,64,43,0.7467368473298848
+economic event,Inflation and prices | Economic growth and recession,64,37,0.6597985308617353
+central bank,trump administration,63,42,0.6162158572484576
+country,argentina,63,35,0.918604588697827
+central bank,goldman sachs,63,30,0.712432884507709
+central bank,ubs,63,30,0.7478355642349
+central bank,imf,63,20,0.7367240365535493
+country,romania,62,34,0.8335071100342658
+country,texas,62,30,0.6443272088804552
+country,european countries,61,40,0.6319243526849591
+central bank,nasdaq,61,35,0.6987735790307404
+central bank,cnbc,61,32,0.531023443722334
+country,sudan,60,16,0.9009160906076431
+country,seoul,59,30,0.7459419541439768
+country,dutch,59,25,0.6973842604685638
+central bank,walmart,58,18,0.6844016709204378
+country,nikkei,56,49,0.6647737526467868
+country,southeast asia,55,29,0.7060866036198356
+country,tokyo,54,28,0.763265824980206
+country,opec,53,22,0.5810834011941586
+country,u.s dollar,51,23,0.6621093007863736
+country,houthis,51,21,0.6302372298988641
+country,taiwanese,50,26,0.7123928600549698
+country,transnistria,50,8,0.8515754020214081
+country,pakistani,49,26,0.8537086321383106
+country,myanmar,49,10,0.8408909811049091
+economic event,Trade restrictions and tariffs | Energy and commodity event,48,30,0.6261866396913925
+country,jordan,47,35,0.7295671885317945
+economic event,Inflation and prices | Economic sanctions,47,31,0.6097889599647928
+country,belgium,47,30,0.855698343921215
+country,bahrain,47,28,0.6586310286471184
+country,putin,47,26,0.6727915970568962
+country,davos,47,23,0.6663910936801991
+country,panama,47,11,0.8914563135897859
+country,oman,46,35,0.588544328575549
+country,austria,46,30,0.8775685092677241
+country,russia ukraine,45,16,0.9715461823675368
+country,mongolia,45,7,0.9311676124731699
+country,latin america,44,33,0.7923294854435053
+country,yemen,44,22,0.6519020633264021
+country,colombia,44,20,0.8698519793423739
+economic event,Inflation and prices | Trade restrictions and tariffs | Economic growth and recession,44,16,0.6422916596586054
+country,guyana,44,12,0.7103287394751202
+country,bakhmut,44,8,0.6297944858670235
+country,kursk,44,6,0.6977163343267008
+central bank,barclays,43,23,0.642121376686318
+central bank,kremlin,43,20,0.6696676168330881
+country,dubai,43,16,0.6547448004401007
+economic event,Trade restrictions and tariffs | Fiscal policy,42,26,0.6206153567348208
+country,scotland,42,25,0.9011695768151965
+country,latvia,42,22,0.7939315346025285
+country,bangladesh,41,27,0.9193483780070049
+country,nigeria,41,25,0.9255479952184166
+country,ireland,41,24,0.8843304427658639
+country,angola,41,17,0.9616479117695879
+country,tesla,41,15,0.6459816454387293
+country,nations,40,26,0.6005891427397728
+central bank,west bank,40,21,0.78649947270751
+country,serbia,40,17,0.8850460931658745
+country,persian gulf,39,31,0.6331911805348519
+economic event,Economic growth and recession | Energy and commodity event,38,23,0.6339077024083388
+country,russian oil,38,16,0.5647199122529281
+country,kosovo,38,4,0.9072612524032593
+country,brussels,37,28,0.6216304157231305
+country,eurasia,37,28,0.6581211702243702
+country,syrian,37,26,0.7205352581836082
+country,stockholm,37,24,0.7400799466146005
+country,taipei,37,23,0.7593751066439861
+country,saudis,37,22,0.6409938198489111
+country,orban,37,10,0.7591433355937133
+country,georgian,37,6,0.7146896099722063
+economic event,Sovereign debt event,36,19,0.6349861654970381
+central bank,gazprombank,36,7,0.9454139785634147
+country,china u.s,35,22,0.8733295559883117
+country,french,35,21,0.6686901952539172
+country,economy,35,20,0.5963831041540418
+economic event,Economic sanctions | Sovereign debt event,35,14,0.5982674215521131
+country,portugal,34,24,0.8662241180153454
+economic event,Fiscal policy,34,24,0.5721918002647512
+country,bulgaria,34,20,0.7912741803071078
+country,governments,34,20,0.609685043201727
+central bank,powell,34,14,0.6338341218583724
+central bank,federal reserve bank,33,31,0.8203889366352197
+country,ruble,33,13,0.6810232771165443
+country,ecuador,33,10,0.9086517583240162
+country,reuters,32,23,0.6456663692370057
+central bank,beijing,31,20,0.6383111294238798
+central bank,bank,30,20,0.6178086698055267
+country,euro,30,20,0.6880350798368454
+country,new mexico,30,14,0.8370454529921214
+country,ontario,30,14,0.650768447915713
+central bank,aaa,29,23,0.6030712549028725
+country,chile,29,21,0.8213801980018616
+country,ethiopia,29,18,0.7575037561613938
+country,hegseth,29,11,0.6497885708151192
+country,palestine,28,16,0.8089977417673383
+country,cyprus,28,14,0.8689159729651043
+country,assad,28,4,0.7845258244446346
+country,algeria,27,25,0.7810166842407651
+central bank,biden administration,27,19,0.6309741106298234
+central bank,russian central bank,27,19,0.9099747008747525
+economic event,Monetary policy | Inflation and prices | Trade restrictions and tariffs,27,15,0.6449934917467611
+country,copenhagen,27,13,0.8438234240920456
+country,canada mexico,27,12,0.8914590500019215
+country,regime,27,12,0.654202217305148
+country,americas,26,20,0.7583686503080221
+country,pyongyang,26,12,0.655794348854285
+country,mainland,26,9,0.7789813348880181
+country,berkshire,26,8,0.6951650690573913
+country,bolivia,26,8,0.9731408655643463
+country,vance,26,8,0.6141144151871021
+central bank,european union,25,15,0.6232612371444702
+central bank,administration,25,14,0.5997279751300811
+country,gulf,25,14,0.6919154715538025
+country,euro area,25,13,0.7303666806221009
+country,china india,25,12,0.8929968547821044
+country,congress,25,12,0.5647477781772614
+country,siberia,25,12,0.7860558676719666
+country,armenia,25,10,0.8409868431091309
+country,mariupol,25,10,0.6930765616893768
+country,british,24,16,0.6599488233526548
+country,qatari,24,15,0.7805495137969652
+country,uzbekistan,24,15,0.8943886285026869
+country,norwegian,24,13,0.7434199725588163
+country,u.s economy,24,11,0.7820926929513613
+economic event,Economic sanctions | Economic growth and recession,24,11,0.6354817189276218
+country,budapest,24,10,0.85418684532245
+country,philippine,24,10,0.7240013815462589
+country,rubio,24,10,0.6777583522101244
+country,eurozone,23,17,0.7803669286810834
+country,new delhi,23,14,0.5857341807821522
+central bank,goldman,23,13,0.6165115742579751
+country,damascus,23,10,0.8602737797343213
+country,gold,23,6,0.7128841384597446
+central bank,vtb,23,4,0.8441973613656085
+country,asia pacific,22,17,0.5880207013000142
+central bank,treasury department,22,16,0.594710497693582
+country,eu u.s,22,13,0.8798819279128854
+country,u.s crude,22,13,0.6513710157437758
+country,al sabah,22,3,0.8306212492964484
+central bank,bp,21,8,0.6879804673649016
+country,taliban,21,5,0.7929406350567227
+country,glasgow,21,3,0.8386216390700567
+country,niger,21,3,0.8584746604874021
+country,arizona,20,16,0.6909714728593827
+country,new york,20,15,0.6350351467728614
+country,mexico canada,20,11,0.8971530020236969
+country,nasdaq,20,11,0.688836544752121
+country,u.s u.k,20,11,0.6410029292106628
+country,paris,20,8,0.737117700278759
+country,israel lebanon,20,6,0.9428021758794785
+central bank,fbi,20,3,0.5948470681905746
+country,czech republic,19,16,0.9051775336265564
+country,sri lanka,19,15,0.911420254330886
+country,iran u.s,19,14,0.9126313328742981
+central bank,government,19,13,0.5069926051717055
+country,member states,19,13,0.561573841069874
+country,shanghai,19,13,0.674359359239277
+central bank,eu,19,12,0.7138078275479769
+country,kyrgyzstan,19,12,0.7793754684297662
+central bank,rheinmetall,19,8,0.6495324671268463
+country,berlin,18,12,0.6636136505338881
+country,geneva,18,12,0.6162487963835398
+country,u.s iran,18,10,0.9501912759410011
+country,luxembourg,18,8,0.8436931371688843
+central bank,oecd,18,6,0.6577963547574149
+country,apple,18,6,0.5959751705328623
+country,central asia,18,6,0.6627896560562981
+central bank,brics,18,5,0.7170868847105238
+country,coupang,18,1,0.7272422793838713
+country,finnish,17,13,0.6228370315888349
+country,kentucky,17,12,0.6790135713184581
+central bank,central command,17,10,0.6501717234359068
+central bank,openai,17,10,0.7114246312309714
+country,florida,17,10,0.6449425185427946
+country,southeast asian nations,17,10,0.6353834674638861
+country,iea,17,9,0.5931622017832363
+country,tel aviv,17,9,0.6744545382611892
+central bank,tsmc,17,8,0.7164890082443461
+central bank,irs,17,6,0.841787734452416
+country,baghdad,17,1,0.7802820871858036
+country,jerusalem,16,14,0.6936523634940386
+country,japanese,16,13,0.5992027670145035
+central bank,sberbank,16,11,0.7305269129574299
+economic event,Monetary policy | Inflation and prices | Energy and commodity event,16,11,0.5491474438458681
+central bank,centcom,16,10,0.6605310961604118
+country,kharkiv,16,10,0.7417936008423567
+country,senate,16,10,0.5978337582200766
+country,beirut,16,9,0.6509102862328291
+central bank,new york fed,16,6,0.7967962138354778
+country,asean,16,6,0.6315398067235947
+country,emirates,16,6,0.7433582283556461
+country,gulf mexico,16,6,0.8468669839203358
+country,rafah,16,6,0.7185287401080132
+country,maersk,16,5,0.6553339585661888
+central bank,unesco,16,1,0.6645067632198334
+country,government,15,12,0.539626024166743
+central bank,softbank,15,11,0.6328229784965516
+country,doha,15,10,0.633142348130544
+central bank,dow jones,15,9,0.5662887136141459
+central bank,hsbc,15,9,0.6755257070064544
+country,donetsk,15,9,0.6400037944316864
+country,gulf states,15,9,0.6974291106065115
+country,ubs,15,9,0.605328913529714
+country,brazilian,15,8,0.6594888925552368
+country,london,15,8,0.6084055682023366
+country,manila,15,8,0.687028149763743
+country,libyan,15,6,0.8395503302415211
+country,russian economy,15,6,0.7491580088933308
+country,yen,15,6,0.7552033623059591
+country,yuan,15,6,0.5394345760345459
+economic event,Trade restrictions and tariffs | Financial stability event,15,6,0.670124614238739
+country,romanian,15,5,0.7944438974062602
+central bank,dutch bank,14,14,0.7773904928139278
+central bank,rabobank,14,13,0.8142489876065936
+country,asian countries,14,12,0.6476392064775739
+country,indian,14,10,0.5655506295817239
+country,world second largest economy,14,10,0.5925352764981133
+central bank,morgan stanley,14,9,0.6168673975127084
+central bank,russian banks,14,9,0.5650387087038585
+country,vietnamese,14,9,0.7651435945715223
+country,michigan,14,8,0.6455904394388199
+country,rheinmetall,14,7,0.5837175462927137
+country,lebanese,14,6,0.7370647042989731
+country,u.s canada,14,6,0.8886480714593615
+economic event,Economic sanctions | Financial stability event,14,4,0.6641213872603008
+central bank,halkbank,14,1,0.9643274247646332
+country,sputnik,14,1,0.8162559611456734
+central bank,international energy agency,13,12,0.5769146268184369
+country,danish,13,12,0.5319342934168302
+country,united states america,13,11,0.7213928814117725
+country,european nations,13,10,0.5982166070204514
+country,south american nation,13,10,0.7038659476316892
+country,donbas,13,9,0.5714441537857056
+country,u.s eu,13,9,0.7500935380275433
+central bank,commerzbank,13,8,0.841001781133505
+central bank,federal government,13,8,0.5977992919775156
+country,eastern ukraine,13,8,0.8890953935109652
+country,korean peninsula,13,8,0.7047082002346332
+economic event,Monetary policy | Energy and commodity event,13,8,0.5709810142333691
+country,islamabad,13,7,0.7260555762511033
+country,south korean,13,7,0.6028464046808389
+country,havana,13,6,0.7475474797762357
+country,kurdistan,13,5,0.913420571730687
+country,may,13,5,0.6322221320409042
+country,bolivian,13,3,0.8706579208374023
+central bank,eurostat,12,12,0.608354556063811
+central bank,rbc capital markets,12,10,0.5462418422102928
+central bank,u.s central command,12,10,0.5437467793623606
+country,uruguay,12,10,0.9414146095514297
+country,vienna,12,9,0.6910546322663625
+central bank,u.s federal reserve,12,8,0.5957399780551592
+country,qatarenergy,12,8,0.7603884389003118
+country,zaporizhzhia,12,7,0.5447556376457214
+country,indonesian,12,6,0.7200499325990677
+country,von der leyen,12,5,0.606517548362414
+country,xinjiang,12,4,0.7764082178473473
+country,el paso,12,3,0.6444250891606013
+country,western balkans,12,3,0.6522477070490519
+country,northern ireland,12,2,0.9459456155697504
+country,south sudan,12,2,0.9609525700410207
+country,united russia,12,2,0.9752253095308939
+country,pan european,11,11,0.5782197171991522
+central bank,wall street bank,11,10,0.7174425721168518
+country,massachusetts,11,10,0.6367607008327137
+country,virginia,11,10,0.6401103084737604
+central bank,berenberg bank,11,9,0.866780010136691
+country,american,11,9,0.6190036128867756
+country,democratic republic,11,9,0.7107992280613292
+country,europe u.s,11,9,0.7626504302024841
+country,iraqi,11,8,0.7735644172538411
+country,tajikistan,11,8,0.8837853182445873
+central bank,congress,11,7,0.5982326675545085
+country,albania,11,7,0.8181057247248563
+country,helsinki,11,6,0.6988479738885706
+country,south asian country,11,6,0.7368170619010925
+country,sterling,11,6,0.7005033411762931
+country,swiss franc,11,6,0.7643845785747875
+country,tianjin,11,6,0.7686160802841187
+country,de haan,11,5,0.6699476702646776
+country,israel hamas,11,5,0.8628976182504133
+country,states,11,5,0.5458647229454734
+central bank,apec,11,4,0.7169463769956068
+central bank,hamas,11,4,0.6676574620333585
+country,hafnia,11,3,0.8100082224065607
+country,panamanian,11,3,0.6846667690710588
+central bank,cftc,11,2,0.6967956044457175
+central bank,uniper,11,2,0.5597294650294564
+country,south china sea,11,2,0.6935854825106534
+country,wong,11,2,0.7326234226877039
+central bank,commonwealth bank,10,9,0.6208657383918762
+country,advanced economies,10,9,0.6692600160837173
+central bank,natixis,10,8,0.6925146043300628
+country,central african republic,10,8,0.7477395117282868
+country,developing countries,10,7,0.680442500114441
+country,mexican,10,6,0.6357804596424103
+central bank,naftogaz,10,5,0.6729469209909439
+central bank,new york stock exchange,10,5,0.7335943192243576
+country,gaza strip,10,5,0.6373724311590194
+country,gulf nations,10,5,0.755089670419693
+country,maduro,10,5,0.6026006191968918
+country,warsaw,10,5,0.819555127620697
+central bank,citi,10,4,0.5993842869997025
+country,corpus christi,10,4,0.8714583784341812
+country,delhi,10,4,0.6060936987400055
+economic event,Financial stability event | Economic growth and recession,10,4,0.6966235339641571
+country,macron,10,3,0.5502407491207123
+country,usd,10,3,0.6787831068038941
+country,arkansas,10,2,0.8084188878536225
+country,bangkok,10,2,0.9586083292961121
+country,poland romania,9,9,0.7613666852315267
+central bank,european commission,9,8,0.60739908946885
+central bank,saxo bank,9,8,0.7815149558915032
+country,hungary slovakia,9,8,0.8373850186665853
+country,malaysian,9,8,0.8203789227538638
+country,south america,9,8,0.7147465414471097
+central bank,Swiss National Bank,9,7,0.8220599558618333
+country,baltic states,9,7,0.6321771343549093
+country,hungarian,9,7,0.6115692655245463
+country,madrid,9,7,0.6325055526362525
+country,north korean,9,7,0.568048228820165
+country,pennsylvania,9,7,0.557085696193907
+country,u.s europe,9,7,0.7153223984771304
+country,ukrainian territory,9,7,0.6388962301943037
+central bank,policymakers,9,6,0.5651264058219062
+central bank,rbc,9,6,0.6690188182724847
+country,congo,9,6,0.6917033923996819
+country,frankfurt,9,6,0.7397036717997657
+country,ukrainian capital,9,6,0.6448289619551765
+central bank,alibaba,9,5,0.6564557221200731
+central bank,euroclear,9,5,0.7330735160244836
+central bank,ministry,9,5,0.5329839222961001
+central bank,unicredit,9,5,0.6862495475345187
+country,munich,9,5,0.7368110881911384
+country,takaichi,9,5,0.7397253447108798
+country,turkmenistan,9,5,0.879058301448822
+country,white house,9,5,0.6070643895202212
+country,alberta,9,4,0.7659186389711168
+country,costa rica,9,4,0.9426454371876187
+country,japanese yen,9,4,0.6488873693678114
+country,kharg island,9,4,0.5539168450567458
+central bank,adnoc,9,3,0.584969225856993
+central bank,intel,9,3,0.6664357582728068
+central bank,lvmh,9,3,0.7330867316987779
+country,fedorov,9,3,0.6214626464578841
+central bank,Bank of England,9,2,0.651087717877494
+central bank,Reserve Bank of India,9,2,0.7840035127268897
+central bank,dbs,9,2,0.6885323193338182
+country,guinea,9,2,0.820463154051039
+country,bosnia,8,8,0.7309935465455055
+country,israel u.s,8,8,0.8080591410398483
+central bank,occupied west bank,8,7,0.7831866219639778
+country,austrian,8,7,0.6453181393444538
+country,gulf countries,8,7,0.5903603285551071
+country,herzegovina,8,7,0.7330285608768463
+country,louisiana,8,7,0.6343561261892319
+country,ohio,8,7,0.6298534013330936
+country,poland slovakia,8,7,0.8127082735300064
+country,russians,8,7,0.5839078053832054
+country,saudi kingdom,8,7,0.8407206982374191
+country,two countries,8,7,0.5304580219089985
+central bank,federal reserve officials,8,6,0.7019615098834038
+country,north africa,8,6,0.6148629672825336
+country,poland bulgaria,8,6,0.8217296004295349
+country,rome,8,6,0.6249119006097317
+country,southeast asian countries,8,6,0.6136732026934624
+country,turkish,8,6,0.5727557875216007
+country,western countries,8,6,0.5016663931310177
+central bank,microsoft,8,5,0.6249070204794407
+central bank,moscow,8,5,0.6785621643066406
+country,canberra,8,5,0.7475268840789795
+country,davos switzerland,8,5,0.9361222758889198
+country,nazi germany,8,5,0.8713293746113777
+country,khan younis,8,4,0.6746083647012711
+country,los angeles,8,4,0.6523461267352104
+economic event,Trade restrictions and tariffs | Economic growth and recession | Energy and commodity event,8,4,0.6687773987650871
+central bank,pfizer,8,3,0.6967258378863335
+country,cambodia malaysia,8,3,0.8543712422251701
+country,novorossiysk,8,3,0.8212147690355778
+country,russian state,8,3,0.6401686072349548
+country,santander,8,3,0.6465527974069118
+country,sen,8,3,0.7692675366997719
+central bank,Bank of Japan,8,2,0.6548876874148846
+central bank,cbr,8,2,0.7536364868283272
+country,arab states,8,2,0.6887777969241142
+central bank,nbim,8,1,0.5635560676455498
+country,lake ontario,8,1,0.724330484867096
+central bank,silicon valley bank,7,7,0.7563653247697013
+central bank,softbank group,7,7,0.5967698480401721
+country,petroleum exporting countries,7,7,0.5821018304143634
+central bank,aramco,7,6,0.5187065005302429
+central bank,j.p morgan,7,6,0.5930089056491852
+central bank,u.s central bank,7,6,0.8292704394885472
+country,americans,7,6,0.5698173557009015
+country,brent,7,6,0.5451145044394902
+country,east country,7,6,0.5561094113758632
+country,kospi,7,6,0.5315049758979252
+country,paraguay,7,6,0.8950708253043038
+country,republic,7,6,0.6598625183105469
+country,swedish,7,6,0.6600089924676078
+central bank,fed funds,7,5,0.6864881643227169
+central bank,maybank,7,5,0.8688073669161115
+central bank,senate,7,5,0.5311109253338405
+country,brunei,7,5,0.592144080570766
+country,cairo,7,5,0.6798110561711448
+country,continental europe,7,5,0.7218899556568691
+country,island nation,7,5,0.791881092957088
+country,milan,7,5,0.6979911157063076
+country,morocco,7,5,0.7888945766857692
+country,nordisk,7,5,0.7000847799437386
+country,puerto rico,7,5,0.7239048736436027
+central bank,finance ministry,7,4,0.5638179864202227
+central bank,russian government,7,4,0.5834248406546456
+country,australian,7,4,0.5953968209879739
+country,ghana,7,4,0.8330396669251579
+country,jammu kashmir,7,4,0.6169852869851249
+country,north carolina,7,4,0.7039226421288082
+country,one country,7,4,0.6393965099539075
+country,raj,7,4,0.566781976393291
+country,saudi aramco,7,4,0.5463733971118927
+economic event,Currency and exchange-rate event,7,4,0.6005892413003104
+economic event,Inflation and prices | Economic sanctions | Energy and commodity event,7,4,0.5361832891191755
+central bank,oracle,7,3,0.6328447163105011
+country,canadian dollar,7,3,0.6658364534378052
+country,finland sweden,7,3,0.9668412038258144
+country,hormuz u.s,7,3,0.8345214298793248
+country,rest world,7,3,0.7158463512148175
+country,sea azov,7,3,0.566375766481672
+country,somalia,7,3,0.7595187851360866
+central bank,crimea,7,2,0.6905255658285958
+central bank,icc,7,2,0.6085287204810551
+central bank,paypal,7,2,0.5854451486042568
+central bank,sen,7,2,0.612472917352404
+country,brexit,7,2,0.700008898973465
+country,bucha,7,2,0.6733865567616054
+country,glasgow scotland,7,2,0.8959473967552185
+country,japan nikkei,7,2,0.7843870605741229
+country,kazakh,7,2,0.7083109106336322
+country,merkel,7,2,0.5603281216961997
+country,vigna,7,2,0.7958838258470807
+central bank,mercury,7,1,0.6660330295562744
+central bank,wgc,7,1,0.8220064895493644
+country,narva,7,1,0.8361147386687142
+country,northern kosovo,7,1,0.9657917618751526
+country,oakland,7,1,0.767062280859266
+country,unesco,7,1,0.5998380354472569
+central bank,central bankers,6,6,0.6005104233821233
+central bank,investment bank,6,6,0.6731792092323303
+central bank,reserve bank,6,6,0.5853115369876226
+country,another country,6,6,0.5149402270714442
+country,croatia,6,6,0.8725834488868713
+country,foreign nations,6,6,0.5878113259871801
+country,indiana,6,6,0.6121276666720709
+country,kuwaiti,6,6,0.7458382844924927
+country,saudi arabian,6,6,0.7372023463249207
+country,second largest economy,6,6,0.5942144592603048
+country,tennessee,6,6,0.7232681115468343
+central bank,chinese authorities,6,5,0.5401568561792374
+central bank,riksbank,6,5,0.6941892007986704
+central bank,swiss bank,6,5,0.6952588707208633
+central bank,tehran,6,5,0.6553460210561752
+country,beijing u.s,6,5,0.7343280613422394
+country,europe asia,6,5,0.6022712339957556
+country,european country,6,5,0.6086771537860235
+country,haven,6,5,0.5907528003056844
+country,houthi,6,5,0.4854418933391571
+country,italian,6,5,0.6823606689771017
+country,many countries,6,5,0.5611688693364462
+country,nordic countries,6,5,0.5877043803532919
+country,northeast asia,6,5,0.6024931917587916
+country,odesa,6,5,0.543193851908048
+country,southern africa,6,5,0.6564927597840627
+country,tunisia,6,5,0.7680872877438863
+country,ukrainian hryvnia,6,5,0.8055774966875712
+country,usmca,6,5,0.6053801029920578
+economic event,Inflation and prices | Fiscal policy,6,5,0.64046644171079
+economic event,Monetary policy | Inflation and prices | Economic growth and recession,6,5,0.5371122161547343
+economic event,Trade restrictions and tariffs | Currency and exchange-rate event,6,5,0.6095686654249827
+central bank,citigroup,6,4,0.7648729582627615
+central bank,nvidia,6,4,0.478945717215538
+central bank,ocbc bank,6,4,0.7570792337258657
+central bank,people bank,6,4,0.5954284419616064
+central bank,wall street,6,4,0.5946702758471171
+country,eu us,6,4,0.8853446940581003
+country,kenya,6,4,0.7296684781710306
+country,republic korea,6,4,0.8227974871794382
+country,southeast asian nation,6,4,0.763365646203359
+country,yemeni,6,4,0.6634324491024017
+country,yugoslavia,6,4,0.957072893778483
+central bank,al ghais,6,3,0.6442241768042246
+central bank,amazon,6,3,0.5508675773938497
+central bank,apple,6,3,0.5711932728687922
+central bank,cox,6,3,0.608919749657313
+central bank,sydbank,6,3,0.8218107521533966
+country,covid,6,3,0.5337672680616379
+country,emerging economies,6,3,0.7210561782121658
+country,isfahan,6,3,0.5727814386288325
+country,kashmir,6,3,0.5923788547515869
+country,kherson,6,3,0.6338755885759989
+country,knesset,6,3,0.6734480112791061
+country,luhansk,6,3,0.5267883439858755
+country,mauritius,6,3,0.8938706616560618
+country,omsk,6,3,0.640673557917277
+country,rystad,6,3,0.712404191493988
+country,south china,6,3,0.8041474322477976
+country,ukrainian government,6,3,0.6378465394179026
+country,zhejiang,6,3,0.8802487154801687
+economic event,Inflation and prices | Currency and exchange-rate event,6,3,0.628623902797699
+economic event,Inflation and prices | Economic growth and recession | Energy and commodity event,6,3,0.6216704646746317
+central bank,east bank,6,2,0.66567795475324
+central bank,ford,6,2,0.8346827129522959
+central bank,google,6,2,0.677481879790624
+country,ai,6,2,0.6008648127317429
+country,china russia,6,2,0.9730965495109558
+country,czechoslovakia,6,2,0.9841070075829824
+country,ecuadorian,6,2,0.6928538183371226
+country,french government,6,2,0.6878928045431772
+country,lithium,6,2,0.6108351151148478
+country,sub saharan africa,6,2,0.860161155462265
+country,u.s military,6,2,0.6717459460099539
+central bank,prosecutors,6,1,0.5229902664820353
+country,agi,6,1,0.8156767785549164
+country,air india,6,1,0.9255013664563497
+country,lake america,6,1,0.9357264041900635
+country,mar lago,6,1,0.6291834264993668
+country,simandou,6,1,0.8070555726687113
+country,south korean government,6,1,0.6599673877159754
+country,tuvalu,6,1,0.9228931665420532
+central bank,global central banks,5,5,0.6573608756065369
+country,boeing,5,5,0.5379857182502746
+country,connecticut,5,5,0.6533746480941772
+country,every country,5,5,0.5398078024387359
+country,former soviet republic,5,5,0.632278037071228
+country,hungary romania,5,5,0.6099757015705108
+country,middle eastern country,5,5,0.7252357244491577
+central bank,adp,5,4,0.7340718507766724
+central bank,asian development bank,5,4,0.8537268280982971
+central bank,chicago federal reserve,5,4,0.5332718849182129
+central bank,citibank,5,4,0.825171172618866
+central bank,lseg,5,4,0.6653367877006531
+central bank,russian bank,5,4,0.5909644067287445
+central bank,u.s,5,4,0.5033196568489074
+country,aug,5,4,0.6069723546504975
+country,house,5,4,0.5061946213245392
+country,irna,5,4,0.6716029405593872
+country,nepal,5,4,0.9206540942192077
+country,nigerian,5,4,0.689887273311615
+country,north african country,5,4,0.6240610599517822
+country,oil producing countries,5,4,0.6372697234153748
+country,poorer countries,5,4,0.6288159310817718
+country,russian crude,5,4,0.5717233002185822
+country,saudi state,5,4,0.6951176166534424
+country,west texas,5,4,0.5611283421516419
+central bank,binance,5,3,0.9009987831115722
+central bank,european banks,5,3,0.6975165724754333
+central bank,gaza west bank,5,3,0.80650874376297
+central bank,sec,5,3,0.5945868074893952
+country,athens,5,3,0.8674811601638794
+country,british columbia,5,3,0.6318459153175354
+country,chinese mainland,5,3,0.7555964231491089
+country,corporate america,5,3,0.6626921772956849
+country,economies,5,3,0.5584608793258667
+country,eu nations,5,3,0.7122681319713593
+country,federal government,5,3,0.4931585967540741
+country,kaliningrad,5,3,0.7108646392822265
+country,kuala lumpur,5,3,0.7270789504051208
+country,new hampshire,5,3,0.6648532390594483
+country,pakistanis,5,3,0.7286215782165527
+country,parliament,5,3,0.5310754895210266
+country,russian territory,5,3,0.5987685322761536
+country,scandinavian country,5,3,0.7771313548088074
+country,ukrainian forces,5,3,0.5321938395500183
+country,venezuelans,5,3,0.7875752210617065
+country,zealand,5,3,0.6996962189674377
+central bank,banco santander,5,2,0.648049819469452
+central bank,boeing,5,2,0.6032165229320526
+central bank,cips,5,2,0.6607510209083557
+central bank,eu leaders,5,2,0.6839277148246765
+central bank,fitch,5,2,0.6531990051269532
+central bank,nomura,5,2,0.6296434342861176
+central bank,ofac,5,2,0.5629449605941772
+central bank,sankey,5,2,0.6365873873233795
+country,alcoa,5,2,0.6308441042900086
+country,aleppo,5,2,0.6961455523967743
+country,allies,5,2,0.5097638130187988
+country,arunachal pradesh,5,2,0.8950486183166504
+country,botswana,5,2,0.8650553822517395
+country,china mexico,5,2,0.9455575466156005
+country,columbia,5,2,0.6587702989578247
+country,eu member states,5,2,0.7147875547409057
+country,irish,5,2,0.6714954733848572
+country,khartoum,5,2,0.8412995934486389
+country,least developed countries,5,2,0.7144769489765167
+country,leyen,5,2,0.6142616868019104
+country,macedonia,5,2,0.8211544513702392
+country,port los angeles,5,2,0.606074184179306
+country,rusal,5,2,0.6343428790569305
+country,russian gas,5,2,0.5292073249816894
+country,spanish,5,2,0.9185665965080261
+country,valero,5,2,0.6156139254570008
+country,wagner,5,2,0.7427793264389038
+country,wto,5,2,0.661636209487915
+central bank,canva,5,1,0.6981073379516601
+central bank,kaplan,5,1,0.6037152588367463
+central bank,kkr,5,1,0.5617108643054962
+central bank,ndb,5,1,0.7542126536369324
+central bank,pvh,5,1,0.5781494319438935
+central bank,teucrium,5,1,0.6464063167572022
+central bank,world central kitchen,5,1,0.6956820607185363
+country,cia,5,1,0.5665315687656403
+country,cuerpo,5,1,0.604518711566925
+country,ferrari,5,1,0.8223199248313904
+country,grynspan,5,1,0.8272281408309936
+country,japan australia,5,1,0.9091062903404236
+country,power siberia,5,1,0.7694916009902955
+country,sounion,5,1,0.5455296218395234
+country,sudanese,5,1,0.7962643265724182
+country,troy,5,1,0.8221455216407776
+country,valenzuela,5,1,0.895511531829834
+central bank,dbs bank,4,4,0.7772973775863647
+central bank,dutch bank ing,4,4,0.770729124546051
+central bank,european investment bank,4,4,0.8417246490716934
+central bank,fed officials,4,4,0.6112314835190773
+central bank,major central banks,4,4,0.6918528825044632
+central bank,national bank,4,4,0.5817501470446587
+central bank,roskomnadzor,4,4,0.6337119489908218
+country,antofagasta,4,4,0.693228542804718
+country,asian country,4,4,0.6506586968898773
+country,chinese u.s,4,4,0.6833817362785339
+country,developed nations,4,4,0.6698159575462341
+country,donetsk people republic,4,4,0.6282355934381485
+country,foreign countries,4,4,0.55977813154459
+country,jakarta,4,4,0.6464325785636902
+country,kansas,4,4,0.5535799711942673
+country,laos,4,4,0.6303608864545822
+country,lesotho,4,4,0.5789901167154312
+country,may u.s,4,4,0.7414083033800125
+country,montenegro,4,4,0.5698720589280128
+country,moscow u.s,4,4,0.6238648593425751
+country,oil,4,4,0.5021138936281204
+country,permian basin,4,4,0.6060560792684555
+country,russian ruble,4,4,0.6125249490141869
+country,russian ukraine,4,4,0.7218002825975418
+country,slovenia,4,4,0.8977768272161484
+country,south american country,4,4,0.5977974385023117
+country,south asian nation,4,4,0.5361741632223129
+country,third country,4,4,0.5508394688367844
+country,wales,4,4,0.585265688598156
+country,west,4,4,0.5797625929117203
+country,zimbabwe,4,4,0.7957908064126968
+central bank,asian infrastructure investment bank,4,3,0.8163417279720306
+central bank,astrazeneca,4,3,0.5716113150119781
+central bank,commerce department,4,3,0.5663483440876007
+central bank,navy federal credit union,4,3,0.5565501376986504
+central bank,new york federal reserve,4,3,0.6320421248674393
+central bank,staunovo,4,3,0.5277763977646828
+country,arctic island,4,3,0.5381040349602699
+country,asian nations,4,3,0.6448522806167603
+country,azerbaijani,4,3,0.7359593212604523
+country,belize,4,3,0.7224590480327606
+country,benghazi,4,3,0.7121188342571259
+country,chinese government,4,3,0.5405625551939011
+country,developing economies,4,3,0.6310662627220154
+country,gazprom,4,3,0.7465913891792297
+country,hiroshima,4,3,0.5803469568490982
+country,korean,4,3,0.7058265656232834
+country,kyiv regime,4,3,0.6949335262179375
+country,low income countries,4,3,0.7682255506515503
+country,middle east u.s,4,3,0.7541245967149734
+country,nato nations,4,3,0.5640023872256279
+country,peru,4,3,0.7298565953969955
+country,prague,4,3,0.700507715344429
+country,roche,4,3,0.564893439412117
+country,rupee,4,3,0.6488897725939751
+country,seychelles,4,3,0.6969663351774216
+country,southern lebanon,4,3,0.6424570679664612
+country,u.k u.s,4,3,0.8125506341457367
+country,u.s government,4,3,0.6637869030237198
+country,ukrainian ports,4,3,0.559894323348999
+country,wang,4,3,0.6727946847677231
+country,zurich,4,3,0.793327659368515
+economic event,Economic sanctions | Economic growth and recession | Energy and commodity event,4,3,0.643082931637764
+economic event,Inflation and prices | Financial stability event,4,3,0.7119813859462738
+economic event,Inflation and prices | Sovereign debt event,4,3,0.6149472445249557
+economic event,Monetary policy | Economic growth and recession,4,3,0.5850365161895752
+economic event,Monetary policy | Economic sanctions,4,3,0.5332307294011116
+central bank,People's Bank of China,4,2,0.6607924103736877
+central bank,argus,4,2,0.5824588984251022
+central bank,brussels,4,2,0.5232577845454216
+central bank,dnieper,4,2,0.7126952111721039
+central bank,equinor,4,2,0.5828272327780724
+central bank,fomc,4,2,0.664114847779274
+central bank,hasbro,4,2,0.7238474637269974
+central bank,left bank,4,2,0.7042071968317032
+central bank,pentagon,4,2,0.7585376650094986
+central bank,powell fed,4,2,0.8948293626308441
+central bank,rosebank,4,2,0.9020989239215851
+central bank,sk hynix,4,2,0.6671989858150482
+central bank,tesla,4,2,0.7003503441810608
+central bank,wagner,4,2,0.4780475050210953
+country,asian economies,4,2,0.5860098600387573
+country,avdiivka,4,2,0.6635457128286362
+country,baltic countries,4,2,0.7977309972047806
+country,banana republic,4,2,0.7013729438185692
+country,belgrade,4,2,0.7077856063842773
+country,bosnia herzegovina,4,2,0.9275918751955032
+country,china europe,4,2,0.8108315020799637
+country,emerging markets,4,2,0.5885057747364044
+country,foreign country,4,2,0.7911249473690987
+country,former soviet republics,4,2,0.7458918243646622
+country,future country,4,2,0.5749554932117462
+country,global south,4,2,0.8020470589399338
+country,hanoi,4,2,0.6764276176691055
+country,himalayas,4,2,0.7757893800735474
+country,junta,4,2,0.5652502775192261
+country,kavonic,4,2,0.8411960154771805
+country,kuleba,4,2,0.6053815186023712
+country,kyiv odessa,4,2,0.7755351290106773
+country,maldives,4,2,0.9358894526958466
+country,mozambique,4,2,0.8629220724105835
+country,north dakota,4,2,0.7536631971597672
+country,odessa,4,2,0.7878592163324356
+country,oecd countries,4,2,0.7996882051229477
+country,pariah state,4,2,0.62196846306324
+country,riyadh tehran,4,2,0.7216166704893112
+country,stoltenberg,4,2,0.711895689368248
+country,suisse,4,2,0.7813199311494827
+country,tbilisi,4,2,0.673494890332222
+country,u.s india,4,2,0.8787611424922943
+country,zandi,4,2,0.5159886330366135
+country,zaporizhzhya,4,2,0.7438131123781204
+economic event,Trade restrictions and tariffs | Financial stability event | Economic growth and recession,4,2,0.6722268760204315
+central bank,aiib,4,1,0.6053147986531258
+central bank,ccs,4,1,0.7142760902643204
+central bank,dimon,4,1,0.6901549696922302
+central bank,dnieper river,4,1,0.9112900644540787
+central bank,dollar general,4,1,0.929487019777298
+central bank,federal council,4,1,0.7555224746465683
+central bank,ftx,4,1,0.6020698994398117
+central bank,idc,4,1,0.744701012969017
+central bank,kaz ks,4,1,0.8372852355241776
+central bank,kpmg,4,1,0.7750576138496399
+central bank,mpc,4,1,0.9232088774442673
+central bank,paramount,4,1,0.6566523462533951
+central bank,sovcombank,4,1,0.9597670137882234
+central bank,vaneck,4,1,0.5860147029161453
+central bank,world gold council,4,1,0.927916020154953
+country,amazon,4,1,0.6719774305820465
+country,asia pacific countries,4,1,0.7572777718305588
+country,barstad,4,1,0.553445890545845
+country,bosphorus,4,1,0.9534757882356644
+country,burkina faso,4,1,0.8171346634626389
+country,eua,4,1,0.6407594829797745
+country,facebook,4,1,0.5242863222956657
+country,fsia,4,1,0.8430174291133881
+country,gantz,4,1,0.6839842647314072
+country,gold apollo,4,1,0.9327324777841568
+country,heineken,4,1,0.7501434832811356
+country,hong kong macao,4,1,0.7277356088161469
+country,istanbul,4,1,0.8503895550966263
+country,kamrava,4,1,0.5624108240008354
+country,kono,4,1,0.8127517700195312
+country,lekander,4,1,0.8488796651363373
+country,manus,4,1,0.6995597034692764
+country,north macedonia,4,1,0.82319375872612
+country,nuremberg,4,1,0.49957144260406494
+country,poland economy,4,1,0.8726594597101212
+country,sg,4,1,0.8172742426395416
+country,sheffield,4,1,0.6214637756347656
+country,slovak,4,1,0.6003754511475563
+country,swedish krona,4,1,0.7243271917104721
+country,texas california,4,1,0.5438063144683838
+country,u.s steel,4,1,0.7856294214725494
+country,weislander,4,1,0.6887854561209679
+country,yaroslavl,4,1,0.7138586938381195
+country,york,4,1,0.5939501971006393
+central bank,austrian central bank,3,3,0.6859569946924845
+central bank,authorities,3,3,0.45762066046396893
+central bank,axios,3,3,0.5306289792060852
+central bank,country central bank,3,3,0.6329125364621481
+central bank,french bank,3,3,0.5173384149869283
+central bank,mizuho bank,3,3,0.7752888997395834
+central bank,monetary authority,3,3,0.5554561714331309
+central bank,norges bank,3,3,0.6291372378667196
+central bank,rosselkhozbank,3,3,0.7821146647135416
+central bank,swedish bank,3,3,0.8014358480771383
+central bank,vtb bank,3,3,0.7335593700408936
+country,32 member countries,3,3,0.6357022722562155
+country,aden,3,3,0.5394837657610575
+country,april u.s,3,3,0.6023707787195841
+country,arabia,3,3,0.5918838580449423
+country,arabian peninsula,3,3,0.5700084368387858
+country,bali indonesia,3,3,0.6659489174683889
+country,chechnya,3,3,0.674186110496521
+country,cnbc,3,3,0.48276420434316
+country,copper,3,3,0.5950159430503845
+country,democracies,3,3,0.6953048308690389
+country,deutschland,3,3,0.8448219895362854
+country,emirati,3,3,0.569107194741567
+country,eritrea,3,3,0.8540619611740112
+country,global economy,3,3,0.48081378142038983
+country,greater china,3,3,0.8359521627426147
+country,guatemala,3,3,0.928404708703359
+country,gulf america,3,3,0.5674205223719279
+country,honduras,3,3,0.9054413437843323
+country,irs,3,3,0.5568374395370483
+country,jewish state,3,3,0.5136567850907644
+country,luhansk people republic,3,3,0.6039191087086996
+country,major economies,3,3,0.5608101387818655
+country,mediterranean nation,3,3,0.6913072864214579
+country,missouri,3,3,0.6054108937581381
+country,nato countries,3,3,0.6694905956586202
+country,new u.s,3,3,0.5423668026924133
+country,nordic country,3,3,0.6338344216346741
+country,northern europe,3,3,0.6648015777269999
+country,orsted,3,3,0.6202677687009176
+country,planet,3,3,0.573004682858785
+country,rhode island,3,3,0.5554201602935791
+country,sahel,3,3,0.7810584505399069
+country,shenzhen,3,3,0.5001635452111562
+country,silicon valley,3,3,0.5103517174720764
+country,southeast asian country,3,3,0.7161429127057394
+country,taiwan u.s,3,3,0.8121196031570435
+country,tanzania,3,3,0.8415901263554891
+country,third countries,3,3,0.616809070110321
+country,u.s crude oil,3,3,0.7737024029095968
+country,west africa,3,3,0.60136479139328
+economic event,Economic sanctions | Currency and exchange-rate event,3,3,0.5161128838857015
+economic event,Inflation and prices | Trade restrictions and tariffs | Energy and commodity event,3,3,0.5543381869792938
+economic event,Monetary policy | Financial stability event,3,3,0.6629664103190104
+central bank,acea,3,2,0.5440080761909485
+central bank,chicago fed,3,2,0.631483256816864
+central bank,china central bank,3,2,0.9564498464266459
+central bank,chinese government,3,2,0.5383914808432261
+central bank,g7,3,2,0.5897414485613505
+central bank,gaza,3,2,0.5950744152069092
+central bank,german bank,3,2,0.7587059736251831
+central bank,ibm,3,2,0.5949307481447855
+central bank,japanese government,3,2,0.4903026620546977
+central bank,monetary policy committee,3,2,0.5830355485280355
+central bank,msc,3,2,0.5508303046226501
+central bank,russian defense ministry,3,2,0.681339959303538
+central bank,scotiabank,3,2,0.6656472682952881
+central bank,siemens,3,2,0.634960393110911
+central bank,societe generale,3,2,0.6136074463526408
+central bank,tinkoff bank,3,2,0.8257152835528055
+central bank,toronto dominion,3,2,0.5047253469626108
+central bank,united airlines,3,2,0.6221813460191091
+central bank,von der leyen,3,2,0.6105673909187317
+central bank,xai,3,2,0.5735535422960917
+central bank,yonhap,3,2,0.5374456942081451
+country,aluminum,3,2,0.5467454294363657
+country,anglo american,3,2,0.6775052348772684
+country,anz,3,2,0.5790138940016428
+country,arctic,3,2,0.6108699937661489
+country,asia u.s,3,2,0.822430411974589
+country,aston martin,3,2,0.6700211763381958
+country,azizi,3,2,0.5134383936723074
+country,bali,3,2,0.5452593564987183
+country,berkshire hathaway,3,2,0.7399691939353943
+country,biden,3,2,0.6069989601771036
+country,british government,3,2,0.6163080930709839
+country,bundestag,3,2,0.6382190783818563
+country,central asian countries,3,2,0.6406998833020529
+country,chinese yuan,3,2,0.62226802110672
+country,costa,3,2,0.587394654750824
+country,east asia,3,2,0.7230117718378702
+country,ebitda,3,2,0.6211230357487997
+country,european nation,3,2,0.6534109910329183
+country,fentanyl,3,2,0.508122076590856
+country,gazans,3,2,0.7820116579532623
+country,guam,3,2,0.5990830461184183
+country,hawaii,3,2,0.7459594110647837
+country,high income nations,3,2,0.5962594946225485
+country,japanese economy,3,2,0.5601880451043447
+country,khamenei,3,2,0.5710044900576273
+country,kyiv u.s,3,2,0.7554429968198141
+country,middle east india,3,2,0.8550987044970194
+country,minnesota,3,2,0.5738613704840342
+country,moskva,3,2,0.7957821289698283
+country,namibia,3,2,0.7710707187652588
+country,nielsen,3,2,0.698359211285909
+country,one u.s,3,2,0.5850084026654562
+country,opec countries,3,2,0.7433779835700989
+country,own country,3,2,0.6093242963155111
+country,parts country,3,2,0.6864656011263529
+country,qataris,3,2,0.6934300263722738
+country,riyadh moscow,3,2,0.6014137268066406
+country,russian empire,3,2,0.6765669186909994
+country,russian government,3,2,0.5157228906949362
+country,rwanda,3,2,0.8645587762196859
+country,sanaa,3,2,0.48044612010320026
+country,transdniestria,3,2,0.8787622253100077
+country,u.s china,3,2,0.9135807951291403
+country,u.s dollars,3,2,0.5631887714068095
+country,u.s mexico,3,2,0.6316346327463785
+country,ukmto,3,2,0.6909161806106567
+country,us uk,3,2,0.639759878317515
+country,washington beijing,3,2,0.6518991192181905
+central bank,antel,3,1,0.741868793964386
+central bank,csis,3,1,0.6716345548629761
+central bank,csx,3,1,0.5538985927899679
+central bank,dalio,3,1,0.5853546063105265
+central bank,faury,3,1,0.5601429343223572
+central bank,finland central bank,3,1,0.7335558931032816
+central bank,foxconn,3,1,0.6284447908401489
+central bank,gsam,3,1,0.532813310623169
+central bank,huawei,3,1,0.8804928660392761
+central bank,iea opec,3,1,0.6752779285113016
+central bank,invesco,3,1,0.7866466840108236
+central bank,ipc,3,1,0.6229852040608724
+central bank,ives,3,1,0.7490876416365305
+central bank,kherson,3,1,0.6640481750170389
+central bank,la patrona,3,1,0.5252553224563599
+central bank,macron,3,1,0.5122392773628235
+central bank,oil major,3,1,0.5462272663911184
+central bank,president trump,3,1,0.6459869146347046
+central bank,pure dc,3,1,0.8486249446868896
+central bank,putin,3,1,0.5797891616821289
+central bank,sba,3,1,0.8049078583717346
+central bank,south korean prosecutors,3,1,0.6222581267356873
+central bank,sovereigns,3,1,0.8211849927902222
+central bank,unctad,3,1,0.6934318145116171
+country,aktau,3,1,0.8201514681180319
+country,bejing,3,1,0.8131897449493408
+country,bitcoin,3,1,0.6027340491612753
+country,britain france,3,1,0.835041880607605
+country,british virgin islands,3,1,0.4945911169052124
+country,canada u.s,3,1,0.8742712338765463
+country,chisinau,3,1,0.5963679154713949
+country,chongqing,3,1,0.7260883450508118
+country,colombian,3,1,0.6728232502937317
+country,cypriot,3,1,0.8096084992090861
+country,czechoslovak,3,1,0.8400000135103861
+country,d.c,3,1,0.5038019518057505
+country,dantes,3,1,0.592447837193807
+country,della vigna,3,1,0.842979371547699
+country,dpp,3,1,0.5704685846964518
+country,duterte,3,1,0.5997387568155924
+country,el sharara,3,1,0.810062567392985
+country,eu australia,3,1,0.952627956867218
+country,eu mexico,3,1,0.9596441189448038
+country,eutelsat,3,1,0.5689387520154318
+country,franke,3,1,0.5585164030392965
+country,gibbs,3,1,0.5600121716658274
+country,guyanese,3,1,0.9061271150906881
+country,harbourne,3,1,0.6942160129547119
+country,heyl,3,1,0.7166279355684916
+country,humanity,3,1,0.5920330981413523
+country,iridium,3,1,0.524521400531133
+country,izmail,3,1,0.6172149578730265
+country,kangerlussuaq,3,1,0.8067269722620646
+country,kcna,3,1,0.5689934293429056
+country,kent,3,1,0.5630798737208048
+country,korean won,3,1,0.9301660656929016
+country,kramatorsk,3,1,0.8355631430943807
+country,lufthansa,3,1,0.8571979403495789
+country,lula,3,1,0.64372318983078
+country,ma,3,1,0.6250206331411997
+country,mali,3,1,0.49351386229197186
+country,markets,3,1,0.48518820603688556
+country,mcguinness,3,1,0.7382594545682272
+country,mitchener,3,1,0.8692282239596049
+country,moscow kyiv,3,1,0.7892785867055258
+country,norfolk,3,1,0.7084121902783712
+country,norfolk island,3,1,0.5508338610331217
+country,north sea,3,1,0.7453537583351135
+country,nrf,3,1,0.6315223177274069
+country,nz,3,1,0.9804561336835226
+country,omaha nebraska,3,1,0.946082333723704
+country,pretoria,3,1,0.6282824079195658
+country,russia india,3,1,0.9656040469805399
+country,sannino,3,1,0.7315520246823629
+country,serbian,3,1,0.6652277112007141
+country,somali,3,1,0.8467280666033427
+country,space,3,1,0.5222005446751913
+country,strait malacca,3,1,0.501926968495051
+country,swiss economy,3,1,0.8396714528401693
+country,uefa,3,1,0.5324289699395498
+country,us iran,3,1,0.9884835282961527
+country,vasylkiv,3,1,0.8930424054463705
+country,windsor castle,3,1,0.5275000929832458
+country,yemen capital,3,1,0.8253941535949707
+country,yugoslav,3,1,0.6803691685199738
+central bank,adipec,2,2,0.5842202603816986
+central bank,alfa bank,2,2,0.8754304051399231
+central bank,chinese banks,2,2,0.4727110415697098
+central bank,chinese policymakers,2,2,0.5204261839389801
+central bank,costco,2,2,0.54778653383255
+central bank,dnipro river,2,2,0.523548424243927
+central bank,dow,2,2,0.5789165794849396
+central bank,dubai based bank,2,2,0.5362553149461746
+central bank,eia,2,2,0.5326156318187714
+central bank,emirates nbd,2,2,0.5526843369007111
+central bank,eni,2,2,0.5348703861236572
+central bank,fargo bank,2,2,0.5076988339424133
+central bank,fed central banks,2,2,0.6598643064498901
+central bank,federal open market committee,2,2,0.49458232522010803
+central bank,federal reserve policymakers,2,2,0.6067516207695007
+central bank,fedwatch,2,2,0.4826606512069702
+central bank,gm,2,2,0.7050597667694092
+central bank,goldman bank,2,2,0.8647501170635223
+central bank,government central bank,2,2,0.6009112149477005
+central bank,hdfc bank,2,2,0.7286349534988403
+central bank,indian government,2,2,0.4908915311098099
+central bank,ipo,2,2,0.4938165247440338
+central bank,japan central bank,2,2,0.8733079433441162
+central bank,japanese authorities,2,2,0.6216669976711273
+central bank,jefferies,2,2,0.6395941823720932
+central bank,jp morgan,2,2,0.5796140730381012
+central bank,levada center,2,2,0.567911684513092
+central bank,mufg bank,2,2,0.8559844493865967
+central bank,national statistics bureau,2,2,0.5147546827793121
+central bank,nbc,2,2,0.4722228944301605
+central bank,nomura bank,2,2,0.670786440372467
+central bank,rubio,2,2,0.5288155674934387
+central bank,russia central bank,2,2,0.9315302073955536
+central bank,russian agricultural bank,2,2,0.7318406701087952
+central bank,russian finance ministry,2,2,0.6385437399148941
+central bank,russian forces,2,2,0.48024825751781464
+central bank,saudi government,2,2,0.5388695299625397
+central bank,sco development bank,2,2,0.8067964315414429
+central bank,signature bank,2,2,0.5930270552635193
+central bank,standard chartered,2,2,0.5783921182155609
+central bank,standard chartered bank,2,2,0.6476036012172699
+central bank,u.s fed,2,2,0.7449682354927063
+central bank,u.s treasury,2,2,0.6266517639160156
+central bank,valley bank,2,2,0.7081441283226013
+central bank,veb,2,2,0.8330578207969666
+country,abqaiq,2,2,0.6910351514816284
+country,african continent,2,2,0.4763866066932678
+country,african countries,2,2,0.5306965410709381
+country,african country,2,2,0.5767320543527603
+country,african nation,2,2,0.5279369652271271
+country,african nations,2,2,0.5465951561927795
+country,alabama,2,2,0.5015741288661957
+country,arab countries,2,2,0.6606420874595642
+country,argentine,2,2,0.6563656628131866
+country,asean countries,2,2,0.6194632053375244
+country,austin texas,2,2,0.505372017621994
+country,azerbaijan republic,2,2,0.7278665006160736
+country,british economy,2,2,0.7602359056472778
+country,british u.s,2,2,0.6843346655368805
+country,bundeswehr,2,2,0.6767871081829071
+country,caribbean,2,2,0.6227539479732513
+country,caribbean countries,2,2,0.5639690458774567
+country,caucasus,2,2,0.5047560781240463
+country,cayman islands,2,2,0.6212970018386841
+country,central america,2,2,0.7837507426738739
+country,central eastern europe,2,2,0.5269035398960114
+country,central south america,2,2,0.7801882326602936
+country,china countries,2,2,0.5782564580440521
+country,china country,2,2,0.8415926992893219
+country,chinese economy,2,2,0.5871045589447021
+country,country country,2,2,0.6518511176109314
+country,detroit,2,2,0.5939420461654663
+country,deutsche,2,2,0.6013902127742767
+country,developed countries,2,2,0.591015174984932
+country,developed economies,2,2,0.7077893316745758
+country,developing nations,2,2,0.6195449233055115
+country,dimon,2,2,0.6048693656921387
+country,dollar,2,2,0.5663384944200516
+country,donetsk province,2,2,0.6307792663574219
+country,earth,2,2,0.5831748843193054
+country,emerging developing economies,2,2,0.6581375002861023
+country,estonia poland,2,2,0.7259429395198822
+country,eu countries,2,2,0.5064793676137924
+country,european union u.s,2,2,0.4738699644804001
+country,former soviet states,2,2,0.5584229677915573
+country,former soviet union,2,2,0.662740170955658
+country,g7,2,2,0.4714943468570709
+country,gaza u.s,2,2,0.794789582490921
+country,great america,2,2,0.636413037776947
+country,gulf country,2,2,0.5834901183843613
+country,hague,2,2,0.48442718386650085
+country,haiti,2,2,0.6216159462928772
+country,home country,2,2,0.6412761509418488
+country,ian,2,2,0.6673912703990936
+country,imf,2,2,0.532363086938858
+country,indian economy,2,2,0.6387436389923096
+country,indian rupee,2,2,0.6794527769088745
+country,iranian regime,2,2,0.7673197984695435
+country,israel iran,2,2,0.9701244235038757
+country,israeli u.s,2,2,0.7218169867992401
+country,italia,2,2,0.83853480219841
+country,itayim,2,2,0.6515100002288818
+country,key u.s,2,2,0.5650573968887329
+country,kyiv moscow,2,2,0.624040275812149
+country,laredo,2,2,0.5010751783847809
+country,latin american countries,2,2,0.6373378932476044
+country,marshall islands,2,2,0.6414720714092255
+country,meituan,2,2,0.5809409618377686
+country,member countries,2,2,0.4685244560241699
+country,middle east countries,2,2,0.557360514998436
+country,middle east country,2,2,0.48653025925159454
+country,mississippi,2,2,0.6058761477470398
+country,moscow country,2,2,0.49025730788707733
+country,nationwide,2,2,0.602726086974144
+country,nebraska,2,2,0.5793940424919128
+country,nevada,2,2,0.6361746191978455
+country,new england,2,2,0.7403009235858917
+country,new haven,2,2,0.6146498918533325
+country,no country,2,2,0.5457046777009964
+country,norges,2,2,0.708381175994873
+country,north american,2,2,0.5553833842277527
+country,novak,2,2,0.7618290781974792
+country,oman iraq,2,2,0.7295404970645905
+country,oregon,2,2,0.6094835698604584
+country,oslo,2,2,0.6066959500312805
+country,ottawa,2,2,0.4742353856563568
+country,palestinian state,2,2,0.5278667658567429
+country,palestinians,2,2,0.5327848196029663
+country,peru dominican republic,2,2,0.7754509449005127
+country,poland estonia,2,2,0.5462020337581635
+country,polska,2,2,0.7551484704017639
+country,portuguese,2,2,0.6526106297969818
+country,rare earths,2,2,0.4889199584722519
+country,rich countries,2,2,0.5938387215137482
+country,russian energy,2,2,0.6210378259420395
+country,russian nation,2,2,0.526864305138588
+country,singaporean,2,2,0.6349587887525558
+country,south country,2,2,0.6595372259616852
+country,soviet empire,2,2,0.49319733679294586
+country,state u.s,2,2,0.566482275724411
+country,tehran islamic republic,2,2,0.8444614112377167
+country,tom holland,2,2,0.4904042035341263
+country,turkish lira,2,2,0.8122827410697937
+country,two largest economies,2,2,0.5312871634960175
+country,u.s korea,2,2,0.7741658687591553
+country,ukrain,2,2,0.8382852375507355
+country,ukrainealert,2,2,0.6291976869106293
+country,ukrainian nation,2,2,0.812411904335022
+country,united,2,2,0.49617500603199005
+country,ursula,2,2,0.635772317647934
+country,us u.s,2,2,0.6373552978038788
+country,utah,2,2,0.5599941611289978
+country,uyghur,2,2,0.6616664230823517
+country,war middle east,2,2,0.5328284054994583
+country,washington u.s,2,2,0.6718330085277557
+country,western europe,2,2,0.6262012422084808
+country,western nations,2,2,0.547810286283493
+country,world countries,2,2,0.4930489957332611
+country,world largest economy,2,2,0.6798122525215149
+country,world two largest economies,2,2,0.5794958770275116
+country,world u.s,2,2,0.6660185158252716
+country,xi u.s,2,2,0.6629710495471954
+country,yale,2,2,0.5814947187900543
+country,yanbu,2,2,0.4646550714969635
+country,yemen lebanon,2,2,0.5825488269329071
+country,yuzhny,2,2,0.5497866868972778
+economic event,Inflation and prices | Financial stability event | Economic growth and recession,2,2,0.7699875235557556
+economic event,Monetary policy | Trade restrictions and tariffs | Economic growth and recession,2,2,0.8710277378559113
+central bank,10 year treasury,2,1,0.5144495069980621
+central bank,aberdeen,2,1,0.6871711313724518
+central bank,agm,2,1,0.8098605573177338
+central bank,agrosoyuz commercial bank,2,1,0.5472284257411957
+central bank,amex,2,1,0.8479843735694885
+central bank,amin,2,1,0.5991955101490021
+central bank,analysts bank america,2,1,0.8216279745101929
+central bank,argus media,2,1,0.4976927936077118
+central bank,armstrong,2,1,0.7233878374099731
+central bank,atlantic council,2,1,0.6141364574432373
+central bank,austrian bank,2,1,0.7757740616798401
+central bank,bank new york mellon,2,1,0.6042146682739258
+central bank,beijing authorities,2,1,0.5840106904506683
+central bank,belgium central bank,2,1,0.9128692448139191
+central bank,bhp,2,1,0.8128973543643951
+central bank,brent wti,2,1,0.5700153708457947
+central bank,cameco,2,1,0.5133446007966995
+central bank,cbdcs,2,1,0.8128344714641571
+central bank,cboe,2,1,0.6817953288555145
+central bank,ccp,2,1,0.8443384170532227
+central bank,cec,2,1,0.45661212503910065
+central bank,cfp,2,1,0.47438405454158783
+central bank,chinese commerce ministry,2,1,0.5219844877719879
+central bank,chinese regulators,2,1,0.6565422117710114
+central bank,cleveland fed,2,1,0.893311083316803
+central bank,cop27,2,1,0.45717136561870575
+central bank,danske bank,2,1,0.7060438990592957
+central bank,data bank america,2,1,0.8527246713638306
+central bank,dbi,2,1,0.761913388967514
+central bank,denske bank,2,1,0.788909375667572
+central bank,dexcom,2,1,0.816135585308075
+central bank,dnipro,2,1,0.8443072140216827
+central bank,doha,2,1,0.8239458203315735
+central bank,dutch government,2,1,0.7398512661457062
+central bank,eisenstat,2,1,0.5567905008792877
+central bank,european regulators,2,1,0.537740558385849
+central bank,europol,2,1,0.5100060999393463
+central bank,exxon,2,1,0.49097050726413727
+central bank,facebook,2,1,0.55836021900177
+central bank,foundation,2,1,0.4905354231595993
+central bank,gdp,2,1,0.4823174774646759
+central bank,german lender,2,1,0.7502838969230652
+central bank,goldwyn,2,1,0.6584994792938232
+central bank,gsib,2,1,0.7817323505878448
+central bank,hatzius,2,1,0.5886668860912323
+central bank,hezbollah,2,1,0.5174595862627029
+central bank,honda,2,1,0.5317008197307587
+central bank,hong kong central bank,2,1,0.8595913648605347
+central bank,hong kong monetary authority,2,1,0.8850332200527191
+central bank,imf world bank,2,1,0.893535852432251
+central bank,indusind,2,1,0.7633889615535736
+central bank,jpm,2,1,0.6826591193675995
+central bank,kakhovka dam,2,1,0.6287218630313873
+central bank,kingdom finance ministry,2,1,0.7812862694263458
+central bank,lagarde,2,1,0.5737158358097076
+central bank,leumi,2,1,0.7938657104969025
+central bank,liberty justice center,2,1,0.6581243872642517
+central bank,marsh,2,1,0.5108981430530548
+central bank,msci,2,1,0.6442908942699432
+central bank,music bank,2,1,0.6214378178119659
+central bank,nabiullina,2,1,0.689199298620224
+central bank,new development bank,2,1,0.6531039476394653
+central bank,nio,2,1,0.5848541259765625
+central bank,opis,2,1,0.5949104428291321
+central bank,oura,2,1,0.7949866652488708
+central bank,parliament,2,1,0.49979907274246216
+central bank,payton,2,1,0.591143012046814
+central bank,prc,2,1,0.7382447421550751
+central bank,private bank,2,1,0.6215160191059113
+central bank,rand corporation,2,1,0.5293800830841064
+central bank,reddy,2,1,0.6378630846738815
+central bank,repsol eni,2,1,0.5551171004772186
+central bank,reserve bank australia,2,1,0.7332475483417511
+central bank,santander,2,1,0.600469782948494
+central bank,sheffield,2,1,0.5646068155765533
+central bank,shinhan bank,2,1,0.8192738592624664
+central bank,sovereign wealth funds,2,1,0.8585421741008759
+central bank,start nation central,2,1,0.8577240407466888
+central bank,strategic bitcoin reserve,2,1,0.6999756395816803
+central bank,szabo,2,1,0.61693274974823
+central bank,tax foundation,2,1,0.5791295766830444
+central bank,teneo,2,1,0.7467247545719147
+central bank,transkapitalbank,2,1,0.7825964391231537
+central bank,trident trust,2,1,0.6931441724300385
+central bank,u.s forces,2,1,0.661622166633606
+central bank,u.s top court,2,1,0.6588634848594666
+central bank,u.s treasury department,2,1,0.6200913786888123
+central bank,u.s treasurys,2,1,0.5631622076034546
+central bank,unilever,2,1,0.48303399980068207
+central bank,usmca,2,1,0.6715405583381653
+central bank,van eck,2,1,0.48442861437797546
+central bank,vda,2,1,0.5243742763996124
+central bank,verdence capital,2,1,0.5154286772012711
+central bank,veritex,2,1,0.6400320827960968
+central bank,vigna,2,1,0.6433993875980377
+central bank,xi,2,1,0.5857415497303009
+central bank,yaron central bank,2,1,0.8102391958236694
+central bank,zabka,2,1,0.909807562828064
+central bank,zicasso,2,1,0.55225670337677
+central bank,zillow,2,1,0.8218121230602264
+country,150 countries,2,1,0.5485317409038544
+country,abercrombie,2,1,0.7837227284908295
+country,agriculture,2,1,0.5352261066436768
+country,air canada,2,1,0.6991373598575592
+country,al amine,2,1,0.503973662853241
+country,al ghais,2,1,0.60345858335495
+country,al thani,2,1,0.7060652077198029
+country,aleppo syria,2,1,0.906376838684082
+country,amd,2,1,0.6414564549922943
+country,amsterdam,2,1,0.843203604221344
+country,anc,2,1,0.6038093864917755
+country,andalusia,2,1,0.9193608462810516
+country,apec,2,1,0.5811094045639038
+country,arakhamia,2,1,0.600383847951889
+country,arbid,2,1,0.5287346690893173
+country,argus,2,1,0.9364461600780487
+country,artemovsk,2,1,0.5519484132528305
+country,asia india,2,1,0.8685062229633331
+country,asia oceania,2,1,0.8486077785491943
+country,asian african countries,2,1,0.6654033660888672
+country,aug countries,2,1,0.5809693932533264
+country,az canel,2,1,0.6811420917510986
+country,azeri,2,1,0.6622598767280579
+country,bad country,2,1,0.8397011756896973
+country,bahrain canada,2,1,0.9258667230606079
+country,bahrain united arab emirates,2,1,0.9422633945941925
+country,baku tbilisi,2,1,0.6175134181976318
+country,baocheng,2,1,0.47832152247428894
+country,beijing taipei,2,1,0.9066265523433685
+country,belgian capital,2,1,0.782469242811203
+country,belgium u.s,2,1,0.8590983152389526
+country,besieged nation,2,1,0.9233363568782806
+country,big ocean states,2,1,0.6392434239387512
+country,black sea,2,1,0.48542073369026184
+country,branson,2,1,0.5183868706226349
+country,brics nations,2,1,0.8091479539871216
+country,britons,2,1,0.6883804500102997
+country,caledonia,2,1,0.5835696458816528
+country,cannes,2,1,0.8047361671924591
+country,cbr,2,1,0.47469930350780487
+country,central asian nations,2,1,0.519465833902359
+country,chechen capital,2,1,0.8430772721767426
+country,china economy,2,1,0.9343604147434235
+country,china eu,2,1,0.7697420120239258
+country,china sea,2,1,0.5754520297050476
+country,china south africa,2,1,0.8768805265426636
+country,china turkey,2,1,0.9749144613742828
+country,china u.k,2,1,0.7865151166915894
+country,city state,2,1,0.6321398317813873
+country,closer home,2,1,0.5771223604679108
+country,communist run island nation,2,1,0.7887866199016571
+country,conakry,2,1,0.7270404398441315
+country,continental,2,1,0.6672661900520325
+country,countries around world,2,1,0.510319396853447
+country,country u.s,2,1,0.684055894613266
+country,covid 19,2,1,0.5191681385040283
+country,cuba country,2,1,0.9764951467514038
+country,cuba haiti nicaragua,2,1,0.5601527094841003
+country,cuba iran,2,1,0.8943685293197632
+country,cuban,2,1,0.550952136516571
+country,dakota,2,1,0.6804586946964264
+country,damodaran,2,1,0.6492098569869995
+country,danube,2,1,0.947711318731308
+country,darfur,2,1,0.8471333384513855
+country,de moraes,2,1,0.48940278589725494
+country,demark,2,1,0.777559369802475
+country,devon,2,1,0.8487724959850311
+country,doha qatar,2,1,0.7998842597007751
+country,donetsk region,2,1,0.5311602503061295
+country,duquesne,2,1,0.6725239455699921
+country,essex,2,1,0.6124429106712341
+country,estonia slovakia,2,1,0.7403288185596466
+country,eu canada,2,1,0.879761666059494
+country,eu nation,2,1,0.8324503898620605
+country,european markets,2,1,0.5553456246852875
+country,eurovision,2,1,0.4801791161298752
+country,every big country,2,1,0.8389718532562256
+country,fatah,2,1,0.7955285906791687
+country,foreign office,2,1,0.4806308001279831
+country,francine,2,1,0.5334832072257996
+country,frangou,2,1,0.5522701442241669
+country,fujian,2,1,0.948291152715683
+country,gambia kuwait,2,1,0.5557538568973541
+country,gaza city,2,1,0.5015300214290619
+country,gcc,2,1,0.550374299287796
+country,georgian capital tbilisi,2,1,0.8379146754741669
+country,germany poland,2,1,0.9365903437137604
+country,google,2,1,0.5430472791194916
+country,great lakes,2,1,0.5217770934104919
+country,guayaquil,2,1,0.688606321811676
+country,gulf aden,2,1,0.6190536618232727
+country,hangzhou,2,1,0.7297064960002899
+country,harbison,2,1,0.7281291484832764
+country,hathaway,2,1,0.6621997356414795
+country,hidalgo,2,1,0.7204836308956146
+country,hillery,2,1,0.632791131734848
+country,home,2,1,0.5958205461502075
+country,indian rice,2,1,0.5820813775062561
+country,iowa,2,1,0.7299073338508606
+country,ipo,2,1,0.6180977821350098
+country,iraq kazakhstan,2,1,0.973133385181427
+country,jmic,2,1,0.5427982211112976
+country,johannesen,2,1,0.8245207667350769
+country,juhl,2,1,0.5664336383342743
+country,kausikan,2,1,0.6321350634098053
+country,key countries,2,1,0.8174048662185669
+country,kkr,2,1,0.5455123484134674
+country,knesset country,2,1,0.6743032932281494
+country,kostyantynivka,2,1,0.6616127490997314
+country,kraken,2,1,0.7349877953529358
+country,kuril islands,2,1,0.4986528754234314
+country,kuwait iraq,2,1,0.8724194169044495
+country,kyiv kharkiv,2,1,0.65720996260643
+country,la ni,2,1,0.8997055292129517
+country,laj,2,1,0.572991132736206
+country,laredo texas,2,1,0.7469054460525513
+country,latvia estonia,2,1,0.8296445608139038
+country,lipetsk,2,1,0.49414093792438507
+country,lithuania latvia poland,2,1,0.8060605227947235
+country,lithuanian,2,1,0.6833667755126953
+country,low lying country,2,1,0.6438722014427185
+country,maduro government,2,1,0.5923807322978973
+country,make uk,2,1,0.5535892695188522
+country,malhi,2,1,0.8622882068157196
+country,mankind,2,1,0.5642194747924805
+country,many asian countries,2,1,0.5315776765346527
+country,many asian economies,2,1,0.6789376437664032
+country,many nations,2,1,0.7734852433204651
+country,marin,2,1,0.885945588350296
+country,market,2,1,0.5103104710578918
+country,mashhad,2,1,0.7024424076080322
+country,matagorda,2,1,0.6705611050128937
+country,mcmillon,2,1,0.6670918464660645
+country,member nations,2,1,0.5288345813751221
+country,merck,2,1,0.9829771518707275
+country,merriman,2,1,0.5130319446325302
+country,mexico city,2,1,0.6542999744415283
+country,middle east governments,2,1,0.4717901200056076
+country,moldova romania,2,1,0.7532748579978943
+country,moldovan,2,1,0.5883342176675797
+country,montenegro serbia,2,1,0.8917636871337891
+country,moscow washington,2,1,0.8056057989597321
+country,moscow west,2,1,0.8735953867435455
+country,motherland,2,1,0.6787149608135223
+country,mousavian,2,1,0.7043225169181824
+country,my country,2,1,0.7218035161495209
+country,nato states,2,1,0.7414144277572632
+country,nigerien,2,1,0.6187486350536346
+country,nordic nation,2,1,0.5968257188796997
+country,north african countries,2,1,0.8512542545795441
+country,north america europe,2,1,0.8189147412776947
+country,north american country,2,1,0.5395064651966095
+country,northern macedonia,2,1,0.7557107210159302
+country,oil exporting countries,2,1,0.49220530688762665
+country,oman qatar,2,1,0.5782594084739685
+country,omani,2,1,0.5547373592853546
+country,one u.k,2,1,0.4790363162755966
+country,pacific island nation,2,1,0.8556548953056335
+country,paris frankfurt,2,1,0.8940547108650208
+country,part india,2,1,0.707299143075943
+country,peaceful country,2,1,0.7201870679855347
+country,permian,2,1,0.7971186637878418
+country,phuket,2,1,0.8703039586544037
+country,pivdennoukrainsk,2,1,0.6405449211597443
+country,pivotal future country,2,1,0.7000556886196136
+country,pla,2,1,0.5123822093009949
+country,poland ukraine,2,1,0.980884313583374
+country,port virginia,2,1,0.7249529361724854
+country,precious metals,2,1,0.6272012889385223
+country,pridnestrovie,2,1,0.8826520442962646
+country,pvh,2,1,0.5775007754564285
+country,qing dynasty,2,1,0.596664309501648
+country,quran,2,1,0.630039393901825
+country,reclusive state,2,1,0.5352269113063812
+country,red sea,2,1,0.5843212008476257
+country,rogue states,2,1,0.5847890675067902
+country,rosaviatsia,2,1,0.7613372206687927
+country,russia west,2,1,0.8552578985691071
+country,russian army,2,1,0.5581388771533966
+country,russian carriers,2,1,0.5313141644001007
+country,russian petroleum,2,1,0.5726103186607361
+country,russian republics,2,1,0.4978168159723282
+country,rwandan,2,1,0.7497414350509644
+country,ryazan region,2,1,0.4939756989479065
+country,sahdev,2,1,0.8487810492515564
+country,sahel states,2,1,0.8661810159683228
+country,salm,2,1,0.48271429538726807
+country,saskatchewan,2,1,0.605554610490799
+country,saudi government,2,1,0.7819973230361938
+country,saudi iran,2,1,0.9233031272888184
+country,saudi u.s,2,1,0.648779034614563
+country,scandinavian countries,2,1,0.5027577131986618
+country,senegal mauritania,2,1,0.8794867694377899
+country,seoul beijing,2,1,0.828282356262207
+country,serbia kosovo,2,1,0.9774801433086395
+country,sevastapol,2,1,0.7978862822055817
+country,shel,2,1,0.8935470283031464
+country,slovyansk,2,1,0.626672625541687
+country,small island democracy,2,1,0.8672890067100525
+country,smyrna,2,1,0.6878684461116791
+country,south east country,2,1,0.5457101315259933
+country,southwest turkey,2,1,0.9002530574798584
+country,spain argentina,2,1,0.9819509088993073
+country,starmer,2,1,0.6175411939620972
+country,state qatar,2,1,0.9734753370285034
+country,stavridis,2,1,0.6374528408050537
+country,steel,2,1,0.47225917875766754
+country,strait,2,1,0.4932911545038223
+country,strait hormuz u.s,2,1,0.6282023787498474
+country,superpower,2,1,0.663224071264267
+country,swiss francs,2,1,0.5929822623729706
+country,taiwanese government,2,1,0.571221336722374
+country,tedeschi,2,1,0.5253373980522156
+country,tehran depend country,2,1,0.7450880408287048
+country,tehran washington,2,1,0.498839795589447
+country,tesla europe,2,1,0.9213361144065857
+country,teslas,2,1,0.7218603789806366
+country,three west african countries,2,1,0.6010155975818634
+country,tren de aragua,2,1,0.6714617908000946
+country,u.k country,2,1,0.6566137373447418
+country,u.k economy,2,1,0.6510466039180756
+country,u.k market,2,1,0.6787542700767517
+country,u.s army,2,1,0.715918630361557
+country,u.s countries,2,1,0.9414332509040833
+country,u.s goods,2,1,0.6120170652866364
+country,u.s oil,2,1,0.5404094904661179
+country,u.s uk,2,1,0.9399479925632477
+country,u.s well,2,1,0.7771337032318115
+country,ukraine fedorov,2,1,0.9490333497524261
+country,ukraineinvest,2,1,0.7066594958305359
+country,ukrainian army,2,1,0.5753834545612335
+country,ukrainian border,2,1,0.5762335956096649
+country,uss,2,1,0.6363052427768707
+country,vanderburg,2,1,0.71467325091362
+country,vietnam cambodia,2,1,0.9635288715362549
+country,vietnam malaysia,2,1,0.9191622138023376
+country,voznesensk,2,1,0.7700104415416718
+country,wake u.s,2,1,0.6596789658069611
+country,war torn countries,2,1,0.7547992765903473
+country,war torn country,2,1,0.6349948644638062
+country,war torn nation,2,1,0.7129102647304535
+country,washington d.c,2,1,0.4977598488330841
+country,west african country,2,1,0.9537425637245178
+country,west african states,2,1,0.7122845649719238
+country,west point,2,1,0.529664158821106
+country,western australia,2,1,0.7649823129177094
+country,wisconsin,2,1,0.7015810310840607
+country,world largest oil producer nations,2,1,0.6784842908382416
+country,xiaomi,2,1,0.714272677898407
+country,yaroslavl region,2,1,0.6504137217998505
+country,yuzhny pivdennyi,2,1,0.4723765403032303
+country,zelenska,2,1,0.4855620115995407
+country,zourabichvili,2,1,0.7885390222072601
+economic event,Energy and commodity event | Fiscal policy,2,1,0.4961984157562256
+economic event,Inflation and prices | Economic sanctions | Sovereign debt event,2,1,0.7363911867141724
+economic event,Inflation and prices | Economic sanctions | Trade restrictions and tariffs | Economic growth and recession,2,1,0.49715112149715424
+economic event,Monetary policy | Inflation and prices | Economic sanctions | Currency and exchange-rate event,2,1,0.5940021574497223
+economic event,Monetary policy | Inflation and prices | Trade restrictions and tariffs | Economic growth and recession,2,1,0.7169232964515686
+economic event,Sovereign debt event | Energy and commodity event,2,1,0.5690470635890961
+central bank,191 nation fund,1,1,0.6446062922477722
+central bank,aapc,1,1,0.5339624285697937
+central bank,abu dhabi commercial bank,1,1,0.5914238691329956
+central bank,aci,1,1,0.4687345325946808
+central bank,adam,1,1,0.5201811790466309
+central bank,agency,1,1,0.5150296092033386
+central bank,alps,1,1,0.48302486538887024
+central bank,als international monetary fund,1,1,0.7478983998298645
+central bank,american financial system,1,1,0.6081867814064026
+central bank,amundi institute,1,1,0.7634803056716919
+central bank,andrea orcel,1,1,0.5258551239967346
+central bank,anthropic,1,1,0.4769921898841858
+central bank,anz bank,1,1,0.638961911201477
+central bank,apac,1,1,0.5784752368927002
+central bank,apple bank america,1,1,0.498643159866333
+central bank,arizona,1,1,0.7383120656013489
+central bank,asx,1,1,0.6140221357345581
+central bank,august investment bank,1,1,0.711317241191864
+central bank,austrian retail bank,1,1,0.4987336993217468
+central bank,axis bank,1,1,0.9651763439178467
+central bank,bank england,1,1,0.8564718961715698
+central bank,banking union,1,1,0.5319393277168274
+central bank,banks,1,1,0.4531298577785492
+central bank,beijing commerce ministry,1,1,0.620352029800415
+central bank,beijing government,1,1,0.7234489917755127
+central bank,bernstein,1,1,0.5205504298210144
+central bank,bgl,1,1,0.4620247483253479
+central bank,biden,1,1,0.4636075794696808
+central bank,biden xi,1,1,0.6775491237640381
+central bank,big banks,1,1,0.6348497867584229
+central bank,bitbank,1,1,0.6119790077209473
+central bank,black sea bank,1,1,0.7557282447814941
+central bank,blackrock bank america,1,1,0.5317431092262268
+central bank,bmi,1,1,0.5317494869232178
+central bank,bnp,1,1,0.4964364171028137
+central bank,bnp paribas,1,1,0.5053902864456177
+central bank,bofa,1,1,0.5112937688827515
+central bank,boj policy board,1,1,0.5887551307678223
+central bank,bowman,1,1,0.47569823265075684
+central bank,brent bank,1,1,0.7662881016731262
+central bank,brics bank,1,1,0.7821605205535889
+central bank,british bank lloyds,1,1,0.4521836042404175
+central bank,british government,1,1,0.4647274911403656
+central bank,british lender nationwide,1,1,0.5083613395690918
+central bank,brussels international monetary fund,1,1,0.7002500295639038
+central bank,brussels washington,1,1,0.5039262771606445
+central bank,bseisu,1,1,0.5459772348403931
+central bank,budget reserve bank,1,1,0.7419192790985107
+central bank,bundesbank,1,1,0.7227171063423157
+central bank,capital one,1,1,0.64547199010849
+central bank,caracas,1,1,0.4536617696285248
+central bank,cato institute,1,1,0.524794340133667
+central bank,certain central bank,1,1,0.7231497764587402
+central bank,chin milken institute,1,1,0.489370733499527
+central bank,china banking regulator,1,1,0.697191596031189
+central bank,chinese central government,1,1,0.4790608286857605
+central bank,chinese state policy banks,1,1,0.4722083806991577
+central bank,cme central bank,1,1,0.8734714984893799
+central bank,commerce ministry,1,1,0.49477913975715637
+central bank,commercial bank,1,1,0.6353654265403748
+central bank,commonwealth bank australia,1,1,0.47137439250946045
+central bank,conservatives,1,1,0.4611114263534546
+central bank,cramer,1,1,0.5363097786903381
+central bank,cross river bank,1,1,0.5044592618942261
+central bank,crossing central bank,1,1,0.7497355937957764
+central bank,ctas,1,1,0.49357935786247253
+central bank,cuba leadership,1,1,0.4636090099811554
+central bank,dallas fed,1,1,0.4535493850708008
+central bank,damodaran,1,1,0.6880639791488647
+central bank,databank,1,1,0.6512691974639893
+central bank,dbs banks,1,1,0.6132254004478455
+central bank,department energy,1,1,0.639611005783081
+central bank,development bank,1,1,0.49049657583236694
+central bank,digital tinkoff bank,1,1,0.603652834892273
+central bank,doge,1,1,0.4576667249202728
+central bank,dpp,1,1,0.511167585849762
+central bank,east bank dnieper,1,1,0.6937229037284851
+central bank,eastern bank,1,1,0.48134028911590576
+central bank,eastern bank dnieper,1,1,0.6198065280914307
+central bank,ebitda,1,1,0.6531862020492554
+central bank,ecb bank,1,1,0.6702908277511597
+central bank,efg,1,1,0.6926180124282837
+central bank,egyptian bank,1,1,0.5256369709968567
+central bank,eib,1,1,0.6120685935020447
+central bank,emea mizuho bank,1,1,0.8495128154754639
+central bank,emerging market central banks,1,1,0.6936430335044861
+central bank,energy information administration,1,1,0.4799736440181732
+central bank,engie,1,1,0.5538977384567261
+central bank,etoro,1,1,0.5896996855735779
+central bank,eu reuters,1,1,0.5117164850234985
+central bank,eua,1,1,0.6490776538848877
+central bank,eurogroup,1,1,0.46363165974617004
+central bank,europe regional central banks,1,1,0.5163896083831787
+central bank,european bank,1,1,0.4889534115791321
+central bank,european central bank fed,1,1,0.5928241014480591
+central bank,european travel commission,1,1,0.5123294591903687
+central bank,eutelsat,1,1,0.6489177942276001
+central bank,every major central bank,1,1,0.8165758848190308
+central bank,ezon,1,1,0.48362889885902405
+central bank,fargo securities,1,1,0.4662013053894043
+central bank,fed central bank,1,1,0.8485239744186401
+central bank,federal,1,1,0.4537506401538849
+central bank,federal appeals court,1,1,0.5948352217674255
+central bank,federal reserve board,1,1,0.747427761554718
+central bank,federal reserve central banks,1,1,0.6479375958442688
+central bank,federal reserve chair,1,1,0.48105213046073914
+central bank,federal reserves,1,1,0.5455461144447327
+central bank,federal statistical office,1,1,0.5082108378410339
+central bank,fedex,1,1,0.6064654588699341
+central bank,fesa,1,1,0.6928149461746216
+central bank,fincen,1,1,0.5245395302772522
+central bank,first major central bank,1,1,0.6587154269218445
+central bank,first republic bank,1,1,0.8088913559913635
+central bank,former european central bank,1,1,0.6031309962272644
+central bank,french lender,1,1,0.5220025181770325
+central bank,fsb,1,1,0.6575833559036255
+central bank,g7 central bank,1,1,0.8156503438949585
+central bank,g7 peers,1,1,0.4682253301143646
+central bank,gazprom neft,1,1,0.5371505618095398
+central bank,german central bank,1,1,0.7949208617210388
+central bank,german state owned bank,1,1,0.48964443802833557
+central bank,german statistics office,1,1,0.5204569697380066
+central bank,global central bank,1,1,0.7435626983642578
+central bank,global central bankers,1,1,0.6396225094795227
+central bank,global energy watchdog,1,1,0.6394743323326111
+central bank,global monetary authorities,1,1,0.5050695538520813
+central bank,global research bank,1,1,0.5954416990280151
+central bank,governments,1,1,0.4510951042175293
+central bank,greenspan,1,1,0.5631877779960632
+central bank,h2 investment bank,1,1,0.47942912578582764
+central bank,hfr,1,1,0.6576026082038879
+central bank,high court,1,1,0.6057701706886292
+central bank,holt boutique energy bank,1,1,0.5314757227897644
+central bank,htx,1,1,0.6104850769042969
+central bank,huntington bancshares,1,1,0.45551225543022156
+central bank,iaea,1,1,0.5110451579093933
+central bank,icbc,1,1,0.5607858896255493
+central bank,icbc standard bank,1,1,0.6836419105529785
+central bank,icici securities,1,1,0.5706007480621338
+central bank,ida21,1,1,0.6712139844894409
+central bank,ihs markit,1,1,0.6050058603286743
+central bank,indusind bank,1,1,0.5731424689292908
+central bank,intc,1,1,0.5068733096122742
+central bank,international central banks,1,1,0.7741920948028564
+central bank,international energy authority,1,1,0.604428231716156
+central bank,international justice,1,1,0.5392079949378967
+central bank,interpol,1,1,0.5454773306846619
+central bank,irgc,1,1,0.5232211351394653
+central bank,ivp,1,1,0.5423530340194702
+central bank,jacobsen,1,1,0.4683558940887451
+central bank,japan bank,1,1,0.607797384262085
+central bank,japanese bank,1,1,0.5020665526390076
+central bank,jefferson central bank,1,1,0.9414381980895996
+central bank,jerome powell central bank,1,1,0.6621077656745911
+central bank,jibun bank,1,1,0.9165453314781189
+central bank,jin bank,1,1,0.6928741335868835
+central bank,joe biden administration,1,1,0.7283080816268921
+central bank,johnson controls,1,1,0.619723379611969
+central bank,key bank,1,1,0.6512887477874756
+central bank,keystone xl,1,1,0.4619303047657013
+central bank,kfw,1,1,0.7408008575439453
+central bank,kherson region,1,1,0.5263597369194031
+central bank,kirkland capital,1,1,0.4755721688270569
+central bank,knot ecb,1,1,0.6965333819389343
+central bank,kpc,1,1,0.5531152486801147
+central bank,kremlin banks,1,1,0.4964949488639831
+central bank,ksc,1,1,0.6126232743263245
+central bank,lamborghini,1,1,0.4866257309913635
+central bank,large state owned commercial banks,1,1,0.5073201656341553
+central bank,latest bank,1,1,0.5651918649673462
+central bank,left central bank,1,1,0.9014101028442383
+central bank,leumi bank,1,1,0.6256788969039917
+central bank,libyan central bank,1,1,0.839175820350647
+central bank,lithuanian central bank,1,1,0.656288206577301
+central bank,lseg bank,1,1,0.4683598577976227
+central bank,lseg u.s,1,1,0.7312336564064026
+central bank,maduro regime,1,1,0.4879341125488281
+central bank,maersk,1,1,0.7259044051170349
+central bank,main focus central bank,1,1,0.5541850328445435
+central bank,malhotra,1,1,0.4505669176578522
+central bank,malone bank,1,1,0.8670402765274048
+central bank,march bank,1,1,0.8420354127883911
+central bank,march country central bank,1,1,0.5667328238487244
+central bank,march fed,1,1,0.679456889629364
+central bank,may trump,1,1,0.4683374762535095
+central bank,meadows,1,1,0.47033634781837463
+central bank,merck,1,1,0.5043879747390747
+central bank,middle east central bank,1,1,0.4978441298007965
+central bank,minneapolis fed,1,1,0.6599607467651367
+central bank,minneapolis federal reserve,1,1,0.5085539817810059
+central bank,mobius,1,1,0.4856495857238769
+central bank,moldova parliament,1,1,0.5579760670661926
+central bank,monetary policy makers,1,1,0.4670029580593109
+central bank,monetary policymakers,1,1,0.5438534617424011
+central bank,monetary union,1,1,0.4597480893135071
+central bank,monsanto,1,1,0.6012817025184631
+central bank,moscow central bank,1,1,0.9681528806686401
+central bank,multilateral bank,1,1,0.7481096386909485
+central bank,national australia bank,1,1,0.6246898174285889
+central bank,national bank australia,1,1,0.6182470321655273
+central bank,national economic council,1,1,0.6238969564437866
+central bank,national petroleum reserve,1,1,0.500108003616333
+central bank,national security bank,1,1,0.6549659967422485
+central bank,nctc,1,1,0.5250971913337708
+central bank,neeq securities regulator,1,1,0.4854143261909485
+central bank,new central bank,1,1,0.6413824558258057
+central bank,new fed,1,1,0.9099888801574707
+central bank,new york based bank,1,1,0.6462814807891846
+central bank,new york federal reserve bank,1,1,0.8033800721168518
+central bank,nextgenerationeu,1,1,0.5658769607543945
+central bank,nielsen,1,1,0.47807902097702026
+central bank,nikkei,1,1,0.6533130407333374
+central bank,nopec,1,1,0.4511999189853668
+central bank,nordex,1,1,0.5532577037811279
+central bank,norman,1,1,0.579675555229187
+central bank,noted bank,1,1,0.48061713576316833
+central bank,npc,1,1,0.6212093830108643
+central bank,nrf,1,1,0.5127118825912476
+central bank,nsr,1,1,0.5106257796287537
+central bank,oanda,1,1,0.5830607414245605
+central bank,oecd central banks,1,1,0.5039563775062561
+central bank,oman u.s central command,1,1,0.6201594471931458
+central bank,opec al ghais,1,1,0.49500972032546997
+central bank,opec allies,1,1,0.5224379897117615
+central bank,opec secretariat,1,1,0.5280892252922058
+central bank,opm,1,1,0.476396769285202
+central bank,orec,1,1,0.7573876976966858
+central bank,orlen,1,1,0.8173962235450745
+central bank,otp bank,1,1,0.5095110535621643
+central bank,oxford economics,1,1,0.6007651090621948
+central bank,paribas,1,1,0.4799717366695404
+central bank,pave bank,1,1,0.46153244376182556
+central bank,philips,1,1,0.6466144323348999
+central bank,philly shipyards,1,1,0.5453020930290222
+central bank,pimco,1,1,0.6866719126701355
+central bank,pmi,1,1,0.4687062501907348
+central bank,polish central bank,1,1,0.9328473210334778
+central bank,pols,1,1,0.5394507050514221
+central bank,portuguese central bank,1,1,0.586219310760498
+central bank,power banks,1,1,0.4922237992286682
+central bank,presidential administration,1,1,0.5008274912834167
+central bank,promsvyazbank,1,1,0.7755929231643677
+central bank,psb,1,1,0.4734008312225342
+central bank,qatar central bank,1,1,0.9325636029243469
+central bank,rapidan energy group,1,1,0.4874749183654785
+central bank,raymond cheng bank,1,1,0.7889881730079651
+central bank,rbn,1,1,0.5693894624710083
+central bank,regulators,1,1,0.5088492035865784
+central bank,reliance industries,1,1,0.5629231929779053
+central bank,rivian,1,1,0.5058005452156067
+central bank,rivian banking,1,1,0.593065083026886
+central bank,rossiya bank,1,1,0.7992562651634216
+central bank,russian digital bank,1,1,0.7029708027839661
+central bank,russian energy ministry,1,1,0.60125333070755
+central bank,rystad energy,1,1,0.5255144834518433
+central bank,sachs,1,1,0.4644724726676941
+central bank,saudi national bank,1,1,0.844954252243042
+central bank,saxo,1,1,0.5913134217262268
+central bank,sberbank vtb,1,1,0.4843276441097259
+central bank,seb,1,1,0.5382375717163086
+central bank,secretary state,1,1,0.5233020186424255
+central bank,senate banking committee,1,1,0.5202706456184387
+central bank,senate democrats,1,1,0.48251980543136597
+central bank,sepah bank,1,1,0.5697048902511597
+central bank,singapore bank,1,1,0.5094216465950012
+central bank,sk energy,1,1,0.47414255142211914
+central bank,slok,1,1,0.5567107200622559
+central bank,softbank group corp,1,1,0.5171942710876465
+central bank,srivastava,1,1,0.5998371839523315
+central bank,standard bank,1,1,0.6303263306617737
+central bank,stockholm international peace research institute u.s investment bank,1,1,0.7361029982566833
+central bank,strong central bank,1,1,0.7872467041015625
+central bank,swedish bank seb,1,1,0.6367751955986023
+central bank,swift sanctioned central bank,1,1,0.5639954805374146
+central bank,swiss central bank,1,1,0.9657794833183289
+central bank,swiss government,1,1,0.4914560317993164
+central bank,swiss multinational investment bank,1,1,0.6132388114929199
+central bank,swiss private bank,1,1,0.6460149884223938
+central bank,swiss re,1,1,0.6256941556930542
+central bank,swissquote bank,1,1,0.8192880749702454
+central bank,syz group,1,1,0.5425022840499878
+central bank,taiwanese government,1,1,0.5139482617378235
+central bank,tesco bank,1,1,0.46294859051704407
+central bank,texas bank,1,1,0.6055267453193665
+central bank,third fed,1,1,0.5838144421577454
+central bank,tiktok,1,1,0.4696510434150696
+central bank,trade bank,1,1,0.6453796625137329
+central bank,treasuries,1,1,0.6658967137336731
+central bank,treasury office,1,1,0.5053905248641968
+central bank,treasury ustr,1,1,0.47272300720214844
+central bank,treasurydirect,1,1,0.6413310170173645
+central bank,truist bank,1,1,0.7158528566360474
+central bank,trust safety bank,1,1,0.5258433222770691
+central bank,u.k,1,1,0.542030930519104
+central bank,u.s 10 year treasury,1,1,0.5332745909690857
+central bank,u.s bank,1,1,0.4848085939884186
+central bank,u.s commerce department,1,1,0.6624425053596497
+central bank,u.s court,1,1,0.6335443258285522
+central bank,u.s fed officials,1,1,0.5023708939552307
+central bank,u.s federal reserve officials,1,1,0.5637910962104797
+central bank,u.s investment bank,1,1,0.4919717311859131
+central bank,u.s officials,1,1,0.4888240098953247
+central bank,u.s world bank,1,1,0.7082787156105042
+central bank,ubp,1,1,0.5145576000213623
+central bank,ubs investment bank,1,1,0.6629985570907593
+central bank,ukrainian government,1,1,0.578400731086731
+central bank,united overseas bank,1,1,0.6579719185829163
+central bank,united states,1,1,0.8926993012428284
+central bank,unitedhealth,1,1,0.5669493675231934
+central bank,us banks,1,1,0.6838098168373108
+central bank,us fed,1,1,0.692491888999939
+central bank,us treasury,1,1,0.5909194350242615
+central bank,ustr,1,1,0.4775657057762146
+central bank,verdad capital,1,1,0.5631333589553833
+central bank,vtb sberbank,1,1,0.693268358707428
+central bank,wall street banks,1,1,0.47895747423171997
+central bank,wall street investment bank,1,1,0.8451869487762451
+central bank,war central bank,1,1,0.7826816439628601
+central bank,washington fed,1,1,0.4948326051235199
+central bank,west bank dnipro river,1,1,0.4744499921798706
+central bank,world bank group,1,1,0.5136281847953796
+central bank,world bank records,1,1,0.4715806245803833
+central bank,world central banks,1,1,0.5914450883865356
+central bank,world financial institutions,1,1,0.46655330061912537
+central bank,world financial system,1,1,0.4511970579624176
+central bank,world largest banks,1,1,0.5622392296791077
+central bank,world leading energy watchdog,1,1,0.5585823059082031
+central bank,world platinum investment council,1,1,0.4817562699317932
+central bank,wyoming central bank,1,1,0.8856475949287415
+central bank,xinhua,1,1,0.5091642737388611
+central bank,yale budget lab,1,1,0.5638415813446045
+central bank,yaron,1,1,0.6622305512428284
+central bank,yellen treasury,1,1,0.6453973650932312
+central bank,yemen according u.s central command,1,1,0.5048639178276062
+central bank,yeti,1,1,0.572218656539917
+central bank,your bank,1,1,0.4509696960449219
+central bank,yu weining,1,1,0.618144690990448
+central bank,zahidi,1,1,0.5351598858833313
+central bank,zurich insurance,1,1,0.5996542572975159
+country,140 countries,1,1,0.4992702007293701
+country,160 countries,1,1,0.45069342851638794
+country,164 countries,1,1,0.6317316293716431
+country,20 countries,1,1,0.5490517616271973
+country,30 nations,1,1,0.6940559148788452
+country,500 u.s,1,1,0.4694952070713043
+country,60 economies,1,1,0.5642249584197998
+country,Turkey,1,1,0.7946007251739502
+country,aasland,1,1,0.8081088662147522
+country,abdulaziz,1,1,0.5577579736709595
+country,abkhazia,1,1,0.6956606507301331
+country,abusing country,1,1,0.5115091800689697
+country,adipec,1,1,0.5922337770462036
+country,administration countries,1,1,0.45141637325286865
+country,afghan,1,1,0.4564244151115417
+country,afghan army,1,1,0.487904816865921
+country,afghan women girls wake u.s,1,1,0.5203930735588074
+country,aggressor nation,1,1,0.5873303413391113
+country,ahvaz,1,1,0.7999951243400574
+country,al aqsa,1,1,0.5677149891853333
+country,al jadaan,1,1,0.4718707203865051
+country,al qaeda,1,1,0.6772525906562805
+country,alaska nation,1,1,0.6407551765441895
+country,alaska putin,1,1,0.48612093925476074
+country,albania kosovo,1,1,0.8769010305404663
+country,algeria iraq,1,1,0.9078093767166138
+country,algerian,1,1,0.6073487997055054
+country,algerians,1,1,0.6871318221092224
+country,algiers,1,1,0.89418625831604
+country,ali khamenei,1,1,0.545933187007904
+country,ali u.s,1,1,0.4602321982383728
+country,alpine country,1,1,0.47329679131507874
+country,alps,1,1,0.6322713494300842
+country,america china,1,1,0.4988592267036438
+country,american people,1,1,0.5427594780921936
+country,americares,1,1,0.5459185838699341
+country,anglo,1,1,0.4545978009700775
+country,anglo dutch,1,1,0.6060149669647217
+country,angola nigeria,1,1,0.9565030336380005
+country,ankara riyadh,1,1,0.7432111501693726
+country,antarctica,1,1,0.6736790537834167
+country,apartheid,1,1,0.5662559270858765
+country,arabi,1,1,0.5804305076599121
+country,arabian,1,1,0.6819074153900146
+country,aramco,1,1,0.5620176196098328
+country,arianespace,1,1,0.5416958928108215
+country,army,1,1,0.5865349769592285
+country,aroun,1,1,0.5266607403755188
+country,aroun u.s,1,1,0.6089602708816528
+country,asean china,1,1,0.6330404877662659
+country,asean nations,1,1,0.8065446615219116
+country,asia africa,1,1,0.5757296681404114
+country,asia countries,1,1,0.5506718754768372
+country,asia korea,1,1,0.45198580622673035
+country,asia middle east,1,1,0.7265121340751648
+country,assad regime,1,1,0.5445899963378906
+country,astana,1,1,0.4716718792915344
+country,atlantic,1,1,0.5270918607711792
+country,atlantic america,1,1,0.4753482937812805
+country,aug u.s,1,1,0.8396542072296143
+country,augus,1,1,0.5832277536392212
+country,august countries,1,1,0.4685634970664978
+country,australia asia company india,1,1,0.646418035030365
+country,australian barley,1,1,0.48805248737335205
+country,australian coking coal,1,1,0.5767398476600647
+country,australian dollar,1,1,0.5727261900901794
+country,austrian capital,1,1,0.5359999537467957
+country,avianca,1,1,0.4733648896217346
+country,aviv jerusalem,1,1,0.755675196647644
+country,aviv oreg,1,1,0.609885573387146
+country,ayham kamel,1,1,0.47168391942977905
+country,azarbaijan,1,1,0.8088791370391846
+country,azerbaijan mexico,1,1,0.6627068519592285
+country,bahamas,1,1,0.5325359106063843
+country,bahrain kuwait,1,1,0.9047681093215942
+country,bahrain kuwait oman qatar,1,1,0.9538453221321106
+country,bahrain u.s,1,1,0.608703076839447
+country,bain,1,1,0.6237253546714783
+country,baku,1,1,0.48344990611076355
+country,baltic country,1,1,0.5110025405883789
+country,baltic republic,1,1,0.778921902179718
+country,baltics,1,1,0.4827874600887298
+country,baluchistan,1,1,0.8978961110115051
+country,bananas,1,1,0.4500110447406769
+country,banga,1,1,0.6343561410903931
+country,bank england,1,1,0.7621167302131653
+country,barcelona,1,1,0.5597075819969177
+country,barcelona spain,1,1,0.8677330613136292
+country,bashkortostan,1,1,0.7350325584411621
+country,bavarian,1,1,0.5604079961776733
+country,belaru,1,1,0.9285188317298888
+country,belarus georgia,1,1,0.5021225810050964
+country,belarus kazakhstan,1,1,0.9066929221153259
+country,belarus poland,1,1,0.7306946516036987
+country,belavia,1,1,0.8462186455726624
+country,beleaguered country,1,1,0.6387571692466736
+country,belgians,1,1,0.924583375453949
+country,bellevue washington,1,1,0.5767257213592529
+country,bengaluru,1,1,0.5490508675575256
+country,berenberg,1,1,0.5095545649528503
+country,bhatia,1,1,0.5099990367889404
+country,biden xi,1,1,0.5880831480026245
+country,big asian countries,1,1,0.5283456444740295
+country,bihar uttar pradesh,1,1,0.6003885269165039
+country,bloomberg,1,1,0.6006284952163696
+country,bmi,1,1,0.469150185585022
+country,borders,1,1,0.5977338552474976
+country,bosphorous,1,1,0.9083935022354126
+country,bp,1,1,0.4979117512702942
+country,breadbasket,1,1,0.5153178572654724
+country,bristol myers squibb,1,1,0.48361557722091675
+country,british empire,1,1,0.5815617442131042
+country,british oil,1,1,0.5441051125526428
+country,british throne,1,1,0.4984224438667297
+country,brits,1,1,0.6023309230804443
+country,brunei philippines,1,1,0.7109309434890747
+country,brussels belgium,1,1,0.7924666404724121
+country,brussels orban,1,1,0.5681056976318359
+country,brussels tokyo,1,1,0.588201642036438
+country,bucharest,1,1,0.5456915497779846
+country,budapest hungary,1,1,0.5962998270988464
+country,buenos aires,1,1,0.6183822154998779
+country,burkinabe,1,1,0.8201622366905212
+country,businesses,1,1,0.4714985489845276
+country,cambodian army,1,1,0.4545120894908905
+country,canadian mexican,1,1,0.542576253414154
+country,canadian national,1,1,0.5470502376556396
+country,canadians,1,1,0.6624522805213928
+country,capital,1,1,0.4680083692073822
+country,capitol,1,1,0.4525354504585266
+country,caribbean island,1,1,0.7606425285339355
+country,caribbean island nation,1,1,0.4856370985507965
+country,cartels,1,1,0.45775383710861206
+country,cathay pacific,1,1,0.456571102142334
+country,cee economy,1,1,0.49506136775016785
+country,central asian nation,1,1,0.7345641255378723
+country,cfa,1,1,0.5861539244651794
+country,chad,1,1,0.650809109210968
+country,chagos islands,1,1,0.4619921147823334
+country,changan,1,1,0.7187905311584473
+country,changhua,1,1,0.521955132484436
+country,chevron u.s,1,1,0.6438558101654053
+country,chianti,1,1,0.4736971855163574
+country,china another sign thawing relations china,1,1,0.9908238649368286
+country,china market,1,1,0.5672323107719421
+country,china world,1,1,0.5451958775520325
+country,chinese nation,1,1,0.7947915196418762
+country,chinese soil,1,1,0.6613341569900513
+country,chinese state,1,1,0.6118846535682678
+country,chornobyl,1,1,0.5122100710868835
+country,christmas island,1,1,0.5779675841331482
+country,cia europe,1,1,0.6476621031761169
+country,cit,1,1,0.5585924386978149
+country,climate vulnerable countries,1,1,0.5537066459655762
+country,coal,1,1,0.6774835586547852
+country,coal market,1,1,0.6257694959640503
+country,cocaine,1,1,0.4865303337574005
+country,coffee,1,1,0.480864554643631
+country,cohen,1,1,0.5184677839279175
+country,colorado,1,1,0.5859527587890625
+country,complicated nation,1,1,0.5902627110481262
+country,congo chile,1,1,0.5615071654319763
+country,congo republic,1,1,0.8827780485153198
+country,conocophillips,1,1,0.4526437819004059
+country,continent,1,1,0.9029074311256409
+country,continental united states,1,1,0.5332084894180298
+country,copper country,1,1,0.5553614497184753
+country,cornell,1,1,0.6703843474388123
+country,costa rican,1,1,0.46865114569664
+country,countries putin,1,1,0.5072479844093323
+country,countries u.s,1,1,0.6675923466682434
+country,country right track,1,1,0.4516400098800659
+country,crimean peninsula,1,1,0.5483736395835876
+country,critical country,1,1,0.46425172686576843
+country,croix,1,1,0.7423412799835205
+country,csi,1,1,0.45595890283584595
+country,cub kremlin,1,1,0.5551928877830505
+country,cuba government,1,1,0.4811425507068634
+country,cuban government,1,1,0.5345421433448792
+country,currencies,1,1,0.4650369882583618
+country,current rich countries,1,1,0.6948059797286987
+country,czechia,1,1,0.7499262690544128
+country,dal,1,1,0.6256489157676697
+country,dalio,1,1,0.47876280546188354
+country,damascus sudan,1,1,0.4594830870628357
+country,damascus syria,1,1,0.9886930584907532
+country,damascus syrian,1,1,0.9309989809989929
+country,dammam,1,1,0.7140128016471863
+country,danish economy,1,1,0.5465564727783203
+country,danish territory,1,1,0.6142795085906982
+country,delaware,1,1,0.4732008874416351
+country,dhabi,1,1,0.5292917490005493
+country,dhahra,1,1,0.47122257947921753
+country,different countries,1,1,0.5263098478317261
+country,domestically,1,1,0.47357863187789917
+country,donbas u.s,1,1,0.5126044154167175
+country,donetsk luhansk,1,1,0.6330908536911011
+country,dongyu,1,1,0.4959752559661865
+country,dow,1,1,0.46274715662002563
+country,dozen countries,1,1,0.574263870716095
+country,dozens countries,1,1,0.5494686365127563
+country,durmaz,1,1,0.5103359222412109
+country,dutch government,1,1,0.461879163980484
+country,east africa,1,1,0.4922644793987274
+country,east coast,1,1,0.46023279428482056
+country,east european country,1,1,0.4994156658649444
+country,eastern bloc countries,1,1,0.6743710041046143
+country,eastern country,1,1,0.6883367896080017
+country,eastern democratic republic,1,1,0.7411537766456604
+country,eastern europe u.s,1,1,0.4566653370857239
+country,eastern european,1,1,0.4832793176174164
+country,eastern european country,1,1,0.7883005142211914
+country,eastern european nations,1,1,0.5564172267913818
+country,eastern gulf country,1,1,0.6383362412452698
+country,eastern venezuela,1,1,0.7507150173187256
+country,egm u.k,1,1,0.5274867415428162
+country,eight european countries,1,1,0.46879005432128906
+country,eight nato nations,1,1,0.4618217647075653
+country,eighteen countries,1,1,0.604432225227356
+country,el nino,1,1,0.5832868218421936
+country,emerging market countries,1,1,0.5138587355613708
+country,england wales,1,1,0.572772741317749
+country,english,1,1,0.4884514212608337
+country,equatorial guinea,1,1,0.4543802738189697
+country,equinor,1,1,0.4524475932121277
+country,essequibo,1,1,0.6721943616867065
+country,estonia latvia lithuania,1,1,0.8427528142929077
+country,estonia u.s,1,1,0.667595624923706
+country,eswatini,1,1,0.5262135863304138
+country,ethiop u.s,1,1,0.6832557916641235
+country,ethiopian,1,1,0.4753603339195251
+country,ethiopian government vowed investigate allegations human rights abuses laetitia bader horn africa,1,1,0.4593920409679413
+country,etoro,1,1,0.6630849242210388
+country,eu country,1,1,0.5086773037910461
+country,eu india,1,1,0.9026726484298706
+country,eu oecd countries,1,1,0.47555816173553467
+country,eu u,1,1,0.7000137567520142
+country,eu u.k,1,1,0.5476162433624268
+country,euas,1,1,0.5035231709480286
+country,eugene,1,1,0.5188483595848083
+country,europe central asia,1,1,0.6685926914215088
+country,europe countries,1,1,0.7500616312026978
+country,europe usa,1,1,0.7419990301132202
+country,european allies,1,1,0.519006609916687
+country,european states,1,1,0.4515509307384491
+country,european union countries,1,1,0.5526456832885742
+country,evergrande,1,1,0.4717365503311157
+country,every single country,1,1,0.47471967339515686
+country,evian,1,1,0.5164859294891357
+country,ex russia,1,1,0.4904860258102417
+country,ex soviet states,1,1,0.4578002989292145
+country,falkland islands,1,1,0.7547099590301514
+country,far islamic republic,1,1,0.7270880341529846
+country,fatherland,1,1,0.4553077518939972
+country,faury,1,1,0.7179617881774902
+country,favored nation,1,1,0.5561378002166748
+country,fellow african countries,1,1,0.5535525679588318
+country,fiala,1,1,0.652254045009613
+country,fifth country,1,1,0.5068277716636658
+country,fifth largest economy,1,1,0.4537407457828522
+country,fine china,1,1,0.7391999363899231
+country,finland sweden last week senate voted 95 ratify entrance finland sweden,1,1,0.989701509475708
+country,finland sweden need join nato russia,1,1,0.9732577800750732
+country,finlandization,1,1,0.8507344722747803
+country,first european nation,1,1,0.46102824807167053
+country,first republic,1,1,0.8732230067253113
+country,fitch,1,1,0.4746015965938568
+country,five powers,1,1,0.7191968560218811
+country,fordham,1,1,0.5970094799995422
+country,foreign domestic,1,1,0.6199135184288025
+country,forint,1,1,0.5367684960365295
+country,former yugoslavia,1,1,0.9314020276069641
+country,fossil fuels low lying country,1,1,0.6777887940406799
+country,fourth largest economy,1,1,0.5434697866439819
+country,franc,1,1,0.5635636448860168
+country,free democratic world,1,1,0.4553877115249634
+country,french republic,1,1,0.6433007121086121
+country,french state,1,1,0.5448309779167175
+country,frieden,1,1,0.5478250980377197
+country,fukushima,1,1,0.4642378389835357
+country,galimberti,1,1,0.5669723153114319
+country,gambia,1,1,0.6209567785263062
+country,gaza lebanon,1,1,0.6269301772117615
+country,gaza strip u.s,1,1,0.8274644613265991
+country,gazan,1,1,0.7469592094421387
+country,gentiloni,1,1,0.6611305475234985
+country,georgia armenia kyrgyzstan,1,1,0.7253331542015076
+country,georgians,1,1,0.6665098667144775
+country,german government,1,1,0.6689289212226868
+country,gironde,1,1,0.4837505519390106
+country,global economies,1,1,0.7612219452857971
+country,going nation,1,1,0.5874189734458923
+country,goldman sachs,1,1,0.47611168026924133
+country,gomez,1,1,0.541006863117218
+country,gopinath,1,1,0.45016998052597046
+country,gotland,1,1,0.52707439661026
+country,governments around world,1,1,0.45389437675476074
+country,granholm,1,1,0.4563221335411072
+country,granville,1,1,0.45096057653427124
+country,greater tunb,1,1,0.6665121912956238
+country,greek,1,1,0.6241825819015503
+country,greenlanders,1,1,0.47923675179481506
+country,greenlandic,1,1,0.5436162948608398
+country,gta,1,1,0.5989482998847961
+country,guangxi,1,1,0.5312451124191284
+country,guangxi province,1,1,0.5122740864753723
+country,guangzhou,1,1,0.6190527677536011
+country,gulf arab countries,1,1,0.5085320472717285
+country,gulf guinea,1,1,0.49367788434028625
+country,gulf nation,1,1,0.7034573554992676
+country,gulf state country,1,1,0.6060656309127808
+country,gulf state uae,1,1,0.5515426397323608
+country,gulf u.s,1,1,0.6763632893562317
+country,half nation,1,1,0.5690456628799438
+country,hamas fatah,1,1,0.504141092300415
+country,hamas u.s,1,1,0.6884928941726685
+country,hamedan,1,1,0.7200736999511719
+country,hanwha,1,1,0.4885319769382477
+country,haven leaned country,1,1,0.8013537526130676
+country,hearsch,1,1,0.46204620599746704
+country,heart u.s economy,1,1,0.5871665477752686
+country,helium,1,1,0.5547778010368347
+country,hezbollah lebanon,1,1,0.6046155691146851
+country,high income countries,1,1,0.8767924904823303
+country,historic nordic country,1,1,0.4610970616340637
+country,hiv,1,1,0.53782057762146
+country,hofburg,1,1,0.4821406602859497
+country,hofburg palace,1,1,0.512592613697052
+country,hogan,1,1,0.5903117060661316
+country,hong,1,1,0.6852405071258545
+country,hong u.s,1,1,0.8870570063591003
+country,honolulu hawaii,1,1,0.5321233868598938
+country,horn africa,1,1,0.6169161200523376
+country,hryvnia,1,1,0.8501889109611511
+country,huawei,1,1,0.6893470883369446
+country,hungary slovenia,1,1,0.7650617957115173
+country,iaea,1,1,0.4565073847770691
+country,icc,1,1,0.5666187405586243
+country,ieepa,1,1,0.45556923747062683
+country,illinois,1,1,0.579420804977417
+country,india plus penalty buying military gear energy russia,1,1,0.9072231650352478
+country,indian subcontinent,1,1,0.6191073656082153
+country,individual countries,1,1,0.5997585654258728
+country,indonesia philippines,1,1,0.6980664134025574
+country,indonesians,1,1,0.5250229239463806
+country,international,1,1,0.45995426177978516
+country,invesco,1,1,0.4824945628643036
+country,ippolitova,1,1,0.6018524169921875
+country,iran china,1,1,0.8790501952171326
+country,irania,1,1,0.6523076295852661
+country,iranian oil,1,1,0.7850198745727539
+country,irans,1,1,0.9623425602912903
+country,iscar,1,1,0.8056318759918213
+country,island beijing,1,1,0.6951737999916077
+country,israel democracy,1,1,0.8780122399330139
+country,israel government,1,1,0.5041487812995911
+country,israel iraq,1,1,0.8487322330474854
+country,israel lebanese,1,1,0.8685253858566284
+country,israel uk,1,1,0.7370648384094238
+country,italy united kingdom,1,1,0.9633502960205078
+country,ives,1,1,0.5176573395729065
+country,jan country,1,1,0.5576757788658142
+country,japan canada,1,1,0.8276529908180237
+country,japan economy,1,1,0.8591721653938293
+country,japan eu,1,1,0.7836176156997681
+country,japan india,1,1,0.816408634185791
+country,japan korea,1,1,0.8800855278968811
+country,japan philippines,1,1,0.9122843742370605
+country,japan u.s,1,1,0.6631224751472473
+country,japanese country,1,1,0.582037627696991
+country,japanese territory,1,1,0.6511614322662354
+country,jask,1,1,0.5681855082511902
+country,java,1,1,0.6811969876289368
+country,jewish nation,1,1,0.7974634170532227
+country,jiangsu province,1,1,0.5398950576782227
+country,jilin,1,1,0.6113623380661011
+country,jinping u.s,1,1,0.7539784908294678
+country,jordan countries,1,1,0.48333635926246643
+country,jordan iraq,1,1,0.7419466376304626
+country,jordan kuwait,1,1,0.8195791244506836
+country,jordan u.s,1,1,0.513468861579895
+country,jose venezuela,1,1,0.654808521270752
+country,kahl,1,1,0.46858882904052734
+country,kalshi,1,1,0.4546438753604889
+country,kassym,1,1,0.4961431622505188
+country,katona,1,1,0.49375471472740173
+country,katona countries,1,1,0.46876490116119385
+country,kazakhs,1,1,0.6049532890319824
+country,kharkiv kyiv,1,1,0.488195925951004
+country,kiwi,1,1,0.8006949424743652
+country,koz,1,1,0.8408293724060059
+country,krem washington,1,1,0.6373100876808167
+country,krg,1,1,0.547418475151062
+country,kuhanathan,1,1,0.6826925277709961
+country,kurdish,1,1,0.5315370559692383
+country,kyiv countries,1,1,0.5159797668457031
+country,kyiv europe,1,1,0.492410808801651
+country,kyiv nato,1,1,0.4689423739910126
+country,kyiv soviet union,1,1,0.7760877013206482
+country,kyrgyzstani,1,1,0.49040311574935913
+country,kyslytsya,1,1,0.5438875555992126
+country,la,1,1,0.635981559753418
+country,laos myanmar later day shared letters leaders bosnia herzegovina tunisia indonesia,1,1,0.7856169939041138
+country,largest economy,1,1,0.4864460229873657
+country,latin american nation,1,1,0.5150503516197205
+country,latin american nations,1,1,0.7398413419723511
+country,latvia poland,1,1,0.6280708312988281
+country,lawrence,1,1,0.5381424427032471
+country,least developed nations,1,1,0.4997105598449707
+country,lebanon iran,1,1,0.9404847621917725
+country,lebanon jordan,1,1,0.9217075705528259
+country,lebanon nation,1,1,0.8788423538208008
+country,lebanon tel aviv,1,1,0.6461914777755737
+country,leopold,1,1,0.5067934393882751
+country,less developed nations,1,1,0.6448453664779663
+country,liberia,1,1,0.6875475645065308
+country,libya iraq,1,1,0.8006022572517395
+country,libya u.s,1,1,0.8931179046630859
+country,lisbon,1,1,0.6030060648918152
+country,list u.s,1,1,0.45088475942611694
+country,lithium manganese,1,1,0.5781586766242981
+country,live nation,1,1,0.4812719225883484
+country,liverpool,1,1,0.4880436658859253
+country,london u.k,1,1,0.6531721949577332
+country,lugano,1,1,0.5728495121002197
+country,macadam,1,1,0.5120540857315063
+country,machado country,1,1,0.45051127672195435
+country,madagascar,1,1,0.8479927778244019
+country,madani,1,1,0.5055118799209595
+country,maduro ali,1,1,0.528411865234375
+country,mainland chinese,1,1,0.6673899292945862
+country,mainland u.s,1,1,0.7412322759628296
+country,major countries,1,1,0.5360001921653748
+country,major global economies,1,1,0.5092417597770691
+country,malaria,1,1,0.4931824803352356
+country,malaysia philippines,1,1,0.7531372308731079
+country,malaysia u.s,1,1,0.5962294340133667
+country,mali central african republic,1,1,0.5716566443443298
+country,mali libya,1,1,0.7394004464149475
+country,mali sudan,1,1,0.6988985538482666
+country,malik,1,1,0.5605890154838562
+country,malta jamaica,1,1,0.7308526039123535
+country,maltese,1,1,0.5847386717796326
+country,manufacturing,1,1,0.6064670085906982
+country,manufacturing countries,1,1,0.5111826658248901
+country,many advanced developing countries,1,1,0.5890597105026245
+country,many major economies,1,1,0.46223992109298706
+country,march nations,1,1,0.6460731625556946
+country,marco rubio lula,1,1,0.6255925297737122
+country,marrakech,1,1,0.6343387961387634
+country,maryland,1,1,0.5244637727737427
+country,masdar,1,1,0.4724477231502533
+country,mauritania,1,1,0.6769704818725586
+country,may eu,1,1,0.8414403200149536
+country,may iraq,1,1,0.7849910855293274
+country,may one country,1,1,0.5256169438362122
+country,mcnally,1,1,0.4582810401916504
+country,meenan,1,1,0.5025248527526855
+country,mekelle,1,1,0.5761590003967285
+country,melek,1,1,0.5833637118339539
+country,mercosur countries,1,1,0.5309026837348938
+country,mesaieed,1,1,0.4930570423603058
+country,metaverse,1,1,0.7159894108772278
+country,metsola,1,1,0.795817494392395
+country,mexican peso,1,1,0.7487645745277405
+country,mexico america,1,1,0.5205362439155579
+country,mexico u.s,1,1,0.69586580991745
+country,micronesia,1,1,0.6906434893608093
+country,mid may,1,1,0.6507407426834106
+country,middle east africa,1,1,0.6554279327392578
+country,middle east nation,1,1,0.5640590190887451
+country,middle east north africa,1,1,0.5040030479431152
+country,middle eastern nations,1,1,0.5184017419815063
+country,mideast,1,1,0.5527684092521667
+country,mideast countries,1,1,0.5072343349456787
+country,mideast country,1,1,0.5545089840888977
+country,midland,1,1,0.5973953008651733
+country,modern russia,1,1,0.8277696967124939
+country,moldavian republic,1,1,0.5018962621688843
+country,mongolian,1,1,0.4842368960380554
+country,montana,1,1,0.4695092439651489
+country,montgomery,1,1,0.8192263245582581
+country,moroccan,1,1,0.5407670736312866
+country,morrison,1,1,0.6622956991195679
+country,moscow africa,1,1,0.6529106497764587
+country,moscow putin,1,1,0.46502426266670227
+country,moscow riyadh,1,1,0.6934940814971924
+country,moscow russia,1,1,0.7269646525382996
+country,moscow u.k,1,1,0.795654833316803
+country,mou u.s,1,1,0.468487411737442
+country,munich u.s,1,1,0.8370888233184814
+country,muscat,1,1,0.7286096215248108
+country,musk,1,1,0.6516797542572021
+country,musk country,1,1,0.504127025604248
+country,muslim countries,1,1,0.8354295492172241
+country,myanmar u.s,1,1,0.5191642642021179
+country,mykolaiv,1,1,0.4886954426765442
+country,nation u.s,1,1,0.8183041214942932
+country,national,1,1,0.6867235898971558
+country,nato countries europe,1,1,0.6710601449012756
+country,natural gas,1,1,0.49030518531799316
+country,nauru,1,1,0.6374212503433228
+country,nearly every country,1,1,0.4738149642944336
+country,neighboring country,1,1,0.791225016117096
+country,neutral countries,1,1,0.45469754934310913
+country,new government,1,1,0.5114892721176147
+country,new jersey,1,1,0.47320184111595154
+country,next country,1,1,0.5247166156768799
+country,niamey,1,1,0.6025086641311646
+country,nicaragua,1,1,0.49784886837005615
+country,noaa,1,1,0.460049569606781
+country,non eu u.k u.s,1,1,0.5661481618881226
+country,non opec countries,1,1,0.5308051109313965
+country,non western countries,1,1,0.5356895327568054
+country,north,1,1,0.6793275475502014
+country,north atlantic,1,1,0.48834723234176636
+country,north country,1,1,0.6524391174316406
+country,north eastern france,1,1,0.6353525519371033
+country,north england,1,1,0.49900704622268677
+country,north south america,1,1,0.5705033540725708
+country,north south korea,1,1,0.7196191549301147
+country,northeast country,1,1,0.591468870639801
+country,northern england,1,1,0.6593164801597595
+country,northern hemisphere,1,1,0.628490149974823
+country,northern iraq,1,1,0.4571228325366974
+country,northern tigray region,1,1,0.4955469667911529
+country,northwest england,1,1,0.4712403416633606
+country,norwa u.s,1,1,0.6584240794181824
+country,norway u.k,1,1,0.5952707529067993
+country,norwegian state,1,1,0.7053043842315674
+country,nuclear powers,1,1,0.5441776514053345
+country,numerous countries,1,1,0.5559373497962952
+country,oanda,1,1,0.4649215936660766
+country,occidental,1,1,0.4749086499214172
+country,occupied parts country,1,1,0.5571995377540588
+country,oceania,1,1,0.6178399324417114
+country,oecd member countries,1,1,0.4938991367816925
+country,oil consuming countries,1,1,0.5060258507728577
+country,oil exporting nations,1,1,0.6005151867866516
+country,oklahoma,1,1,0.5334836840629578
+country,oman gulf nation,1,1,0.501358687877655
+country,oman iran,1,1,0.798267662525177
+country,oman nations,1,1,0.7074361443519592
+country,oman u.s,1,1,0.6708292961120605
+country,omicron,1,1,0.4608124792575836
+country,one world,1,1,0.58572918176651
+country,ontario canada,1,1,0.471919447183609
+country,open country,1,1,0.5488320589065552
+country,ortberg,1,1,0.48899081349372864
+country,orysia,1,1,0.5955641269683838
+country,ossetia,1,1,0.4506757855415344
+country,overseas,1,1,0.5227510333061218
+country,p4lestine,1,1,0.5479440689086914
+country,palestinian,1,1,0.4501137435436249
+country,palestinian territories,1,1,0.7151222229003906
+country,paludan,1,1,0.5106407403945923
+country,panamanians,1,1,0.7145068049430847
+country,pangong lake,1,1,0.4667641222476959
+country,pariah country,1,1,0.7015246152877808
+country,part country,1,1,0.46233677864074707
+country,part u.s,1,1,0.5874622464179993
+country,participating countries,1,1,0.4666893184185028
+country,parts u.s,1,1,0.8601981997489929
+country,paypal,1,1,0.49933817982673645
+country,pdvsa,1,1,0.4725104868412018
+country,persian,1,1,0.4719734191894531
+country,persian gulf country,1,1,0.5569091439247131
+country,perth,1,1,0.5467949509620667
+country,peso,1,1,0.5476694703102112
+country,pharmaceuticals nations,1,1,0.535681962966919
+country,philadelphia,1,1,0.5319992899894714
+country,pkk,1,1,0.6952308416366577
+country,planet country,1,1,0.5515918731689453
+country,poland baltic nations,1,1,0.450684130191803
+country,poland belgium,1,1,0.7303391098976135
+country,poland finland,1,1,0.5619961023330688
+country,poland u.k,1,1,0.5221778154373169
+country,polish economy,1,1,0.8003168702125549
+country,populous nation,1,1,0.5788300037384033
+country,port sudan,1,1,0.4950105845928192
+country,post country,1,1,0.6993494033813477
+country,post soviet states,1,1,0.6503185033798218
+country,powerful country,1,1,0.4994443356990814
+country,pray wa,1,1,0.7078249454498291
+country,prince wales,1,1,0.5673482418060303
+country,priyanka,1,1,0.7185204029083252
+country,pro europe,1,1,0.6709313988685608
+country,pro israel,1,1,0.45969414710998535
+country,producer countries,1,1,0.45868855714797974
+country,producing countries,1,1,0.63965904712677
+country,prop country,1,1,0.5088005661964417
+country,puerto rican,1,1,0.5229382514953613
+country,qin u.s,1,1,0.7634414434432983
+country,quebec,1,1,0.7841440439224243
+country,rafah gaza,1,1,0.4567483961582184
+country,raj u.s,1,1,0.5340204834938049
+country,rand,1,1,0.7695292830467224
+country,rasmussen,1,1,0.7340943813323975
+country,re,1,1,0.4606897830963135
+country,red states,1,1,0.4882982671260834
+country,red u.s,1,1,0.7247499823570251
+country,region,1,1,0.4533827006816864
+country,rehn,1,1,0.48710834980010986
+country,reliant u.s,1,1,0.47264376282691956
+country,republic belarus,1,1,0.7450689077377319
+country,returning country,1,1,0.6036523580551147
+country,richer nations,1,1,0.5203070044517517
+country,riyadh kuwait,1,1,0.5100141167640686
+country,rohingya,1,1,0.4961464405059814
+country,rolex,1,1,0.45339512825012207
+country,rouble,1,1,0.5563185214996338
+country,royal dutch,1,1,0.7660156488418579
+country,rus,1,1,0.6249994039535522
+country,rusi,1,1,0.6333916783332825
+country,russ,1,1,0.7250096201896667
+country,russia north korea,1,1,0.9623867869377136
+country,russia u.s,1,1,0.6084279417991638
+country,russian airlines,1,1,0.5211054682731628
+country,russian city st petersburg,1,1,0.45753276348114014
+country,russian energy imports major consuming countries,1,1,0.4563634395599365
+country,russian forces,1,1,0.5244619250297546
+country,russian jets,1,1,0.5293747782707214
+country,russian jets allegedly drones recently creation drone wall europe,1,1,0.9199777245521545
+country,russian national,1,1,0.573337733745575
+country,russian oil continue flow market same time reducing russian,1,1,0.736407995223999
+country,russian origin,1,1,0.5012447237968445
+country,russian president,1,1,0.49965834617614746
+country,russian urals,1,1,0.5854816436767578
+country,russian wheat country,1,1,0.661592423915863
+country,russianess,1,1,0.4587004780769348
+country,russiaukrainewar,1,1,0.8174989819526672
+country,russophobia,1,1,0.5563172101974487
+country,ryazan,1,1,0.47168710827827454
+country,safe haven,1,1,0.5013429522514343
+country,saharan africa,1,1,0.9243353009223938
+country,sahel juntas,1,1,0.46367040276527405
+country,sahel region,1,1,0.5611726641654968
+country,samana,1,1,0.6075324416160583
+country,san francisco,1,1,0.4663584530353546
+country,sandu,1,1,0.5518254637718201
+country,sankey,1,1,0.8198422789573669
+country,saudi arabi,1,1,0.6844834089279175
+country,saudi economy,1,1,0.49767807126045227
+country,saudia arabia,1,1,0.9386201500892639
+country,scottish,1,1,0.504923939704895
+country,sda,1,1,0.53368079662323
+country,second biggest economy,1,1,0.4944421648979187
+country,second populous nation,1,1,0.46876060962677
+country,secretary state,1,1,0.4573657810688019
+country,secular republic,1,1,0.5866027474403381
+country,secure countries,1,1,0.6591768860816956
+country,seigle,1,1,0.5686618685722351
+country,sergievka,1,1,0.8485786318778992
+country,sevastopol,1,1,0.6080278158187866
+country,several countries,1,1,0.47535404562950134
+country,several european countries,1,1,0.6003111004829407
+country,several middle eastern countries,1,1,0.610319197177887
+country,several producer countries,1,1,0.6153308749198914
+country,severodonetsk,1,1,0.5347073078155518
+country,shanghai country,1,1,0.5879786014556885
+country,shanghai u.s,1,1,0.7857367396354675
+country,sharif,1,1,0.45925647020339966
+country,sheikhdom,1,1,0.6192635297775269
+country,shenlong liberia,1,1,0.5242400765419006
+country,sichuan province,1,1,0.7476300001144409
+country,silicon valley u.s,1,1,0.4640558660030365
+country,single country,1,1,0.6344274878501892
+country,singling country,1,1,0.48969829082489014
+country,singular nation,1,1,0.549075186252594
+country,sino u.s,1,1,0.5534546971321106
+country,sistan,1,1,0.5506112575531006
+country,slovakian,1,1,0.4674544632434845
+country,sloviansk,1,1,0.4757876396179199
+country,small countries,1,1,0.4671238362789154
+country,small island states,1,1,0.6175640821456909
+country,smith corpus christi,1,1,0.869983971118927
+country,smyrna tennessee,1,1,0.5229514241218567
+country,socialist federation,1,1,0.5349492430686951
+country,society,1,1,0.4807009696960449
+country,south american nations,1,1,0.475230872631073
+country,south asia,1,1,0.4734397530555725
+country,south carolina,1,1,0.5606443285942078
+country,south central america,1,1,0.46044397354125977
+country,south korean arms,1,1,0.5032635927200317
+country,south korean japanese governments,1,1,0.6748910546302795
+country,south korean won,1,1,0.4610181152820587
+country,south latin america,1,1,0.603175938129425
+country,south southeast asia,1,1,0.45901212096214294
+country,south texas,1,1,0.5591820478439331
+country,southeast asian economies,1,1,0.645322322845459
+country,southern europe,1,1,0.8378931879997253
+country,southern israel,1,1,0.6066820025444031
+country,southwest,1,1,0.5367431640625
+country,spainard,1,1,0.7823905348777771
+country,srivastava,1,1,0.550709068775177
+country,st petersburg,1,1,0.5718974471092224
+country,stalin,1,1,0.6556498408317566
+country,state,1,1,0.5897619128227234
+country,stateside,1,1,0.7025669813156128
+country,sudan ethiopia,1,1,0.7181386351585388
+country,sudetenland,1,1,0.4545777142047882
+country,sullivan u.s,1,1,0.8198174834251404
+country,swedes,1,1,0.6369860172271729
+country,swiss alps,1,1,0.7521266341209412
+country,tajikistan venezuela,1,1,0.7211533188819885
+country,tallinn,1,1,0.5441641807556152
+country,tatarstan,1,1,0.556449294090271
+country,tehran country,1,1,0.6072373390197754
+country,tehran hezbollah,1,1,0.5609167218208313
+country,tehran u.s,1,1,0.8523263335227966
+country,temenos,1,1,0.6929705142974854
+country,tequila,1,1,0.5485156774520874
+country,thai,1,1,0.5778956413269043
+country,thai army,1,1,0.488908052444458
+country,thai country,1,1,0.7479342818260193
+country,thales,1,1,0.46009546518325806
+country,third world country,1,1,0.5903313755989075
+country,three countries,1,1,0.5252974629402161
+country,three gulf nations,1,1,0.4613214433193207
+country,three largest economies,1,1,0.5609695911407471
+country,three mideast countries,1,1,0.5612464547157288
+country,thunberg,1,1,0.5497846603393555
+country,tibet,1,1,0.4986969232559204
+country,tigray region,1,1,0.550909161567688
+country,titus,1,1,0.4979489743709564
+country,tokelau,1,1,0.5878399014472961
+country,tom hafnia,1,1,0.5271364450454712
+country,transition economies,1,1,0.5760239362716675
+country,tripoli,1,1,0.47676804661750793
+country,tripoli country,1,1,0.477791965007782
+country,trump country,1,1,0.6844674348831177
+country,trump u.s,1,1,0.4739115536212921
+country,tsivkach,1,1,0.5177609920501709
+country,tui,1,1,0.5099279880523682
+country,tunisian,1,1,0.49301618337631226
+country,turkey egypt,1,1,0.550103485584259
+country,turks,1,1,0.4660803973674774
+country,tursa,1,1,0.4897819459438324
+country,tusk,1,1,0.49564942717552185
+country,twitter,1,1,0.47109994292259216
+country,two biggest economies,1,1,0.49765026569366455
+country,two populous nations,1,1,0.4520624876022339
+country,u.k home,1,1,0.5073475241661072
+country,u.k oman,1,1,0.5514966249465942
+country,u.k states,1,1,0.8081026077270508
+country,u.n bodies,1,1,0.6142241358757019
+country,u.s asia,1,1,0.5706532001495361
+country,u.s european countries,1,1,0.4977545142173767
+country,u.s european union,1,1,0.45218467712402344
+country,u.s france,1,1,0.7413596510887146
+country,u.s investment sentiment increasing uncertainty u.s,1,1,0.972461998462677
+country,u.s israeli,1,1,0.7373525500297546
+country,u.s king,1,1,0.5484610795974731
+country,u.s markets,1,1,0.7874024510383606
+country,u.s nato,1,1,0.5428080558776855
+country,u.s ports,1,1,0.4858863353729248
+country,u.s pyongyang,1,1,0.7359429597854614
+country,u.s reserves mistake former u.s,1,1,0.599937915802002
+country,u.s russia,1,1,0.9769753217697144
+country,u.s soybeans,1,1,0.5321380496025085
+country,u.s spirits,1,1,0.4814487099647522
+country,u.s strike iranian positions since late july u.s,1,1,0.945198118686676
+country,ucan eu,1,1,0.7190824747085571
+country,uganda,1,1,0.5207822322845459
+country,ukr,1,1,0.7443035244941711
+country,ukrainan,1,1,0.5427219867706299
+country,ukraine europe,1,1,0.9108226299285889
+country,ukraini,1,1,0.8974407315254211
+country,ukrainia,1,1,0.9365280270576477
+country,ukrainian authorities second day moscow,1,1,0.5332866907119751
+country,ukrainian economy,1,1,0.8303676247596741
+country,ukrainian peninsular,1,1,0.5953984260559082
+country,ukrainian president,1,1,0.6587291359901428
+country,ukrainian soviet union,1,1,0.6312025189399719
+country,ukrainian territories,1,1,0.4603016972541809
+country,ukrainian troops,1,1,0.4952515363693237
+country,ukranian hryvnia,1,1,0.7520575523376465
+country,undeveloped countries,1,1,0.5355804562568665
+country,unfriendly countries,1,1,0.4730180501937866
+country,union,1,1,0.46648699045181274
+country,united arab emirates u.s,1,1,0.7100938558578491
+country,united arab emirates uae,1,1,0.4839087128639221
+country,united state america,1,1,0.5474081635475159
+country,united states u.s,1,1,0.9326722621917725
+country,urals,1,1,0.4908013641834259
+country,uranium,1,1,0.5686737895011902
+country,us china,1,1,0.7395322918891907
+country,us dollar,1,1,0.47254130244255066
+country,us eu,1,1,0.4605085849761963
+country,us india,1,1,0.6302356123924255
+country,us venezuela,1,1,0.8599550724029541
+country,usda,1,1,0.5980130434036255
+country,uss eisenhower,1,1,0.5667502284049988
+country,ussr,1,1,0.5343222618103027
+country,ustr states,1,1,0.48327288031578064
+country,uttar pradesh,1,1,0.6400040984153748
+country,uyghur region,1,1,0.45144712924957275
+country,uzbek,1,1,0.5246331691741943
+country,va,1,1,0.538275420665741
+country,vaez,1,1,0.512701690196991
+country,valencia,1,1,0.7573637366294861
+country,vanuatu,1,1,0.7492544651031494
+country,varga,1,1,0.6477969884872437
+country,vatican,1,1,0.6135956645011902
+country,venice,1,1,0.7493541836738586
+country,vergara,1,1,0.676166296005249
+country,vietnam u.s,1,1,0.9046926498413086
+country,viktor,1,1,0.7058858871459961
+country,vilnius,1,1,0.5711180567741394
+country,virgin atlantic,1,1,0.5358049869537354
+country,vladimir putin,1,1,0.48488232493400574
+country,vladimir putin north korea,1,1,0.7545746564865112
+country,vladivostok,1,1,0.7099097371101379
+country,vulnerable countries,1,1,0.506864607334137
+country,war ukraine,1,1,0.80942702293396
+country,washington eu,1,1,0.5749320387840271
+country,wealthy countries,1,1,0.4915403425693512
+country,wealthy nations,1,1,0.467165470123291
+country,weapons war,1,1,0.5641145706176758
+country,wef,1,1,0.5563140511512756
+country,west virginia,1,1,0.5202860236167908
+country,western economies,1,1,0.6357088685035706
+country,which country,1,1,0.6217314004898071
+country,white house nations,1,1,0.4501115381717682
+country,whole world,1,1,0.7503370642662048
+country,wider country,1,1,0.48492830991744995
+country,windsor ontario,1,1,0.5357642769813538
+country,woldenberg,1,1,0.6098253130912781
+country,world economy,1,1,0.5018806457519531
+country,world fourth largest economy,1,1,0.5275675654411316
+country,world largest oil consuming countries,1,1,0.6740124225616455
+country,world member countries,1,1,0.5812986493110657
+country,world nations,1,1,0.6307930946350098
+country,worldwide,1,1,0.5957558155059814
+country,wrong country,1,1,0.47321850061416626
+country,wyoming,1,1,0.6897477507591248
+country,xi,1,1,0.45895421504974365
+country,yamalo nenets,1,1,0.4909168779850006
+country,yawger,1,1,0.4939841032028198
+country,yemen according u.s,1,1,0.49281659722328186
+country,yemen u.k,1,1,0.49246808886528015
+country,yeonpyeong,1,1,0.6314877867698669
+country,yergin,1,1,0.6362779140472412
+country,your country,1,1,0.590214729309082
+country,yu,1,1,0.603873610496521
+country,yuanbao,1,1,0.5011241436004639
+country,yusuf,1,1,0.5876473188400269
+country,yusuf u.s,1,1,0.6418917179107666
+country,zaluzhnyi,1,1,0.4709981083869934
+country,zelenskyy,1,1,0.4520048499107361
+country,zhejiang province,1,1,0.5048152208328247
+country,zuniga,1,1,0.523744523525238
+country,zurich switzerland,1,1,0.7807878255844116
+economic event,Currency and exchange-rate event | Economic growth and recession,1,1,0.4653506875038147
+economic event,Economic sanctions | Economic growth and recession | Fiscal policy,1,1,0.575023889541626
+economic event,Economic sanctions | Financial stability event | Energy and commodity event,1,1,0.5011082291603088
+economic event,Economic sanctions | Fiscal policy,1,1,0.720345139503479
+economic event,Economic sanctions | Trade restrictions and tariffs | Economic growth and recession | Energy and commodity event,1,1,0.6238768100738525
+economic event,Inflation and prices | Economic sanctions | Economic growth and recession,1,1,0.4615315794944763
+economic event,Inflation and prices | Economic sanctions | Fiscal policy,1,1,0.49047744274139404
+economic event,Monetary policy | Fiscal policy,1,1,0.4883589446544647
+economic event,Monetary policy | Inflation and prices | Currency and exchange-rate event,1,1,0.6917974948883057
+economic event,Monetary policy | Inflation and prices | Economic sanctions,1,1,0.6109836101531982
+economic event,Monetary policy | Inflation and prices | Economic sanctions | Energy and commodity event,1,1,0.5006055235862732
+economic event,Monetary policy | Inflation and prices | Fiscal policy,1,1,0.6324479579925537
+economic event,Sovereign debt event | Financial stability event,1,1,0.8185529112815857
+economic event,Trade restrictions and tariffs | Economic growth and recession | Fiscal policy,1,1,0.7606542706489563

@@ -1,0 +1,14 @@
+{
+  "top_words": 10,
+  "gensim_processes": 1,
+  "score_weights": {
+    "coherence_cv_normalized": 0.4,
+    "coherence_npmi_normalized": 0.3,
+    "topic_diversity": 0.2,
+    "document_coverage": 0.1
+  },
+  "selected_model_override": null,
+  "coherence_corpus": "/Users/aliyajumarna/Developer/nyimut-NLP26/data/processed/topic_modelling/input_documents.csv",
+  "coherence_scope": "All documents from the saved exploratory topic-modeling corpus",
+  "warning": "Exploratory corpus-wide evaluation is not a leakage-free forecasting evaluation. Refit topic models on training data only for final time-series experiments."
+}

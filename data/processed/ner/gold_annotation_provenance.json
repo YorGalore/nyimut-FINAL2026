@@ -1,0 +1,13 @@
+{
+  "method": "independent rule-based annotation from source text",
+  "prediction_file_used": false,
+  "labels": [
+    "country",
+    "central bank",
+    "economic event"
+  ],
+  "n_documents": 250,
+  "n_mentions": 8663,
+  "human_audit_required": true,
+  "warning": ""
+}

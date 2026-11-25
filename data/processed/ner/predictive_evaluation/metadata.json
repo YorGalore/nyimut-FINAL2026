@@ -1,0 +1,24 @@
+{
+  "jisdor_features": [
+    "lag1_log_return",
+    "lag2_log_return",
+    "lag3_log_return",
+    "lag4_log_return",
+    "known4_mean",
+    "known4_std",
+    "vol_if_r0",
+    "vol_if_rtyp_pos",
+    "vol_if_rtyp_neg",
+    "lag1_volatility_class_enc"
+  ],
+  "n_ner_features": 54,
+  "classifiers": [
+    "logistic_regression",
+    "xgboost"
+  ],
+  "scenarios": [
+    "jisdor_price_only",
+    "jisdor_plus_ner"
+  ],
+  "split": "chronological fixed split: 70% train, 15% validation, 15% test"
+}

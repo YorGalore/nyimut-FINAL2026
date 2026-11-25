@@ -1,0 +1,158 @@
+{
+  "country_aliases": {
+    "us": "United States",
+    "u.s": "United States",
+    "u.s.": "United States",
+    "usa": "United States",
+    "u.s.a": "United States",
+    "u.s.a.": "United States",
+    "united states of america": "United States",
+    "america": "United States",
+    "uk": "United Kingdom",
+    "u.k": "United Kingdom",
+    "u.k.": "United Kingdom",
+    "britain": "United Kingdom",
+    "great britain": "United Kingdom",
+    "prc": "China",
+    "people's republic of china": "China",
+    "peoples republic of china": "China",
+    "mainland china": "China",
+    "russian federation": "Russia",
+    "republic of korea": "South Korea",
+    "dprk": "North Korea",
+    "uae": "United Arab Emirates",
+    "u.a.e": "United Arab Emirates",
+    "u.a.e.": "United Arab Emirates",
+    "islamic republic of iran": "Iran",
+    "turkiye": "Turkey",
+    "republic of turkey": "Turkey",
+    "republic of indonesia": "Indonesia",
+    "taiwan": "Taiwan"
+  },
+  "central_bank_aliases": {
+    "fed": "Federal Reserve",
+    "the fed": "Federal Reserve",
+    "federal reserve": "Federal Reserve",
+    "federal reserve system": "Federal Reserve",
+    "us federal reserve": "Federal Reserve",
+    "u.s. federal reserve": "Federal Reserve",
+    "ecb": "European Central Bank",
+    "european central bank": "European Central Bank",
+    "pboc": "People's Bank of China",
+    "people's bank of china": "People's Bank of China",
+    "peoples bank of china": "People's Bank of China",
+    "boj": "Bank of Japan",
+    "bank of japan": "Bank of Japan",
+    "boe": "Bank of England",
+    "bank of england": "Bank of England",
+    "snb": "Swiss National Bank",
+    "swiss national bank": "Swiss National Bank",
+    "rba": "Reserve Bank of Australia",
+    "reserve bank of australia": "Reserve Bank of Australia",
+    "rbi": "Reserve Bank of India",
+    "reserve bank of india": "Reserve Bank of India",
+    "bank indonesia": "Bank Indonesia",
+    "bangko sentral ng pilipinas": "Bangko Sentral ng Pilipinas",
+    "central bank of brazil": "Central Bank of Brazil",
+    "bank of canada": "Bank of Canada",
+    "bank of korea": "Bank of Korea",
+    "bank negara malaysia": "Bank Negara Malaysia",
+    "monetary authority of singapore": "Monetary Authority of Singapore"
+  },
+  "event_patterns": {
+    "MONETARY_POLICY": [
+      "\\binterest[- ]rate (?:hike|hikes|increase|increases|rise|rises|cut|cuts|reduction|reductions)\\b",
+      "\\brate (?:hike|hikes|increase|increases|cut|cuts|decision|decisions)\\b",
+      "\\bmonetary (?:policy|tightening|easing)\\b",
+      "\\bquantitative (?:easing|tightening)\\b",
+      "\\bpolicy rate\\b",
+      "\\brate decision\\b",
+      "\\brate-setting\\b"
+    ],
+    "INFLATION": [
+      "\\binflation\\b",
+      "\\bdeflation\\b",
+      "\\bdisinflation\\b",
+      "\\bconsumer prices?\\b",
+      "\\bprice pressures?\\b",
+      "\\bcpi\\b",
+      "\\bpce\\b"
+    ],
+    "SANCTIONS": [
+      "\\bsanctions?\\b",
+      "\\bembargo(?:es)?\\b",
+      "\\basset freeze\\b",
+      "\\bfinancial restrictions\\b"
+    ],
+    "TRADE_POLICY": [
+      "\\btariffs?\\b",
+      "\\btrade war\\b",
+      "\\btrade restrictions?\\b",
+      "\\bexport controls?\\b",
+      "\\bexport restrictions?\\b",
+      "\\bimport restrictions?\\b",
+      "\\btrade barriers?\\b"
+    ],
+    "CURRENCY_FX": [
+      "\\bcurrency (?:crisis|collapse|devaluation|depreciation|plunge)\\b",
+      "\\bexchange[- ]rate crisis\\b",
+      "\\bforeign[- ]exchange crisis\\b",
+      "\\bdevalu(?:e|ation)\\b",
+      "\\bdepreciat(?:e|ion)\\b"
+    ],
+    "SOVEREIGN_DEBT": [
+      "\\bsovereign debt\\b",
+      "\\bdebt default\\b",
+      "\\bsovereign default\\b",
+      "\\bdebt restructuring\\b",
+      "\\bdebt crisis\\b"
+    ],
+    "FINANCIAL_STABILITY": [
+      "\\bfinancial crisis\\b",
+      "\\bbanking crisis\\b",
+      "\\bbank failure\\b",
+      "\\bbank collapse\\b",
+      "\\bbank bailout\\b",
+      "\\bliquidity crisis\\b",
+      "\\bcapital shortfall\\b"
+    ],
+    "RECESSION_GROWTH": [
+      "\\brecession\\b",
+      "\\beconomic contraction\\b",
+      "\\beconomic slowdown\\b",
+      "\\bgdp contraction\\b",
+      "\\bgrowth slowdown\\b"
+    ],
+    "ENERGY_COMMODITY": [
+      "\\boil supply\\b",
+      "\\boil production\\b",
+      "\\boil embargo\\b",
+      "\\benergy crisis\\b",
+      "\\bnatural gas\\b",
+      "\\benergy prices?\\b",
+      "\\bopec\\b"
+    ],
+    "FISCAL_POLICY": [
+      "\\bfiscal policy\\b",
+      "\\bbudget deficit\\b",
+      "\\bbudget surplus\\b",
+      "\\bgovernment spending\\b",
+      "\\bpublic spending\\b",
+      "\\btax increase\\b",
+      "\\btax cut\\b"
+    ]
+  },
+  "event_canonical_names": {
+    "MONETARY_POLICY": "Monetary policy",
+    "INFLATION": "Inflation and prices",
+    "SANCTIONS": "Economic sanctions",
+    "TRADE_POLICY": "Trade restrictions and tariffs",
+    "CURRENCY_FX": "Currency and exchange-rate event",
+    "SOVEREIGN_DEBT": "Sovereign debt event",
+    "FINANCIAL_STABILITY": "Financial stability event",
+    "RECESSION_GROWTH": "Economic growth and recession",
+    "ENERGY_COMMODITY": "Energy and commodity event",
+    "FISCAL_POLICY": "Fiscal policy",
+    "OTHER_ECONOMIC_EVENT": "Other economic event"
+  }
+}

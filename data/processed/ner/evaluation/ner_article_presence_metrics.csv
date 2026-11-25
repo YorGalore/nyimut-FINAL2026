@@ -1,0 +1,4 @@
+entity_label,true_positive_documents,false_positive_documents,false_negative_documents,true_negative_documents,precision,recall,f1_score,accuracy,n_documents
+country,241,3,2,4,0.9877049180327869,0.9917695473251029,0.9897330595482546,0.98,250
+central bank,22,74,4,150,0.22916666666666666,0.8461538461538461,0.360655737704918,0.688,250
+economic event,141,60,10,39,0.7014925373134329,0.9337748344370861,0.8011363636363636,0.72,250

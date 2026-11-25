@@ -1,0 +1,38 @@
+{
+  "model": "qwen_headline",
+  "article_rows": 1202,
+  "embedding_dimension": 896,
+  "calendar_dates": 1202,
+  "dates_with_news": 1202,
+  "dates_without_news": 0,
+  "event_categories": [
+    "military_conflict",
+    "economic_sanctions",
+    "trade_war",
+    "diplomatic_relations",
+    "central_bank_policy",
+    "other"
+  ],
+  "rolling_windows_days": [
+    3,
+    5,
+    7,
+    14,
+    30
+  ],
+  "exponential_half_lives_days": [
+    1,
+    3,
+    5,
+    7
+  ],
+  "attention_train_dates": 772,
+  "attention_train_start": "2021-09-16",
+  "attention_train_end": "2025-03-25",
+  "target_column": "volatility_class",
+  "target_classes": [
+    "low",
+    "medium",
+    "high"
+  ]
+}

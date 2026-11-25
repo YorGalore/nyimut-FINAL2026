@@ -1,0 +1,46 @@
+{
+  "model": "fasttext_headline",
+  "aggregation": "fasttext_headline_A4_event_aware.csv",
+  "fold": "valid",
+  "train_samples": 772,
+  "test_samples": 165,
+  "n_features": 624,
+  "accuracy": 0.2909090909090909,
+  "balanced_accuracy": 0.3322973322973323,
+  "macro_f1": 0.28549177625257655,
+  "macro_precision": 0.3492798353909465,
+  "macro_recall": 0.3322973322973323,
+  "mcc": 0.013878070932597181,
+  "training_seconds": 0.8630969524383545,
+  "class_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "confusion_matrix": [
+    [
+      10,
+      42,
+      26
+    ],
+    [
+      5,
+      14,
+      14
+    ],
+    [
+      5,
+      25,
+      24
+    ]
+  ],
+  "f1_low": 0.20408163265306123,
+  "precision_low": 0.5,
+  "recall_low": 0.1282051282051282,
+  "f1_medium": 0.24561403508771928,
+  "precision_medium": 0.1728395061728395,
+  "recall_medium": 0.42424242424242425,
+  "f1_high": 0.4067796610169492,
+  "precision_high": 0.375,
+  "recall_high": 0.4444444444444444
+}

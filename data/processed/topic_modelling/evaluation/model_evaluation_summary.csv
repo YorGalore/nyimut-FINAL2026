@@ -1,0 +1,5 @@
+model,n_documents,n_topics,n_topic_units_evaluated,outlier_count,outlier_ratio,document_coverage,coherence_cv_mean,coherence_npmi_mean,topic_diversity,mean_pairwise_topic_word_jaccard,dtm_adjacent_month_word_jaccard,coherence_warning
+bertopic,6013,80,80,1640,0.2727423914851156,0.7272576085148844,0.720364840794099,0.17017025000227157,0.56,0.023735926749114032,,
+lda,6013,15,15,0,0.0,1.0,0.610768395353196,0.086883438657876,0.7866666666666666,0.027276524644945694,,
+dtm,6013,15,915,0,0.0,1.0,0.37333113639909293,-0.039283668024385474,0.1591256830601093,0.07456148529307588,0.16970581142665767,
+top2vec,6013,67,67,0,0.0,1.0,,,0.8571428571428571,,,Tidak ada topik dengan minimal dua kata yang ada di vocabulary corpus.

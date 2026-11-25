@@ -1,0 +1,46 @@
+{
+  "model": "word2vec_fulltext",
+  "aggregation": "word2vec_fulltext_A1_rolling_7d.csv",
+  "fold": "test",
+  "train_samples": 772,
+  "test_samples": 167,
+  "n_features": 102,
+  "accuracy": 0.32934131736526945,
+  "balanced_accuracy": 0.2961287078934138,
+  "macro_f1": 0.2600154942085671,
+  "macro_precision": 0.3093060394889663,
+  "macro_recall": 0.2961287078934138,
+  "mcc": -0.05707574411873962,
+  "training_seconds": 0.5380868911743164,
+  "class_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "confusion_matrix": [
+    [
+      6,
+      21,
+      24
+    ],
+    [
+      7,
+      45,
+      13
+    ],
+    [
+      1,
+      46,
+      4
+    ]
+  ],
+  "f1_low": 0.18461538461538463,
+  "precision_low": 0.42857142857142855,
+  "recall_low": 0.11764705882352941,
+  "f1_medium": 0.5084745762711864,
+  "precision_medium": 0.4017857142857143,
+  "recall_medium": 0.6923076923076923,
+  "f1_high": 0.08695652173913043,
+  "precision_high": 0.0975609756097561,
+  "recall_high": 0.0784313725490196
+}

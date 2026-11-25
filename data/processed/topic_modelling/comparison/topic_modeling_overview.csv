@@ -1,0 +1,5 @@
+model,n_topics,n_documents,n_outliers,vocabulary_size,n_timepoints
+bertopic,81,6013,1640.0,,
+lda,15,6013,,15984.0,
+dtm,15,6013,,,61.0
+top2vec,67,6013,,,

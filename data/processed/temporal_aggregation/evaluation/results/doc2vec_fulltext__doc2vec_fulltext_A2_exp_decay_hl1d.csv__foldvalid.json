@@ -1,0 +1,46 @@
+{
+  "model": "doc2vec_fulltext",
+  "aggregation": "doc2vec_fulltext_A2_exp_decay_hl1d.csv",
+  "fold": "valid",
+  "train_samples": 772,
+  "test_samples": 165,
+  "n_features": 102,
+  "accuracy": 0.2606060606060606,
+  "balanced_accuracy": 0.24000690667357336,
+  "macro_f1": 0.21537551517938183,
+  "macro_precision": 0.20559367257480465,
+  "macro_recall": 0.24000690667357336,
+  "mcc": -0.16943783152242972,
+  "training_seconds": 0.8010103702545166,
+  "class_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "confusion_matrix": [
+    [
+      32,
+      31,
+      15
+    ],
+    [
+      17,
+      9,
+      7
+    ],
+    [
+      39,
+      13,
+      2
+    ]
+  ],
+  "f1_low": 0.3855421686746988,
+  "precision_low": 0.36363636363636365,
+  "recall_low": 0.41025641025641024,
+  "f1_medium": 0.20930232558139536,
+  "precision_medium": 0.16981132075471697,
+  "recall_medium": 0.2727272727272727,
+  "f1_high": 0.05128205128205128,
+  "precision_high": 0.08333333333333333,
+  "recall_high": 0.037037037037037035
+}

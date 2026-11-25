@@ -1,0 +1,46 @@
+{
+  "model": "finbert_fulltext",
+  "aggregation": "finbert_fulltext_A2_exp_decay_hl3d.csv",
+  "fold": "test",
+  "train_samples": 772,
+  "test_samples": 167,
+  "n_features": 768,
+  "accuracy": 0.4311377245508982,
+  "balanced_accuracy": 0.3945701357466063,
+  "macro_f1": 0.3263964950711939,
+  "macro_precision": 0.32283834586466165,
+  "macro_recall": 0.3945701357466063,
+  "mcc": 0.12641380568218855,
+  "training_seconds": 0.8467690944671631,
+  "class_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "confusion_matrix": [
+    [
+      18,
+      31,
+      2
+    ],
+    [
+      11,
+      54,
+      0
+    ],
+    [
+      3,
+      48,
+      0
+    ]
+  ],
+  "f1_low": 0.43373493975903615,
+  "precision_low": 0.5625,
+  "recall_low": 0.35294117647058826,
+  "f1_medium": 0.5454545454545454,
+  "precision_medium": 0.40601503759398494,
+  "recall_medium": 0.8307692307692308,
+  "f1_high": 0.0,
+  "precision_high": 0.0,
+  "recall_high": 0.0
+}

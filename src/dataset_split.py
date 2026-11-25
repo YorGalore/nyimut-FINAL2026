@@ -182,6 +182,55 @@ def build_dataset(required_cols=None):
     return train, valid, test
 
 
+# ---------------------------------------------------------------------------
+# SPLIT RESMI UNTUK SEMUA MODUL TUGAS 3
+# ---------------------------------------------------------------------------
+# Modul Tugas 3 (embedding statis, contextual, temporal aggregation, fusion
+# topik/NER) sebelumnya memakai split masing-masing (80/20, TimeSeriesSplit
+# 5-fold di seluruh periode, walk-forward 200 hari). Akibatnya hasilnya tidak
+# bisa dibandingkan dengan Tugas 2, dan sebagian ranking ikut memakai periode
+# test. Sekarang SEMUA modul memakai himpunan hari, label, dan batas tanggal
+# yang SAMA PERSIS dengan train_combined.py (772 / 165 / 167 hari).
+CANONICAL_REQUIRED_COLS = PRICE_FEATURES + LM_FEATURES
+SPLIT_NAMES = ("train", "valid", "test")
+
+
+def canonical_split():
+    """
+    Semua hari resmi (train + valid + test) dalam satu DataFrame kronologis.
+    Kolom tambahan `split` berisi "train" / "valid" / "test". volatility_class
+    berupa string low/medium/high, dengan ambang yang sama dengan Tugas 2.
+    """
+    parts = build_dataset(required_cols=CANONICAL_REQUIRED_COLS)
+    frames = []
+    for name, part in zip(SPLIT_NAMES, parts):
+        part = part.copy()
+        part["split"] = name
+        frames.append(part)
+    out = pd.concat(frames, ignore_index=True)
+    out["volatility_class"] = out["volatility_class"].astype(str)
+    return out
+
+
+def split_boundaries():
+    """(train_end, valid_end): tanggal terakhir periode train dan valid resmi."""
+    df = canonical_split()
+    train_end = df.loc[df["split"] == "train", "date"].max()
+    valid_end = df.loc[df["split"] == "valid", "date"].max()
+    return train_end, valid_end
+
+
+def assign_split_by_date(dates):
+    """
+    Label split berdasarkan tanggal, untuk data yang tidak 1:1 dengan hari
+    resmi (mis. korpus teks harian untuk melatih Word2Vec/Doc2Vec/FastText).
+    tanggal <= train_end -> train, <= valid_end -> valid, sisanya test.
+    """
+    train_end, valid_end = split_boundaries()
+    d = pd.to_datetime(pd.Series(dates)).reset_index(drop=True)
+    return np.select([d <= train_end, d <= valid_end], ["train", "valid"], "test")
+
+
 def log_split_summary(log, train, valid, test):
     log("Distribusi kelas volatility_class (train, dipakai fit ambang batas):")
     log(train["volatility_class"].value_counts().to_string())

@@ -1,0 +1,16 @@
+topic_id,topic_name,topic_words,document_count
+0,Topic 0,"russia, ukraine, russian, putin, war, ukrainian, moscow, invasion, military, kremlin, kyiv, forces, sanctions, country, europe",692
+1,Topic 1,"israel, gaza, israeli, hamas, korea, attack, military, north, south, netanyahu, missile, people, war, killed, minister",231
+2,Topic 2,"trump, president, house, congress, biden, election, senate, administration, government, military, vote, national, war, federal, republican",190
+3,Topic 3,"tariffs, trump, tariff, trade, president, goods, mexico, companies, court, china, donald, prices, administration, canada, company",566
+4,Topic 4,"quarter, billion, growth, inflation, bank, rate, economy, prices, higher, rates, company, earnings, expected, sales, market",530
+5,Topic 5,"sanctions, treasury, yield, assets, financial, basis, yields, bank, government, companies, bond, banks, company, russian, department",162
+6,Topic 6,"iran, strait, hormuz, trump, oil, war, iranian, tehran, east, middle, deal, president, conflict, strikes, ships",641
+7,Topic 7,"china, chinese, beijing, taiwan, xi, countries, president, economic, foreign, asia, world, meeting, global, trade, south",292
+8,Topic 8,"defense, billion, europe, spending, european, military, germany, security, climate, systems, companies, company, world, government, german",268
+9,Topic 9,"trump, president, nato, biden, white, house, meeting, talks, security, peace, officials, deal, secretary, minister, military",428
+10,Topic 10,"trade, tariffs, trump, eu, european, tariff, china, deal, exports, imports, goods, president, billion, countries, export",427
+11,Topic 11,"oil, energy, prices, crude, gas, opec, market, barrels, supply, global, million, barrel, production, demand, day",651
+12,Topic 12,"india, ai, market, company, companies, cramer, musk, tech, ceo, indian, investors, like, war, apple, stock",190
+13,Topic 13,"country, government, people, world, saudi, media, international, food, countries, state, security, uae, united, google, arabia",160
+14,Topic 14,"markets, trump, stocks, investors, day, trading, monday, shares, market, index, president, stock, fell, higher, rose",585

@@ -1,0 +1,46 @@
+{
+  "model": "finbert_fulltext",
+  "aggregation": "finbert_fulltext_A0_daily_mean.csv",
+  "fold": "valid",
+  "train_samples": 772,
+  "test_samples": 165,
+  "n_features": 768,
+  "accuracy": 0.2606060606060606,
+  "balanced_accuracy": 0.2740654407321074,
+  "macro_f1": 0.24955896772535144,
+  "macro_precision": 0.295337011792708,
+  "macro_recall": 0.2740654407321074,
+  "mcc": -0.06967818749507773,
+  "training_seconds": 0.6396052837371826,
+  "class_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "confusion_matrix": [
+    [
+      12,
+      32,
+      34
+    ],
+    [
+      3,
+      8,
+      22
+    ],
+    [
+      11,
+      20,
+      23
+    ]
+  ],
+  "f1_low": 0.23076923076923078,
+  "precision_low": 0.46153846153846156,
+  "recall_low": 0.15384615384615385,
+  "f1_medium": 0.17204301075268819,
+  "precision_medium": 0.13333333333333333,
+  "recall_medium": 0.24242424242424243,
+  "f1_high": 0.3458646616541353,
+  "precision_high": 0.2911392405063291,
+  "recall_high": 0.42592592592592593
+}

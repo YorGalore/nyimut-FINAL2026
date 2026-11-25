@@ -1,0 +1,31 @@
+{
+  "model_name": "urchade/gliner_small-v2.1",
+  "device": "mps",
+  "input_file": "/Users/aliyajumarna/Developer/nyimut-NLP26/data/processed/news_tfidf_clean.csv",
+  "optional_text_source": null,
+  "selected_text_column": "text_norm",
+  "n_articles": 6013,
+  "date_start": "2021-09-02 00:00:00",
+  "date_end": "2026-09-01 00:00:00",
+  "entity_labels": [
+    "country",
+    "central bank",
+    "economic event"
+  ],
+  "threshold": 0.45,
+  "max_words_per_chunk": 150,
+  "chunk_overlap_words": 25,
+  "event_categories": [
+    "MONETARY_POLICY",
+    "INFLATION",
+    "SANCTIONS",
+    "TRADE_POLICY",
+    "CURRENCY_FX",
+    "SOVEREIGN_DEBT",
+    "FINANCIAL_STABILITY",
+    "RECESSION_GROWTH",
+    "ENERGY_COMMODITY",
+    "FISCAL_POLICY",
+    "OTHER_ECONOMIC_EVENT"
+  ]
+}

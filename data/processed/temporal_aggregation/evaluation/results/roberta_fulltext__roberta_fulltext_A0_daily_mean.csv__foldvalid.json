@@ -1,0 +1,46 @@
+{
+  "model": "roberta_fulltext",
+  "aggregation": "roberta_fulltext_A0_daily_mean.csv",
+  "fold": "valid",
+  "train_samples": 772,
+  "test_samples": 165,
+  "n_features": 768,
+  "accuracy": 0.3090909090909091,
+  "balanced_accuracy": 0.34270050936717605,
+  "macro_f1": 0.2736111111111111,
+  "macro_precision": 0.3476515455640305,
+  "macro_recall": 0.34270050936717605,
+  "mcc": 0.013345410725348103,
+  "training_seconds": 0.5601823329925537,
+  "class_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "confusion_matrix": [
+    [
+      6,
+      21,
+      51
+    ],
+    [
+      3,
+      10,
+      20
+    ],
+    [
+      3,
+      16,
+      35
+    ]
+  ],
+  "f1_low": 0.13333333333333333,
+  "precision_low": 0.5,
+  "recall_low": 0.07692307692307693,
+  "f1_medium": 0.25,
+  "precision_medium": 0.2127659574468085,
+  "recall_medium": 0.30303030303030304,
+  "f1_high": 0.4375,
+  "precision_high": 0.330188679245283,
+  "recall_high": 0.6481481481481481
+}

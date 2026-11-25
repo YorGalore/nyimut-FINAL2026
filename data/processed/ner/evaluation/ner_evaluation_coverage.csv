@@ -1,0 +1,2 @@
+n_annotated_documents,n_documents_with_gold_entities,n_documents_with_predicted_entities,n_documents_with_neither_gold_nor_prediction,n_gold_mentions,n_predicted_mentions,n_entity_labels_in_schema
+250,249,249,0,8663,7733,3

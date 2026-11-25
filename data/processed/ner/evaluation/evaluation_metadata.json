@@ -1,0 +1,17 @@
+{
+  "prediction_file": "/Users/aliyajumarna/Developer/nyimut-NLP26/data/processed/ner/entity_mentions.csv",
+  "gold_documents_file": "/Users/aliyajumarna/Developer/nyimut-NLP26/data/processed/ner/gold_documents.csv",
+  "gold_entities_file": "/Users/aliyajumarna/Developer/nyimut-NLP26/data/processed/ner/gold_entities.csv",
+  "n_annotated_documents": 250,
+  "n_gold_mentions": 8663,
+  "n_predicted_mentions": 7733,
+  "entity_labels": [
+    "country",
+    "central bank",
+    "economic event"
+  ],
+  "primary_metric": "strict exact entity-level micro F1",
+  "matching_definition": "same document_id + exact start_char + exact end_char + exact entity_label",
+  "offset_definition": "zero-based character offsets; end_char is exclusive",
+  "confidence_threshold_from_ner_metadata": 0.45
+}

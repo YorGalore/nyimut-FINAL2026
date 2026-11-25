@@ -1,0 +1,46 @@
+{
+  "model": "finbert_headline",
+  "aggregation": "finbert_headline_A3_attention.csv",
+  "fold": "test",
+  "train_samples": 772,
+  "test_samples": 167,
+  "n_features": 768,
+  "accuracy": 0.3473053892215569,
+  "balanced_accuracy": 0.34952237305178485,
+  "macro_f1": 0.3374488952762848,
+  "macro_precision": 0.35161290322580646,
+  "macro_recall": 0.34952237305178485,
+  "mcc": 0.021485555804532246,
+  "training_seconds": 0.07164597511291504,
+  "class_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "confusion_matrix": [
+    [
+      11,
+      16,
+      24
+    ],
+    [
+      14,
+      21,
+      30
+    ],
+    [
+      6,
+      19,
+      26
+    ]
+  ],
+  "f1_low": 0.2682926829268293,
+  "precision_low": 0.3548387096774194,
+  "recall_low": 0.21568627450980393,
+  "f1_medium": 0.34710743801652894,
+  "precision_medium": 0.375,
+  "recall_medium": 0.3230769230769231,
+  "f1_high": 0.3969465648854962,
+  "precision_high": 0.325,
+  "recall_high": 0.5098039215686274
+}

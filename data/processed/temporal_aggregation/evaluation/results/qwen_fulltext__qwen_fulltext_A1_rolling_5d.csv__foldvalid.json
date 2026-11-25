@@ -1,0 +1,46 @@
+{
+  "model": "qwen_fulltext",
+  "aggregation": "qwen_fulltext_A1_rolling_5d.csv",
+  "fold": "valid",
+  "train_samples": 772,
+  "test_samples": 165,
+  "n_features": 896,
+  "accuracy": 0.32727272727272727,
+  "balanced_accuracy": 0.34118967452300786,
+  "macro_f1": 0.1970814887686506,
+  "macro_precision": 0.2416666666666667,
+  "macro_recall": 0.34118967452300786,
+  "mcc": 0.020052779622492124,
+  "training_seconds": 0.7791497707366943,
+  "class_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      1,
+      77
+    ],
+    [
+      0,
+      2,
+      31
+    ],
+    [
+      0,
+      2,
+      52
+    ]
+  ],
+  "f1_low": 0.0,
+  "precision_low": 0.0,
+  "recall_low": 0.0,
+  "f1_medium": 0.10526315789473684,
+  "precision_medium": 0.4,
+  "recall_medium": 0.06060606060606061,
+  "f1_high": 0.48598130841121495,
+  "precision_high": 0.325,
+  "recall_high": 0.9629629629629629
+}
