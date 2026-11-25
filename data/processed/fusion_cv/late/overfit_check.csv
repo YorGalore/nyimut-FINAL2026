@@ -1,0 +1,31 @@
+pipeline,model,check,value,threshold,status,note
+late,E0,G1,4.825400975911201,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+late,E1,G1,4.825400975911201,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+late,E2,G1,4.825400975911201,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+late,E3,G1,4.825400975911201,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+late,E4,G1,4.825400975911201,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+late,E4,G2,0.18511370865579582,0.4,LOLOS,macro-F1 eval dengan label train acak
+late,all,G3,1.0,1.0,LOLOS,"505 assert lolos: tanggal <= 2025-12-09, fit_rows H/EMB/TOPIC = ukuran train fold (luar + dalam), tidak ada tanggal eval di train, label edges = volatility_class, tidak ada NaN, NER tidak konstan, N_EMB=16, N_NER=48"
+late,E4,W1,0.0,5.0,LOLOS,gap E4 - gap E0
+late,E0,W2,0.03412524783038924,0.08,LOLOS,SD macro-F1 antar fold
+late,E0,W4,-0.010841061962490461,0.0,PERINGATAN,macro-F1 kandidat - H
+late,E1,W2,0.03412524783038924,0.08,LOLOS,SD macro-F1 antar fold
+late,E1,W4,-0.010841061962490461,0.0,PERINGATAN,macro-F1 kandidat - H
+late,E2,W2,0.03412524783038924,0.08,LOLOS,SD macro-F1 antar fold
+late,E2,W4,-0.010841061962490461,0.0,PERINGATAN,macro-F1 kandidat - H
+late,E3,W2,0.03412524783038924,0.08,LOLOS,SD macro-F1 antar fold
+late,E3,W4,-0.010841061962490461,0.0,PERINGATAN,macro-F1 kandidat - H
+late,E4,W2,0.03412524783038924,0.08,LOLOS,SD macro-F1 antar fold
+late,E4,W4,-0.010841061962490461,0.0,PERINGATAN,macro-F1 kandidat - H
+late,E1,W3,0.0,0.5,LOLOS,rentang w_embedding antar fold
+late,E1,W3,0.0,0.5,LOLOS,rentang w_topik antar fold
+late,E1,W3,0.0,0.5,LOLOS,rentang w_ner antar fold
+late,E2,W3,0.0,0.5,LOLOS,rentang w_embedding antar fold
+late,E2,W3,0.0,0.5,LOLOS,rentang w_topik antar fold
+late,E2,W3,0.0,0.5,LOLOS,rentang w_ner antar fold
+late,E3,W3,0.0,0.5,LOLOS,rentang w_embedding antar fold
+late,E3,W3,0.0,0.5,LOLOS,rentang w_topik antar fold
+late,E3,W3,0.0,0.5,LOLOS,rentang w_ner antar fold
+late,E4,W3,0.0,0.5,LOLOS,rentang w_embedding antar fold
+late,E4,W3,0.0,0.5,LOLOS,rentang w_topik antar fold
+late,E4,W3,0.0,0.5,LOLOS,rentang w_ner antar fold

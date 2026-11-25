@@ -1,20 +1,20 @@
 pipeline,model,check,value,threshold,status,note
-early,E0,G1,4.639587653083795,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
-early,E1,G1,4.992126206834078,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
-early,E2,G1,4.939929069322504,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
-early,E3,G1,4.54525048457535,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
-early,E4,G1,4.480943119948495,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
-early,E4,G2,0.19486145878080677,0.4,LOLOS,macro-F1 eval dengan label train acak
+early,E0,G1,4.825400975911201,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+early,E1,G1,4.929999502833125,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+early,E2,G1,4.993897266411397,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+early,E3,G1,4.918538986418904,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+early,E4,G1,4.461351135799898,10.0,LOLOS,rata-rata gap akurasi train - eval (poin)
+early,E4,G2,0.18804349344460908,0.4,LOLOS,macro-F1 eval dengan label train acak
 early,all,G3,1.0,1.0,LOLOS,"label volatility_edges() = volatility_class (937 hari); NER 48 kolom, tidak ada yang konstan; per fold: fit_rows H/EMB/TOPIC = ukuran train fold; tanggal train < eval; tanpa NaN; tanggal maks <= 2025-12-09"
-early,E4,W1,-0.15864453313530014,5.0,LOLOS,gap E4 - gap E0
-early,E0,W2,0.03540445701930441,0.08,LOLOS,SD macro-F1 antar fold
-early,E0,W4,-0.009422555222882822,0.0,PERINGATAN,macro-F1 kandidat - H
-early,E1,W2,0.03096466418814115,0.08,LOLOS,SD macro-F1 antar fold
-early,E1,W4,-0.00490412394534967,0.0,PERINGATAN,macro-F1 kandidat - H
-early,E2,W2,0.02954613154198174,0.08,LOLOS,SD macro-F1 antar fold
-early,E2,W4,-0.0011623519468767496,0.0,PERINGATAN,macro-F1 kandidat - H
-early,E3,W2,0.02914908817170178,0.08,LOLOS,SD macro-F1 antar fold
-early,E3,W4,0.0002507564721749844,0.0,LOLOS,macro-F1 kandidat - H
-early,E4,W2,0.02907829455689236,0.08,LOLOS,SD macro-F1 antar fold
-early,E4,W4,0.0014465462595057987,0.0,LOLOS,macro-F1 kandidat - H
+early,E4,W1,-0.3640498401113028,5.0,LOLOS,gap E4 - gap E0
+early,E0,W2,0.03412524783038924,0.08,LOLOS,SD macro-F1 antar fold
+early,E0,W4,-0.010841061962490461,0.0,PERINGATAN,macro-F1 kandidat - H
+early,E1,W2,0.03093522664371966,0.08,LOLOS,SD macro-F1 antar fold
+early,E1,W4,-0.004920766093598816,0.0,PERINGATAN,macro-F1 kandidat - H
+early,E2,W2,0.028784912386856966,0.08,LOLOS,SD macro-F1 antar fold
+early,E2,W4,-0.003362258837643184,0.0,PERINGATAN,macro-F1 kandidat - H
+early,E3,W2,0.02890733990408377,0.08,LOLOS,SD macro-F1 antar fold
+early,E3,W4,-0.0005278361174363422,0.0,PERINGATAN,macro-F1 kandidat - H
+early,E4,W2,0.02967018851977374,0.08,LOLOS,SD macro-F1 antar fold
+early,E4,W4,0.003321176988534069,0.0,LOLOS,macro-F1 kandidat - H
 early,E0,G4,,1e-06,PERINGATAN,belum dijalankan: menunggu output late (equality_check)

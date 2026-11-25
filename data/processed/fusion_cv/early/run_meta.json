@@ -1,12 +1,16 @@
 {
   "pipeline": "early",
-  "git_commit": "62269c037154a959dfbd6c6c6ba7c88dfda4c444",
+  "git_commit": "5e38de62bba7e296acd76950b8e87b4b0dbf90b0",
   "git_uncommitted_changes": [
-    "?? data/processed/fusion_cv/",
-    "?? src/fusion_early_cv.py"
+    " M data/processed/fusion_cv/early/cv_folds.csv",
+    " M data/processed/fusion_cv/early/cv_summary.csv",
+    " M data/processed/fusion_cv/early/oof_predictions.csv",
+    " M data/processed/fusion_cv/early/overfit_check.csv",
+    "?? data/processed/fusion_cv/late/",
+    "?? src/fusion_late_cv.py"
   ],
-  "run_at": "2026-11-25T18:42:12",
-  "runtime_seconds": 6.5,
+  "run_at": "2026-11-25T18:58:04",
+  "runtime_seconds": 4.0,
   "versions": {
     "python": "3.12.10",
     "numpy": "2.4.6",
@@ -34,14 +38,14 @@
   "N_EMB": 16,
   "N_NER": 48,
   "feature_files": {
-    "embedding": "data\\processed\\head_vs_full\\headline\\roberta_headline_features.csv",
-    "topik": "data\\processed\\topic_modelling\\lda_train_only\\daily_topic_features.csv",
-    "ner": "data\\processed\\ner\\daily_entity_features.csv"
+    "embedding": "data/processed/head_vs_full/headline/roberta_headline_features.csv",
+    "topik": "data/processed/topic_modelling/lda_train_only/daily_topic_features.csv",
+    "ner": "data/processed/ner/daily_entity_features.csv"
   },
   "feature_files_md5": {
-    "embedding": "8238d129740701003a577185d6916c0d",
-    "topik": "f2e42a81b6c999abca9fa7e5443b6288",
-    "ner": "ea7da6b09ae6ca7d86f09790ff8ec5b5"
+    "embedding": "9ad3ce3b0a3fea1199c1c3ae51ac29cb",
+    "topik": "1b22130790a943d9deef452df4df16ee",
+    "ner": "eca1d24a798e22253bf202aa2d3f1d9e"
   },
   "fold_sizes": [
     [
@@ -96,44 +100,44 @@
     "fold1": {
       "train_H": "ee3dc4fb7c6049a9e298f47703100585",
       "train_PRICE": "954f7e1064855b9b7d3ecf160c7e38e3",
-      "train_EMB": "12fc2adf226b530f6aba897283846d1b",
+      "train_EMB": "dd59bbb4d32487c24334774d08089483",
       "train_TOPIC": "f2eb12da4a9ca8e418c38a170761e180",
       "train_NER": "88d89578debdd027d67b48a3a6207d53",
       "eval_H": "674855d8c97485d48e0a23180491ac44",
       "eval_PRICE": "5308bd88bee4885563c75856d2394396",
-      "eval_EMB": "f929c8d2e21527a6b7919e5521883fcd",
+      "eval_EMB": "d9677ca9aabccb12fdfdcfbd499e46ca",
       "eval_TOPIC": "c9082801c4ecfc7ebbfda03037178682",
       "eval_NER": "97082e95c2537ee8f41d49a9b96a4b3f"
     },
     "fold2": {
       "train_H": "c472f06289bc692e3355c454ba1da7cb",
       "train_PRICE": "f16d72cf2a6995c860d5a977d214af85",
-      "train_EMB": "2b597e1701cb93f7fc914e14f3b8e444",
+      "train_EMB": "e9758d04af194368b8e74a493704b267",
       "train_TOPIC": "62ed06282f07c62269d4390273b77562",
       "train_NER": "2dff240b368089fa6436487d532ac897",
       "eval_H": "d93899f88bda5750a63710b2e7760169",
       "eval_PRICE": "783e271f5c8f99d9a831c03f6c92fc3f",
-      "eval_EMB": "89fb62148f1b3150d42f8483c9cb2b5f",
+      "eval_EMB": "44aa18ea5c75c2cccc1a13cc032305bd",
       "eval_TOPIC": "409b0f5082f6f158bef8fb3a39aaf35d",
       "eval_NER": "24e0c8b8abc58e0c1ea45bb3f56c47f2"
     },
     "fold3": {
       "train_H": "5b012c7baa2c4b85de9fa5a5c8ebdbb1",
       "train_PRICE": "df332ca39130c3ef975a269191182545",
-      "train_EMB": "15e87f519fb60e614563931d4f78f289",
+      "train_EMB": "72ef5f97db14fb4fa3cf143abe27366f",
       "train_TOPIC": "ad324dabfedb37977d6dbc46111c10d3",
       "train_NER": "714d428f04d18a0556607e1bf82a162c",
       "eval_H": "19b2a744642512fe886800aa18003899",
       "eval_PRICE": "dae1eae9b5117f731e0b6d1e09c85604",
-      "eval_EMB": "68f5afbcaaf2e182ff519ef61bdae2fc",
+      "eval_EMB": "5f622f67d171614b0e691a1d7e9c9e5d",
       "eval_TOPIC": "ad51c6593dcec9cf2d5822937d6d4ca3",
       "eval_NER": "3be1f9855ec813beb90a16395305cfb2"
     },
     "fold4": {
       "train_H": "3cb7df8d39efc190267d92c2c1fe9ae1",
       "train_PRICE": "9846e0ae50167a0643e0057bf7376912",
-      "train_EMB": "93ae4ef475a7fc000d03162133e5cd19",
-      "train_TOPIC": "97c2ecd30f2e79eb17072e344dad53bf",
+      "train_EMB": "1f6cb46ca06c5573bbb584efb2581c63",
+      "train_TOPIC": "e5843f29ff54ee7668d6dbe02f96edf6",
       "train_NER": "1af86f9c0a31bfefde15cabcf5aa4153",
       "eval_H": "865f3b92ce5f782275e278b879430924",
       "eval_PRICE": "53d9ea5159a2e0d6b5c0e43c87368b8e",
@@ -144,12 +148,12 @@
     "fold5": {
       "train_H": "9ab5ff02b5fa89e5f27f17508e6be940",
       "train_PRICE": "c11c78d82d292f20f0b199282d42b2ac",
-      "train_EMB": "411a0144e6f21b978c410e9eae7be0ac",
+      "train_EMB": "966771449ff8e760411810c4b2be7d3f",
       "train_TOPIC": "7f2207c2c37ce061611df46186594b89",
       "train_NER": "e523f6ad504d60aed37f27d0e6f2af5c",
       "eval_H": "c8d1d1dbe4bfd73fb76cb1c9b31cc23c",
       "eval_PRICE": "54a62fdee0c69b51053fc4eff5d5e594",
-      "eval_EMB": "c3614e7e1bc40f4428ac2fcf5f67ccf4",
+      "eval_EMB": "498f3c96a38fbf856b0f86479068182f",
       "eval_TOPIC": "88cfabc40a20548ce081527002ecad19",
       "eval_NER": "78c5987bf65bc4a807c8c3c8d5e39d71"
     }
@@ -1048,10 +1052,10 @@
   },
   "g2_macro_f1_per_fold": [
     0.1414141414141414,
-    0.20155844155844158,
-    0.23158466746075004,
-    0.16595374717440445,
-    0.23379629629629628
+    0.16185599006828058,
+    0.2045977011494253,
+    0.1704140037473371,
+    0.2619356308438611
   ],
   "catatan": "fusion_common.py belum di-review orang kedua saat run ini"
 }

@@ -1,0 +1,15 @@
+pipeline,model,check,value,threshold,status,note
+early_vs_late,E0,G4,0.0,1e-06,LOLOS,selisih maks proba E0
+early_vs_late,baseline,G4,1.0,1.0,LOLOS,naive/H/A identik
+early_vs_late,XGB_PARAMS,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,EMB_AGG,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,N_EMB,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,N_NER,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,EMB_COLS,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,TOPIC_COLS,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,NER_COLS,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,fold_sizes,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,block_hashes,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,feature_files_md5,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,volatility_edges,G4,1.0,1.0,LOLOS,run_meta sama
+early_vs_late,versions,G4,1.0,1.0,LOLOS,run_meta sama
